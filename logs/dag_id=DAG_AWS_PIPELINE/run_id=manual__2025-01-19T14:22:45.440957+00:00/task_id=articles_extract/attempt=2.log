@@ -1,0 +1,145 @@
+[2025-01-19T14:24:50.793+0000] {local_task_job_runner.py:123} INFO - ::group::Pre task execution logs
+[2025-01-19T14:24:50.809+0000] {taskinstance.py:2613} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: DAG_AWS_PIPELINE.articles_extract manual__2025-01-19T14:22:45.440957+00:00 [queued]>
+[2025-01-19T14:24:50.818+0000] {taskinstance.py:2613} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: DAG_AWS_PIPELINE.articles_extract manual__2025-01-19T14:22:45.440957+00:00 [queued]>
+[2025-01-19T14:24:50.818+0000] {taskinstance.py:2866} INFO - Starting attempt 2 of 2
+[2025-01-19T14:24:50.834+0000] {taskinstance.py:2889} INFO - Executing <Task(PythonOperator): articles_extract> on 2025-01-19 14:22:45.440957+00:00
+[2025-01-19T14:24:50.842+0000] {warnings.py:112} WARNING - /home/***/.local/lib/python3.12/site-packages/***/task/task_runner/standard_task_runner.py:70: DeprecationWarning: This process (pid=3033) is multi-threaded, use of fork() may lead to deadlocks in the child.
+  pid = os.fork()
+
+[2025-01-19T14:24:50.843+0000] {standard_task_runner.py:72} INFO - Started process 3035 to run task
+[2025-01-19T14:24:50.844+0000] {standard_task_runner.py:104} INFO - Running: ['***', 'tasks', 'run', 'DAG_AWS_PIPELINE', 'articles_extract', 'manual__2025-01-19T14:22:45.440957+00:00', '--job-id', '153', '--raw', '--subdir', 'DAGS_FOLDER/Ingesta_aws.py', '--cfg-path', '/tmp/tmpsghzjqpi']
+[2025-01-19T14:24:50.845+0000] {standard_task_runner.py:105} INFO - Job 153: Subtask articles_extract
+[2025-01-19T14:24:50.886+0000] {task_command.py:467} INFO - Running <TaskInstance: DAG_AWS_PIPELINE.articles_extract manual__2025-01-19T14:22:45.440957+00:00 [running]> on host 59ff16f1d4fb
+[2025-01-19T14:24:50.971+0000] {taskinstance.py:3132} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='Wilfrido Rondon' AIRFLOW_CTX_DAG_ID='DAG_AWS_PIPELINE' AIRFLOW_CTX_TASK_ID='articles_extract' AIRFLOW_CTX_EXECUTION_DATE='2025-01-19T14:22:45.440957+00:00' AIRFLOW_CTX_TRY_NUMBER='2' AIRFLOW_CTX_DAG_RUN_ID='manual__2025-01-19T14:22:45.440957+00:00'
+[2025-01-19T14:24:50.972+0000] {logging_mixin.py:190} INFO - Task instance is in running state
+[2025-01-19T14:24:50.972+0000] {logging_mixin.py:190} INFO -  Previous state of the Task instance: queued
+[2025-01-19T14:24:50.973+0000] {logging_mixin.py:190} INFO - Current task name:articles_extract state:running start_date:2025-01-19 14:24:50.810227+00:00
+[2025-01-19T14:24:50.973+0000] {logging_mixin.py:190} INFO - Dag name:DAG_AWS_PIPELINE and current dag run status:running
+[2025-01-19T14:24:50.973+0000] {taskinstance.py:731} INFO - ::endgroup::
+[2025-01-19T14:24:50.975+0000] {taskinstance.py:3311} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/taskinstance.py", line 767, in _execute_task
+    result = _execute_callable(context=context, **execute_callable_kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/taskinstance.py", line 733, in _execute_callable
+    return ExecutionCallableRunner(
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/utils/operator_helpers.py", line 252, in run
+    return self.func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/baseoperator.py", line 422, in wrapper
+    return func(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/operators/python.py", line 238, in execute
+    return_value = self.execute_callable()
+                   ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/operators/python.py", line 256, in execute_callable
+    return runner.run(*self.op_args, **self.op_kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/utils/operator_helpers.py", line 252, in run
+    return self.func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/airflow/dags/Ingesta_aws.py", line 31, in _get_api
+    response = requests.get(url, headers=headers)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/requests/api.py", line 73, in get
+    return request("get", url, params=params, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/requests/api.py", line 59, in request
+    return session.request(method=method, url=url, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/requests/sessions.py", line 575, in request
+    prep = self.prepare_request(req)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/requests/sessions.py", line 484, in prepare_request
+    p.prepare(
+  File "/home/airflow/.local/lib/python3.12/site-packages/requests/models.py", line 368, in prepare
+    self.prepare_headers(headers)
+  File "/home/airflow/.local/lib/python3.12/site-packages/requests/models.py", line 488, in prepare_headers
+    for header in headers.items():
+                  ^^^^^^^^^^^^^
+AttributeError: 'set' object has no attribute 'items'
+[2025-01-19T14:24:50.986+0000] {logging_mixin.py:190} INFO - Task instance in failure state
+[2025-01-19T14:24:50.986+0000] {logging_mixin.py:190} INFO - Task start:2025-01-19 14:24:50.810227+00:00 end:2025-01-19 14:24:50.985155+00:00 duration:0.174928
+[2025-01-19T14:24:50.986+0000] {logging_mixin.py:190} INFO - Task:<Task(PythonOperator): articles_extract> dag:<DAG: DAG_AWS_PIPELINE> dagrun:<DagRun DAG_AWS_PIPELINE @ 2025-01-19 14:22:45.440957+00:00: manual__2025-01-19T14:22:45.440957+00:00, state:running, queued_at: 2025-01-19 14:22:45.451263+00:00. externally triggered: True>
+[2025-01-19T14:24:50.986+0000] {logging_mixin.py:190} INFO - Failure caused by 'set' object has no attribute 'items'
+[2025-01-19T14:24:50.987+0000] {taskinstance.py:1225} INFO - Marking task as FAILED. dag_id=DAG_AWS_PIPELINE, task_id=articles_extract, run_id=manual__2025-01-19T14:22:45.440957+00:00, execution_date=20250119T142245, start_date=20250119T142450, end_date=20250119T142450
+[2025-01-19T14:24:51.000+0000] {taskinstance.py:340} INFO - ::group::Post task execution logs
+[2025-01-19T14:24:51.001+0000] {standard_task_runner.py:124} ERROR - Failed to execute job 153 for task articles_extract ('set' object has no attribute 'items'; 3035)
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/task/task_runner/standard_task_runner.py", line 117, in _start_by_fork
+    ret = args.func(args, dag=self.dag)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/cli/cli_config.py", line 49, in command
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/utils/cli.py", line 116, in wrapper
+    return f(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/cli/commands/task_command.py", line 483, in task_run
+    task_return_code = _run_task_by_selected_method(args, _dag, ti)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/cli/commands/task_command.py", line 256, in _run_task_by_selected_method
+    return _run_raw_task(args, ti)
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/cli/commands/task_command.py", line 341, in _run_raw_task
+    return ti._run_raw_task(
+           ^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/utils/session.py", line 97, in wrapper
+    return func(*args, session=session, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/taskinstance.py", line 3005, in _run_raw_task
+    return _run_raw_task(
+           ^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/taskinstance.py", line 273, in _run_raw_task
+    TaskInstance._execute_task_with_callbacks(
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/taskinstance.py", line 3159, in _execute_task_with_callbacks
+    result = self._execute_task(context, task_orig)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/taskinstance.py", line 3183, in _execute_task
+    return _execute_task(self, context, task_orig)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/taskinstance.py", line 767, in _execute_task
+    result = _execute_callable(context=context, **execute_callable_kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/taskinstance.py", line 733, in _execute_callable
+    return ExecutionCallableRunner(
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/utils/operator_helpers.py", line 252, in run
+    return self.func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/baseoperator.py", line 422, in wrapper
+    return func(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/operators/python.py", line 238, in execute
+    return_value = self.execute_callable()
+                   ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/operators/python.py", line 256, in execute_callable
+    return runner.run(*self.op_args, **self.op_kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/utils/operator_helpers.py", line 252, in run
+    return self.func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/airflow/dags/Ingesta_aws.py", line 31, in _get_api
+    response = requests.get(url, headers=headers)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/requests/api.py", line 73, in get
+    return request("get", url, params=params, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/requests/api.py", line 59, in request
+    return session.request(method=method, url=url, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/requests/sessions.py", line 575, in request
+    prep = self.prepare_request(req)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/requests/sessions.py", line 484, in prepare_request
+    p.prepare(
+  File "/home/airflow/.local/lib/python3.12/site-packages/requests/models.py", line 368, in prepare
+    self.prepare_headers(headers)
+  File "/home/airflow/.local/lib/python3.12/site-packages/requests/models.py", line 488, in prepare_headers
+    for header in headers.items():
+                  ^^^^^^^^^^^^^
+AttributeError: 'set' object has no attribute 'items'
+[2025-01-19T14:24:51.021+0000] {local_task_job_runner.py:266} INFO - Task exited with return code 1
+[2025-01-19T14:24:51.044+0000] {taskinstance.py:3895} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2025-01-19T14:24:51.050+0000] {local_task_job_runner.py:245} INFO - ::endgroup::

@@ -1,0 +1,114 @@
+[2025-01-19T15:03:59.777+0000] {local_task_job_runner.py:123} INFO - ::group::Pre task execution logs
+[2025-01-19T15:03:59.793+0000] {taskinstance.py:2613} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: DAG_AWS_PIPELINE.extract_articles manual__2025-01-19T15:03:59.692623+00:00 [queued]>
+[2025-01-19T15:03:59.801+0000] {taskinstance.py:2613} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: DAG_AWS_PIPELINE.extract_articles manual__2025-01-19T15:03:59.692623+00:00 [queued]>
+[2025-01-19T15:03:59.802+0000] {taskinstance.py:2866} INFO - Starting attempt 1 of 2
+[2025-01-19T15:03:59.982+0000] {taskinstance.py:2889} INFO - Executing <Task(PythonOperator): extract_articles> on 2025-01-19 15:03:59.692623+00:00
+[2025-01-19T15:03:59.992+0000] {warnings.py:112} WARNING - /home/***/.local/lib/python3.12/site-packages/***/task/task_runner/standard_task_runner.py:70: DeprecationWarning: This process (pid=3592) is multi-threaded, use of fork() may lead to deadlocks in the child.
+  pid = os.fork()
+
+[2025-01-19T15:03:59.993+0000] {standard_task_runner.py:72} INFO - Started process 3594 to run task
+[2025-01-19T15:03:59.994+0000] {standard_task_runner.py:104} INFO - Running: ['***', 'tasks', 'run', 'DAG_AWS_PIPELINE', 'extract_articles', 'manual__2025-01-19T15:03:59.692623+00:00', '--job-id', '154', '--raw', '--subdir', 'DAGS_FOLDER/Ingesta_aws.py', '--cfg-path', '/tmp/tmpq_hs20d2']
+[2025-01-19T15:03:59.994+0000] {standard_task_runner.py:105} INFO - Job 154: Subtask extract_articles
+[2025-01-19T15:04:00.034+0000] {task_command.py:467} INFO - Running <TaskInstance: DAG_AWS_PIPELINE.extract_articles manual__2025-01-19T15:03:59.692623+00:00 [running]> on host 59ff16f1d4fb
+[2025-01-19T15:04:00.112+0000] {taskinstance.py:3132} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='Wilfrido Rondon' AIRFLOW_CTX_DAG_ID='DAG_AWS_PIPELINE' AIRFLOW_CTX_TASK_ID='extract_articles' AIRFLOW_CTX_EXECUTION_DATE='2025-01-19T15:03:59.692623+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2025-01-19T15:03:59.692623+00:00'
+[2025-01-19T15:04:00.113+0000] {logging_mixin.py:190} INFO - Task instance is in running state
+[2025-01-19T15:04:00.114+0000] {logging_mixin.py:190} INFO -  Previous state of the Task instance: queued
+[2025-01-19T15:04:00.114+0000] {logging_mixin.py:190} INFO - Current task name:extract_articles state:running start_date:2025-01-19 15:03:59.793902+00:00
+[2025-01-19T15:04:00.114+0000] {logging_mixin.py:190} INFO - Dag name:DAG_AWS_PIPELINE and current dag run status:running
+[2025-01-19T15:04:00.114+0000] {taskinstance.py:731} INFO - ::endgroup::
+[2025-01-19T15:04:00.115+0000] {Ingesta_aws.py:26} INFO - Recuperando página 1...
+[2025-01-19T15:04:00.584+0000] {taskinstance.py:3311} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/taskinstance.py", line 767, in _execute_task
+    result = _execute_callable(context=context, **execute_callable_kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/taskinstance.py", line 733, in _execute_callable
+    return ExecutionCallableRunner(
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/utils/operator_helpers.py", line 252, in run
+    return self.func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/baseoperator.py", line 422, in wrapper
+    return func(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/operators/python.py", line 238, in execute
+    return_value = self.execute_callable()
+                   ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/operators/python.py", line 256, in execute_callable
+    return runner.run(*self.op_args, **self.op_kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/utils/operator_helpers.py", line 252, in run
+    return self.func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/airflow/dags/Ingesta_aws.py", line 34, in fetch_and_transform_data
+    articles = [dict(t) for t in {tuple(a.items()) for a in articles}]
+                                  ^^^^^^^^^^^^^^^^
+TypeError: unhashable type: 'list'
+[2025-01-19T15:04:00.602+0000] {logging_mixin.py:190} INFO - Task instance in failure state
+[2025-01-19T15:04:00.602+0000] {logging_mixin.py:190} INFO - Task start:2025-01-19 15:03:59.793902+00:00 end:2025-01-19 15:04:00.601595+00:00 duration:0.807693
+[2025-01-19T15:04:00.603+0000] {logging_mixin.py:190} INFO - Task:<Task(PythonOperator): extract_articles> dag:<DAG: DAG_AWS_PIPELINE> dagrun:<DagRun DAG_AWS_PIPELINE @ 2025-01-19 15:03:59.692623+00:00: manual__2025-01-19T15:03:59.692623+00:00, state:running, queued_at: 2025-01-19 15:03:59.711869+00:00. externally triggered: True>
+[2025-01-19T15:04:00.603+0000] {logging_mixin.py:190} INFO - Failure caused by unhashable type: 'list'
+[2025-01-19T15:04:00.603+0000] {taskinstance.py:1225} INFO - Marking task as UP_FOR_RETRY. dag_id=DAG_AWS_PIPELINE, task_id=extract_articles, run_id=manual__2025-01-19T15:03:59.692623+00:00, execution_date=20250119T150359, start_date=20250119T150359, end_date=20250119T150400
+[2025-01-19T15:04:00.628+0000] {taskinstance.py:340} INFO - ::group::Post task execution logs
+[2025-01-19T15:04:00.629+0000] {standard_task_runner.py:124} ERROR - Failed to execute job 154 for task extract_articles (unhashable type: 'list'; 3594)
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/task/task_runner/standard_task_runner.py", line 117, in _start_by_fork
+    ret = args.func(args, dag=self.dag)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/cli/cli_config.py", line 49, in command
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/utils/cli.py", line 116, in wrapper
+    return f(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/cli/commands/task_command.py", line 483, in task_run
+    task_return_code = _run_task_by_selected_method(args, _dag, ti)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/cli/commands/task_command.py", line 256, in _run_task_by_selected_method
+    return _run_raw_task(args, ti)
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/cli/commands/task_command.py", line 341, in _run_raw_task
+    return ti._run_raw_task(
+           ^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/utils/session.py", line 97, in wrapper
+    return func(*args, session=session, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/taskinstance.py", line 3005, in _run_raw_task
+    return _run_raw_task(
+           ^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/taskinstance.py", line 273, in _run_raw_task
+    TaskInstance._execute_task_with_callbacks(
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/taskinstance.py", line 3159, in _execute_task_with_callbacks
+    result = self._execute_task(context, task_orig)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/taskinstance.py", line 3183, in _execute_task
+    return _execute_task(self, context, task_orig)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/taskinstance.py", line 767, in _execute_task
+    result = _execute_callable(context=context, **execute_callable_kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/taskinstance.py", line 733, in _execute_callable
+    return ExecutionCallableRunner(
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/utils/operator_helpers.py", line 252, in run
+    return self.func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/baseoperator.py", line 422, in wrapper
+    return func(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/operators/python.py", line 238, in execute
+    return_value = self.execute_callable()
+                   ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/operators/python.py", line 256, in execute_callable
+    return runner.run(*self.op_args, **self.op_kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/utils/operator_helpers.py", line 252, in run
+    return self.func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/airflow/dags/Ingesta_aws.py", line 34, in fetch_and_transform_data
+    articles = [dict(t) for t in {tuple(a.items()) for a in articles}]
+                                  ^^^^^^^^^^^^^^^^
+TypeError: unhashable type: 'list'
+[2025-01-19T15:04:00.647+0000] {local_task_job_runner.py:266} INFO - Task exited with return code 1
+[2025-01-19T15:04:00.671+0000] {taskinstance.py:3895} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2025-01-19T15:04:00.674+0000] {local_task_job_runner.py:245} INFO - ::endgroup::

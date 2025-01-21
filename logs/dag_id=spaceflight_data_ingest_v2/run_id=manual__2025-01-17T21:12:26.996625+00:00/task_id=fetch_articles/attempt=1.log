@@ -1,0 +1,30 @@
+[2025-01-17T21:12:29.354+0000] {local_task_job_runner.py:123} INFO - ::group::Pre task execution logs
+[2025-01-17T21:12:29.372+0000] {taskinstance.py:2613} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: spaceflight_data_ingest_v2.fetch_articles manual__2025-01-17T21:12:26.996625+00:00 [queued]>
+[2025-01-17T21:12:29.379+0000] {taskinstance.py:2613} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: spaceflight_data_ingest_v2.fetch_articles manual__2025-01-17T21:12:26.996625+00:00 [queued]>
+[2025-01-17T21:12:29.379+0000] {taskinstance.py:2866} INFO - Starting attempt 1 of 2
+[2025-01-17T21:12:29.394+0000] {taskinstance.py:2889} INFO - Executing <Task(PythonOperator): fetch_articles> on 2025-01-17 21:12:26.996625+00:00
+[2025-01-17T21:12:29.404+0000] {warnings.py:112} WARNING - /home/***/.local/lib/python3.12/site-packages/***/task/task_runner/standard_task_runner.py:70: DeprecationWarning: This process (pid=1007) is multi-threaded, use of fork() may lead to deadlocks in the child.
+  pid = os.fork()
+
+[2025-01-17T21:12:29.405+0000] {standard_task_runner.py:72} INFO - Started process 1009 to run task
+[2025-01-17T21:12:29.405+0000] {standard_task_runner.py:104} INFO - Running: ['***', 'tasks', 'run', 'spaceflight_data_ingest_v2', 'fetch_articles', 'manual__2025-01-17T21:12:26.996625+00:00', '--job-id', '76', '--raw', '--subdir', 'DAGS_FOLDER/spaceflight_data_ingest_v2.py', '--cfg-path', '/tmp/tmpafv73r9k']
+[2025-01-17T21:12:29.406+0000] {standard_task_runner.py:105} INFO - Job 76: Subtask fetch_articles
+[2025-01-17T21:12:29.447+0000] {task_command.py:467} INFO - Running <TaskInstance: spaceflight_data_ingest_v2.fetch_articles manual__2025-01-17T21:12:26.996625+00:00 [running]> on host 59ff16f1d4fb
+[2025-01-17T21:12:29.518+0000] {taskinstance.py:3132} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='spaceflight_data_ingest_v2' AIRFLOW_CTX_TASK_ID='fetch_articles' AIRFLOW_CTX_EXECUTION_DATE='2025-01-17T21:12:26.996625+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2025-01-17T21:12:26.996625+00:00'
+[2025-01-17T21:12:29.518+0000] {logging_mixin.py:190} INFO - Task instance is in running state
+[2025-01-17T21:12:29.519+0000] {logging_mixin.py:190} INFO -  Previous state of the Task instance: queued
+[2025-01-17T21:12:29.519+0000] {logging_mixin.py:190} INFO - Current task name:fetch_articles state:running start_date:2025-01-17 21:12:29.372896+00:00
+[2025-01-17T21:12:29.519+0000] {logging_mixin.py:190} INFO - Dag name:spaceflight_data_ingest_v2 and current dag run status:running
+[2025-01-17T21:12:29.519+0000] {taskinstance.py:731} INFO - ::endgroup::
+[2025-01-17T21:12:30.106+0000] {logging_mixin.py:190} INFO - respuesta de articulos, data
+[2025-01-17T21:12:30.106+0000] {spaceflight_data_ingest_v2.py:45} INFO - No hay más artículos disponibles.
+[2025-01-17T21:12:30.107+0000] {python.py:240} INFO - Done. Returned value was: None
+[2025-01-17T21:12:30.116+0000] {taskinstance.py:340} INFO - ::group::Post task execution logs
+[2025-01-17T21:12:30.117+0000] {taskinstance.py:352} INFO - Marking task as SUCCESS. dag_id=spaceflight_data_ingest_v2, task_id=fetch_articles, run_id=manual__2025-01-17T21:12:26.996625+00:00, execution_date=20250117T211226, start_date=20250117T211229, end_date=20250117T211230
+[2025-01-17T21:12:30.126+0000] {logging_mixin.py:190} INFO - Task instance in success state
+[2025-01-17T21:12:30.126+0000] {logging_mixin.py:190} INFO -  Previous state of the Task instance: running
+[2025-01-17T21:12:30.127+0000] {logging_mixin.py:190} INFO - Dag name:spaceflight_data_ingest_v2 queued_at:2025-01-17 21:12:27.019634+00:00
+[2025-01-17T21:12:30.127+0000] {logging_mixin.py:190} INFO - Task hostname:59ff16f1d4fb operator:PythonOperator
+[2025-01-17T21:12:30.154+0000] {local_task_job_runner.py:266} INFO - Task exited with return code 0
+[2025-01-17T21:12:30.181+0000] {taskinstance.py:3895} INFO - 1 downstream tasks scheduled from follow-on schedule check
+[2025-01-17T21:12:30.183+0000] {local_task_job_runner.py:245} INFO - ::endgroup::

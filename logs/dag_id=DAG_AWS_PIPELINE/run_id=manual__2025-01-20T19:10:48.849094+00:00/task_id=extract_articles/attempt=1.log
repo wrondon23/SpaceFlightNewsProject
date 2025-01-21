@@ -1,0 +1,49 @@
+[2025-01-20T19:10:52.590+0000] {local_task_job_runner.py:123} INFO - ::group::Pre task execution logs
+[2025-01-20T19:10:52.608+0000] {taskinstance.py:2613} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: DAG_AWS_PIPELINE.extract_articles manual__2025-01-20T19:10:48.849094+00:00 [queued]>
+[2025-01-20T19:10:52.617+0000] {taskinstance.py:2613} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: DAG_AWS_PIPELINE.extract_articles manual__2025-01-20T19:10:48.849094+00:00 [queued]>
+[2025-01-20T19:10:52.618+0000] {taskinstance.py:2866} INFO - Starting attempt 1 of 2
+[2025-01-20T19:10:52.630+0000] {taskinstance.py:2889} INFO - Executing <Task(PythonOperator): extract_articles> on 2025-01-20 19:10:48.849094+00:00
+[2025-01-20T19:10:52.638+0000] {warnings.py:112} WARNING - /home/***/.local/lib/python3.12/site-packages/***/task/task_runner/standard_task_runner.py:70: DeprecationWarning: This process (pid=5161) is multi-threaded, use of fork() may lead to deadlocks in the child.
+  pid = os.fork()
+
+[2025-01-20T19:10:52.640+0000] {standard_task_runner.py:72} INFO - Started process 5167 to run task
+[2025-01-20T19:10:52.641+0000] {standard_task_runner.py:104} INFO - Running: ['***', 'tasks', 'run', 'DAG_AWS_PIPELINE', 'extract_articles', 'manual__2025-01-20T19:10:48.849094+00:00', '--job-id', '263', '--raw', '--subdir', 'DAGS_FOLDER/Ingesta_aws.py', '--cfg-path', '/tmp/tmpns3uqhik']
+[2025-01-20T19:10:52.642+0000] {standard_task_runner.py:105} INFO - Job 263: Subtask extract_articles
+[2025-01-20T19:10:52.684+0000] {task_command.py:467} INFO - Running <TaskInstance: DAG_AWS_PIPELINE.extract_articles manual__2025-01-20T19:10:48.849094+00:00 [running]> on host 59ff16f1d4fb
+[2025-01-20T19:10:52.776+0000] {taskinstance.py:3132} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='Wilfrido Rondon' AIRFLOW_CTX_DAG_ID='DAG_AWS_PIPELINE' AIRFLOW_CTX_TASK_ID='extract_articles' AIRFLOW_CTX_EXECUTION_DATE='2025-01-20T19:10:48.849094+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2025-01-20T19:10:48.849094+00:00'
+[2025-01-20T19:10:52.777+0000] {logging_mixin.py:190} INFO - Task instance is in running state
+[2025-01-20T19:10:52.778+0000] {logging_mixin.py:190} INFO -  Previous state of the Task instance: queued
+[2025-01-20T19:10:52.778+0000] {logging_mixin.py:190} INFO - Current task name:extract_articles state:running start_date:2025-01-20 19:10:52.609116+00:00
+[2025-01-20T19:10:52.778+0000] {logging_mixin.py:190} INFO - Dag name:DAG_AWS_PIPELINE and current dag run status:running
+[2025-01-20T19:10:52.778+0000] {taskinstance.py:731} INFO - ::endgroup::
+[2025-01-20T19:10:52.779+0000] {Ingesta_aws.py:32} INFO - Recuperando página 1...
+[2025-01-20T19:10:53.203+0000] {Ingesta_aws.py:42} INFO - Artículos recuperados: 10, total acumulado: 10
+[2025-01-20T19:10:53.204+0000] {Ingesta_aws.py:32} INFO - Recuperando página 2...
+[2025-01-20T19:10:53.693+0000] {Ingesta_aws.py:42} INFO - Artículos recuperados: 10, total acumulado: 20
+[2025-01-20T19:10:53.693+0000] {Ingesta_aws.py:32} INFO - Recuperando página 3...
+[2025-01-20T19:10:54.143+0000] {Ingesta_aws.py:42} INFO - Artículos recuperados: 10, total acumulado: 30
+[2025-01-20T19:10:54.143+0000] {Ingesta_aws.py:32} INFO - Recuperando página 4...
+[2025-01-20T19:10:54.678+0000] {Ingesta_aws.py:42} INFO - Artículos recuperados: 10, total acumulado: 40
+[2025-01-20T19:10:54.678+0000] {Ingesta_aws.py:32} INFO - Recuperando página 5...
+[2025-01-20T19:10:55.090+0000] {Ingesta_aws.py:42} INFO - Artículos recuperados: 10, total acumulado: 50
+[2025-01-20T19:10:55.090+0000] {Ingesta_aws.py:32} INFO - Recuperando página 6...
+[2025-01-20T19:10:55.508+0000] {Ingesta_aws.py:42} INFO - Artículos recuperados: 10, total acumulado: 60
+[2025-01-20T19:10:55.508+0000] {Ingesta_aws.py:32} INFO - Recuperando página 7...
+[2025-01-20T19:10:56.021+0000] {Ingesta_aws.py:42} INFO - Artículos recuperados: 10, total acumulado: 70
+[2025-01-20T19:10:56.021+0000] {Ingesta_aws.py:32} INFO - Recuperando página 8...
+[2025-01-20T19:10:56.476+0000] {Ingesta_aws.py:42} INFO - Artículos recuperados: 10, total acumulado: 80
+[2025-01-20T19:10:56.476+0000] {Ingesta_aws.py:32} INFO - Recuperando página 9...
+[2025-01-20T19:10:56.767+0000] {Ingesta_aws.py:42} INFO - Artículos recuperados: 10, total acumulado: 90
+[2025-01-20T19:10:56.767+0000] {Ingesta_aws.py:32} INFO - Recuperando página 10...
+[2025-01-20T19:10:57.089+0000] {Ingesta_aws.py:42} INFO - Artículos recuperados: 10, total acumulado: 100
+[2025-01-20T19:10:57.089+0000] {Ingesta_aws.py:54} INFO - Transformando los datos a CSV...
+[2025-01-20T19:10:57.095+0000] {Ingesta_aws.py:61} INFO - CSV guardado temporalmente en: /tmp/articulos.csv
+[2025-01-20T19:10:57.095+0000] {python.py:240} INFO - Done. Returned value was: /tmp/articulos.csv
+[2025-01-20T19:10:57.117+0000] {taskinstance.py:340} INFO - ::group::Post task execution logs
+[2025-01-20T19:10:57.117+0000] {taskinstance.py:352} INFO - Marking task as SUCCESS. dag_id=DAG_AWS_PIPELINE, task_id=extract_articles, run_id=manual__2025-01-20T19:10:48.849094+00:00, execution_date=20250120T191048, start_date=20250120T191052, end_date=20250120T191057
+[2025-01-20T19:10:57.126+0000] {logging_mixin.py:190} INFO - Task instance in success state
+[2025-01-20T19:10:57.126+0000] {logging_mixin.py:190} INFO -  Previous state of the Task instance: running
+[2025-01-20T19:10:57.126+0000] {logging_mixin.py:190} INFO - Dag name:DAG_AWS_PIPELINE queued_at:2025-01-20 19:10:48.861989+00:00
+[2025-01-20T19:10:57.127+0000] {logging_mixin.py:190} INFO - Task hostname:59ff16f1d4fb operator:PythonOperator
+[2025-01-20T19:10:57.174+0000] {local_task_job_runner.py:266} INFO - Task exited with return code 0
+[2025-01-20T19:10:57.184+0000] {local_task_job_runner.py:245} INFO - ::endgroup::

@@ -1,0 +1,148 @@
+[2025-01-17T22:40:50.235+0000] {local_task_job_runner.py:123} INFO - ::group::Pre task execution logs
+[2025-01-17T22:40:50.257+0000] {taskinstance.py:2613} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: spaceflight_data_ingest_v2.fetch_events manual__2025-01-17T22:38:43.399336+00:00 [queued]>
+[2025-01-17T22:40:50.266+0000] {taskinstance.py:2613} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: spaceflight_data_ingest_v2.fetch_events manual__2025-01-17T22:38:43.399336+00:00 [queued]>
+[2025-01-17T22:40:50.266+0000] {taskinstance.py:2866} INFO - Starting attempt 1 of 2
+[2025-01-17T22:40:50.285+0000] {taskinstance.py:2889} INFO - Executing <Task(PythonOperator): fetch_events> on 2025-01-17 22:38:43.399336+00:00
+[2025-01-17T22:40:50.297+0000] {warnings.py:112} WARNING - /home/***/.local/lib/python3.12/site-packages/***/task/task_runner/standard_task_runner.py:70: DeprecationWarning: This process (pid=850) is multi-threaded, use of fork() may lead to deadlocks in the child.
+  pid = os.fork()
+
+[2025-01-17T22:40:50.299+0000] {standard_task_runner.py:72} INFO - Started process 852 to run task
+[2025-01-17T22:40:50.299+0000] {standard_task_runner.py:104} INFO - Running: ['***', 'tasks', 'run', 'spaceflight_data_ingest_v2', 'fetch_events', 'manual__2025-01-17T22:38:43.399336+00:00', '--job-id', '109', '--raw', '--subdir', 'DAGS_FOLDER/spaceflight_data_ingest_v2.py', '--cfg-path', '/tmp/tmpe70kw385']
+[2025-01-17T22:40:50.301+0000] {standard_task_runner.py:105} INFO - Job 109: Subtask fetch_events
+[2025-01-17T22:40:50.359+0000] {task_command.py:467} INFO - Running <TaskInstance: spaceflight_data_ingest_v2.fetch_events manual__2025-01-17T22:38:43.399336+00:00 [running]> on host 59ff16f1d4fb
+[2025-01-17T22:40:50.741+0000] {taskinstance.py:3132} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='spaceflight_data_ingest_v2' AIRFLOW_CTX_TASK_ID='fetch_events' AIRFLOW_CTX_EXECUTION_DATE='2025-01-17T22:38:43.399336+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2025-01-17T22:38:43.399336+00:00'
+[2025-01-17T22:40:50.743+0000] {logging_mixin.py:190} INFO - Task instance is in running state
+[2025-01-17T22:40:50.743+0000] {logging_mixin.py:190} INFO -  Previous state of the Task instance: queued
+[2025-01-17T22:40:50.743+0000] {logging_mixin.py:190} INFO - Current task name:fetch_events state:running start_date:2025-01-17 22:40:50.257725+00:00
+[2025-01-17T22:40:50.744+0000] {logging_mixin.py:190} INFO - Dag name:spaceflight_data_ingest_v2 and current dag run status:running
+[2025-01-17T22:40:50.744+0000] {taskinstance.py:731} INFO - ::endgroup::
+[2025-01-17T22:40:50.995+0000] {spaceflight_data_ingest_v2.py:74} ERROR - Error al obtener events: 404
+[2025-01-17T22:41:45.821+0000] {spaceflight_data_ingest_v2.py:74} ERROR - Error al obtener events: 404
+[2025-01-17T22:42:40.586+0000] {spaceflight_data_ingest_v2.py:74} ERROR - Error al obtener events: 404
+[2025-01-17T22:43:35.435+0000] {spaceflight_data_ingest_v2.py:74} ERROR - Error al obtener events: 404
+[2025-01-17T22:44:30.187+0000] {spaceflight_data_ingest_v2.py:74} ERROR - Error al obtener events: 404
+[2025-01-17T22:45:25.020+0000] {spaceflight_data_ingest_v2.py:74} ERROR - Error al obtener events: 404
+[2025-01-17T22:46:19.850+0000] {spaceflight_data_ingest_v2.py:74} ERROR - Error al obtener events: 404
+[2025-01-17T22:47:14.621+0000] {spaceflight_data_ingest_v2.py:74} ERROR - Error al obtener events: 404
+[2025-01-17T22:48:09.594+0000] {spaceflight_data_ingest_v2.py:74} ERROR - Error al obtener events: 404
+[2025-01-17T22:49:04.387+0000] {spaceflight_data_ingest_v2.py:74} ERROR - Error al obtener events: 404
+[2025-01-17T22:49:59.141+0000] {spaceflight_data_ingest_v2.py:74} ERROR - Error al obtener events: 404
+[2025-01-17T22:50:53.988+0000] {spaceflight_data_ingest_v2.py:74} ERROR - Error al obtener events: 404
+[2025-01-17T22:51:48.699+0000] {spaceflight_data_ingest_v2.py:74} ERROR - Error al obtener events: 404
+[2025-01-17T22:52:43.421+0000] {spaceflight_data_ingest_v2.py:74} ERROR - Error al obtener events: 404
+[2025-01-17T22:53:39.319+0000] {spaceflight_data_ingest_v2.py:74} ERROR - Error al obtener events: 404
+[2025-01-17T22:54:34.150+0000] {spaceflight_data_ingest_v2.py:74} ERROR - Error al obtener events: 404
+[2025-01-17T22:55:28.934+0000] {spaceflight_data_ingest_v2.py:74} ERROR - Error al obtener events: 404
+[2025-01-17T22:56:23.645+0000] {spaceflight_data_ingest_v2.py:74} ERROR - Error al obtener events: 404
+[2025-01-17T22:57:18.450+0000] {spaceflight_data_ingest_v2.py:74} ERROR - Error al obtener events: 404
+[2025-01-17T22:58:13.165+0000] {spaceflight_data_ingest_v2.py:74} ERROR - Error al obtener events: 404
+[2025-01-17T22:59:07.452+0000] {spaceflight_data_ingest_v2.py:74} ERROR - Error al obtener events: 404
+[2025-01-17T23:00:02.267+0000] {spaceflight_data_ingest_v2.py:74} ERROR - Error al obtener events: 404
+[2025-01-17T23:00:56.985+0000] {spaceflight_data_ingest_v2.py:74} ERROR - Error al obtener events: 404
+[2025-01-17T23:01:51.702+0000] {spaceflight_data_ingest_v2.py:74} ERROR - Error al obtener events: 404
+[2025-01-17T23:02:46.493+0000] {spaceflight_data_ingest_v2.py:74} ERROR - Error al obtener events: 404
+[2025-01-17T23:03:41.276+0000] {spaceflight_data_ingest_v2.py:74} ERROR - Error al obtener events: 404
+[2025-01-17T23:04:35.985+0000] {spaceflight_data_ingest_v2.py:74} ERROR - Error al obtener events: 404
+[2025-01-17T23:05:30.710+0000] {spaceflight_data_ingest_v2.py:74} ERROR - Error al obtener events: 404
+[2025-01-17T23:06:25.500+0000] {spaceflight_data_ingest_v2.py:74} ERROR - Error al obtener events: 404
+[2025-01-17T23:07:20.591+0000] {spaceflight_data_ingest_v2.py:74} ERROR - Error al obtener events: 404
+[2025-01-17T23:08:15.501+0000] {spaceflight_data_ingest_v2.py:74} ERROR - Error al obtener events: 404
+[2025-01-17T23:09:10.288+0000] {spaceflight_data_ingest_v2.py:74} ERROR - Error al obtener events: 404
+[2025-01-17T23:10:05.083+0000] {spaceflight_data_ingest_v2.py:74} ERROR - Error al obtener events: 404
+[2025-01-17T23:10:59.800+0000] {spaceflight_data_ingest_v2.py:74} ERROR - Error al obtener events: 404
+[2025-01-17T23:11:54.508+0000] {spaceflight_data_ingest_v2.py:74} ERROR - Error al obtener events: 404
+[2025-01-17T23:12:49.297+0000] {spaceflight_data_ingest_v2.py:74} ERROR - Error al obtener events: 404
+[2025-01-17T23:13:44.079+0000] {spaceflight_data_ingest_v2.py:74} ERROR - Error al obtener events: 404
+[2025-01-17T23:14:39.161+0000] {spaceflight_data_ingest_v2.py:74} ERROR - Error al obtener events: 404
+[2025-01-17T23:15:34.002+0000] {spaceflight_data_ingest_v2.py:74} ERROR - Error al obtener events: 404
+[2025-01-17T23:16:28.837+0000] {spaceflight_data_ingest_v2.py:74} ERROR - Error al obtener events: 404
+[2025-01-17T23:17:23.627+0000] {spaceflight_data_ingest_v2.py:74} ERROR - Error al obtener events: 404
+[2025-01-17T23:18:18.342+0000] {spaceflight_data_ingest_v2.py:74} ERROR - Error al obtener events: 404
+[2025-01-17T23:19:13.053+0000] {spaceflight_data_ingest_v2.py:74} ERROR - Error al obtener events: 404
+[2025-01-17T23:20:07.805+0000] {spaceflight_data_ingest_v2.py:74} ERROR - Error al obtener events: 404
+[2025-01-17T23:21:02.505+0000] {spaceflight_data_ingest_v2.py:74} ERROR - Error al obtener events: 404
+[2025-01-17T23:21:57.212+0000] {spaceflight_data_ingest_v2.py:74} ERROR - Error al obtener events: 404
+[2025-01-17T23:22:51.951+0000] {spaceflight_data_ingest_v2.py:74} ERROR - Error al obtener events: 404
+[2025-01-17T23:23:46.654+0000] {spaceflight_data_ingest_v2.py:74} ERROR - Error al obtener events: 404
+[2025-01-17T23:24:41.358+0000] {spaceflight_data_ingest_v2.py:74} ERROR - Error al obtener events: 404
+[2025-01-17T23:25:36.067+0000] {spaceflight_data_ingest_v2.py:74} ERROR - Error al obtener events: 404
+[2025-01-17T23:26:30.775+0000] {spaceflight_data_ingest_v2.py:74} ERROR - Error al obtener events: 404
+[2025-01-17T23:27:25.563+0000] {spaceflight_data_ingest_v2.py:74} ERROR - Error al obtener events: 404
+[2025-01-17T23:28:20.549+0000] {spaceflight_data_ingest_v2.py:74} ERROR - Error al obtener events: 404
+[2025-01-17T23:29:15.261+0000] {spaceflight_data_ingest_v2.py:74} ERROR - Error al obtener events: 404
+[2025-01-17T23:30:10.097+0000] {spaceflight_data_ingest_v2.py:74} ERROR - Error al obtener events: 404
+[2025-01-17T23:31:04.811+0000] {spaceflight_data_ingest_v2.py:74} ERROR - Error al obtener events: 404
+[2025-01-17T23:31:59.613+0000] {spaceflight_data_ingest_v2.py:74} ERROR - Error al obtener events: 404
+[2025-01-17T23:32:54.336+0000] {spaceflight_data_ingest_v2.py:74} ERROR - Error al obtener events: 404
+[2025-01-17T23:33:49.042+0000] {spaceflight_data_ingest_v2.py:74} ERROR - Error al obtener events: 404
+[2025-01-17T23:34:43.750+0000] {spaceflight_data_ingest_v2.py:74} ERROR - Error al obtener events: 404
+[2025-01-17T23:35:38.469+0000] {spaceflight_data_ingest_v2.py:74} ERROR - Error al obtener events: 404
+[2025-01-17T23:36:33.190+0000] {spaceflight_data_ingest_v2.py:74} ERROR - Error al obtener events: 404
+[2025-01-17T23:37:27.982+0000] {spaceflight_data_ingest_v2.py:74} ERROR - Error al obtener events: 404
+[2025-01-17T23:38:22.776+0000] {spaceflight_data_ingest_v2.py:74} ERROR - Error al obtener events: 404
+[2025-01-17T23:39:17.479+0000] {spaceflight_data_ingest_v2.py:74} ERROR - Error al obtener events: 404
+[2025-01-17T23:40:12.288+0000] {spaceflight_data_ingest_v2.py:74} ERROR - Error al obtener events: 404
+[2025-01-17T23:41:07.009+0000] {spaceflight_data_ingest_v2.py:74} ERROR - Error al obtener events: 404
+[2025-01-17T23:42:01.721+0000] {spaceflight_data_ingest_v2.py:74} ERROR - Error al obtener events: 404
+[2025-01-17T23:42:56.430+0000] {spaceflight_data_ingest_v2.py:74} ERROR - Error al obtener events: 404
+[2025-01-17T23:43:51.144+0000] {spaceflight_data_ingest_v2.py:74} ERROR - Error al obtener events: 404
+[2025-01-17T23:44:45.873+0000] {spaceflight_data_ingest_v2.py:74} ERROR - Error al obtener events: 404
+[2025-01-17T23:45:40.576+0000] {spaceflight_data_ingest_v2.py:74} ERROR - Error al obtener events: 404
+[2025-01-17T23:46:36.288+0000] {spaceflight_data_ingest_v2.py:74} ERROR - Error al obtener events: 404
+[2025-01-17T23:47:30.998+0000] {spaceflight_data_ingest_v2.py:74} ERROR - Error al obtener events: 404
+[2025-01-17T23:48:25.708+0000] {spaceflight_data_ingest_v2.py:74} ERROR - Error al obtener events: 404
+[2025-01-17T23:49:20.405+0000] {spaceflight_data_ingest_v2.py:74} ERROR - Error al obtener events: 404
+[2025-01-17T23:50:15.110+0000] {spaceflight_data_ingest_v2.py:74} ERROR - Error al obtener events: 404
+[2025-01-17T23:51:09.894+0000] {spaceflight_data_ingest_v2.py:74} ERROR - Error al obtener events: 404
+[2025-01-17T23:52:04.600+0000] {spaceflight_data_ingest_v2.py:74} ERROR - Error al obtener events: 404
+[2025-01-17T23:52:59.326+0000] {spaceflight_data_ingest_v2.py:74} ERROR - Error al obtener events: 404
+[2025-01-17T23:53:54.057+0000] {spaceflight_data_ingest_v2.py:74} ERROR - Error al obtener events: 404
+[2025-01-17T23:54:48.764+0000] {spaceflight_data_ingest_v2.py:74} ERROR - Error al obtener events: 404
+[2025-01-17T23:55:43.469+0000] {spaceflight_data_ingest_v2.py:74} ERROR - Error al obtener events: 404
+[2025-01-17T23:56:38.273+0000] {spaceflight_data_ingest_v2.py:74} ERROR - Error al obtener events: 404
+[2025-01-17T23:57:33.061+0000] {spaceflight_data_ingest_v2.py:74} ERROR - Error al obtener events: 404
+[2025-01-17T23:58:27.757+0000] {spaceflight_data_ingest_v2.py:74} ERROR - Error al obtener events: 404
+[2025-01-17T23:59:22.546+0000] {spaceflight_data_ingest_v2.py:74} ERROR - Error al obtener events: 404
+[2025-01-18T00:00:15.877+0000] {spaceflight_data_ingest_v2.py:74} ERROR - Error al obtener events: 404
+[2025-01-18T00:01:12.022+0000] {spaceflight_data_ingest_v2.py:74} ERROR - Error al obtener events: 404
+[2025-01-18T00:02:06.750+0000] {spaceflight_data_ingest_v2.py:74} ERROR - Error al obtener events: 404
+[2025-01-18T00:03:01.467+0000] {spaceflight_data_ingest_v2.py:74} ERROR - Error al obtener events: 404
+[2025-01-18T00:03:56.402+0000] {spaceflight_data_ingest_v2.py:74} ERROR - Error al obtener events: 404
+[2025-01-18T00:04:51.116+0000] {spaceflight_data_ingest_v2.py:74} ERROR - Error al obtener events: 404
+[2025-01-18T00:05:46.073+0000] {spaceflight_data_ingest_v2.py:74} ERROR - Error al obtener events: 404
+[2025-01-18T00:06:40.909+0000] {spaceflight_data_ingest_v2.py:74} ERROR - Error al obtener events: 404
+[2025-01-18T00:07:35.622+0000] {spaceflight_data_ingest_v2.py:74} ERROR - Error al obtener events: 404
+[2025-01-18T00:08:30.421+0000] {spaceflight_data_ingest_v2.py:74} ERROR - Error al obtener events: 404
+[2025-01-18T00:09:25.217+0000] {spaceflight_data_ingest_v2.py:74} ERROR - Error al obtener events: 404
+[2025-01-18T00:10:19.954+0000] {spaceflight_data_ingest_v2.py:74} ERROR - Error al obtener events: 404
+[2025-01-18T00:11:14.759+0000] {spaceflight_data_ingest_v2.py:74} ERROR - Error al obtener events: 404
+[2025-01-18T00:12:09.475+0000] {spaceflight_data_ingest_v2.py:74} ERROR - Error al obtener events: 404
+[2025-01-18T00:13:04.386+0000] {spaceflight_data_ingest_v2.py:74} ERROR - Error al obtener events: 404
+[2025-01-18T00:13:59.204+0000] {spaceflight_data_ingest_v2.py:74} ERROR - Error al obtener events: 404
+[2025-01-18T00:14:53.924+0000] {spaceflight_data_ingest_v2.py:74} ERROR - Error al obtener events: 404
+[2025-01-18T00:15:48.628+0000] {spaceflight_data_ingest_v2.py:74} ERROR - Error al obtener events: 404
+[2025-01-18T00:16:43.330+0000] {spaceflight_data_ingest_v2.py:74} ERROR - Error al obtener events: 404
+[2025-01-18T00:17:38.118+0000] {spaceflight_data_ingest_v2.py:74} ERROR - Error al obtener events: 404
+[2025-01-18T00:18:32.904+0000] {spaceflight_data_ingest_v2.py:74} ERROR - Error al obtener events: 404
+[2025-01-18T00:19:27.680+0000] {spaceflight_data_ingest_v2.py:74} ERROR - Error al obtener events: 404
+[2025-01-18T00:20:22.494+0000] {spaceflight_data_ingest_v2.py:74} ERROR - Error al obtener events: 404
+[2025-01-18T00:21:17.292+0000] {spaceflight_data_ingest_v2.py:74} ERROR - Error al obtener events: 404
+[2025-01-18T00:22:12.075+0000] {spaceflight_data_ingest_v2.py:74} ERROR - Error al obtener events: 404
+[2025-01-18T00:23:06.811+0000] {spaceflight_data_ingest_v2.py:74} ERROR - Error al obtener events: 404
+[2025-01-18T00:24:01.521+0000] {spaceflight_data_ingest_v2.py:74} ERROR - Error al obtener events: 404
+[2025-01-18T00:24:56.326+0000] {spaceflight_data_ingest_v2.py:74} ERROR - Error al obtener events: 404
+[2025-01-18T00:25:51.217+0000] {spaceflight_data_ingest_v2.py:74} ERROR - Error al obtener events: 404
+[2025-01-18T00:26:45.994+0000] {spaceflight_data_ingest_v2.py:74} ERROR - Error al obtener events: 404
+[2025-01-18T00:27:40.773+0000] {spaceflight_data_ingest_v2.py:74} ERROR - Error al obtener events: 404
+[2025-01-18T00:28:35.563+0000] {spaceflight_data_ingest_v2.py:74} ERROR - Error al obtener events: 404
+[2025-01-18T00:29:30.268+0000] {spaceflight_data_ingest_v2.py:74} ERROR - Error al obtener events: 404
+[2025-01-18T00:30:24.972+0000] {spaceflight_data_ingest_v2.py:74} ERROR - Error al obtener events: 404
+[2025-01-18T00:31:19.677+0000] {spaceflight_data_ingest_v2.py:74} ERROR - Error al obtener events: 404
+[2025-01-18T00:32:15.033+0000] {spaceflight_data_ingest_v2.py:74} ERROR - Error al obtener events: 404
+[2025-01-18T00:33:09.740+0000] {spaceflight_data_ingest_v2.py:74} ERROR - Error al obtener events: 404
+[2025-01-18T00:34:04.648+0000] {spaceflight_data_ingest_v2.py:74} ERROR - Error al obtener events: 404
+[2025-01-18T00:34:59.443+0000] {spaceflight_data_ingest_v2.py:74} ERROR - Error al obtener events: 404
+[2025-01-19T04:07:37.079+0000] {local_task_job_runner.py:123} INFO - ::group::Pre task execution logs
+[2025-01-19T04:07:37.107+0000] {taskinstance.py:2603} INFO - Dependencies not met for <TaskInstance: spaceflight_data_ingest_v2.fetch_events manual__2025-01-17T22:38:43.399336+00:00 [running]>, dependency 'Task Instance State' FAILED: Task is in the 'running' state.
+[2025-01-19T04:07:37.108+0000] {taskinstance.py:2603} INFO - Dependencies not met for <TaskInstance: spaceflight_data_ingest_v2.fetch_events manual__2025-01-17T22:38:43.399336+00:00 [running]>, dependency 'Task Instance Not Running' FAILED: Task is in the running state
+[2025-01-19T04:07:37.114+0000] {local_task_job_runner.py:166} INFO - Task is not able to be run

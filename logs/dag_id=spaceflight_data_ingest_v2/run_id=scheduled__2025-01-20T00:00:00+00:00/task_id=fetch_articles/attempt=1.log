@@ -1,0 +1,93 @@
+[2025-01-20T23:59:57.750+0000] {local_task_job_runner.py:123} INFO - ::group::Pre task execution logs
+[2025-01-20T23:59:57.765+0000] {taskinstance.py:2613} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: spaceflight_data_ingest_v2.fetch_articles scheduled__2025-01-20T00:00:00+00:00 [queued]>
+[2025-01-20T23:59:57.771+0000] {taskinstance.py:2613} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: spaceflight_data_ingest_v2.fetch_articles scheduled__2025-01-20T00:00:00+00:00 [queued]>
+[2025-01-20T23:59:57.771+0000] {taskinstance.py:2866} INFO - Starting attempt 1 of 2
+[2025-01-20T23:59:57.783+0000] {taskinstance.py:2889} INFO - Executing <Task(PythonOperator): fetch_articles> on 2025-01-20 00:00:00+00:00
+[2025-01-20T23:59:57.791+0000] {warnings.py:112} WARNING - /home/***/.local/lib/python3.12/site-packages/***/task/task_runner/standard_task_runner.py:70: DeprecationWarning: This process (pid=2999) is multi-threaded, use of fork() may lead to deadlocks in the child.
+  pid = os.fork()
+
+[2025-01-20T23:59:57.792+0000] {standard_task_runner.py:72} INFO - Started process 3001 to run task
+[2025-01-20T23:59:57.794+0000] {standard_task_runner.py:104} INFO - Running: ['***', 'tasks', 'run', 'spaceflight_data_ingest_v2', 'fetch_articles', 'scheduled__2025-01-20T00:00:00+00:00', '--job-id', '319', '--raw', '--subdir', 'DAGS_FOLDER/spaceflight_data_ingest_v2.py', '--cfg-path', '/tmp/tmpag6mh4nn']
+[2025-01-20T23:59:57.795+0000] {standard_task_runner.py:105} INFO - Job 319: Subtask fetch_articles
+[2025-01-20T23:59:57.839+0000] {task_command.py:467} INFO - Running <TaskInstance: spaceflight_data_ingest_v2.fetch_articles scheduled__2025-01-20T00:00:00+00:00 [running]> on host 59ff16f1d4fb
+[2025-01-20T23:59:58.123+0000] {taskinstance.py:3132} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='spaceflight_data_ingest_v2' AIRFLOW_CTX_TASK_ID='fetch_articles' AIRFLOW_CTX_EXECUTION_DATE='2025-01-20T00:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2025-01-20T00:00:00+00:00'
+[2025-01-20T23:59:58.124+0000] {logging_mixin.py:190} INFO - Task instance is in running state
+[2025-01-20T23:59:58.124+0000] {logging_mixin.py:190} INFO -  Previous state of the Task instance: queued
+[2025-01-20T23:59:58.125+0000] {logging_mixin.py:190} INFO - Current task name:fetch_articles state:running start_date:2025-01-20 23:59:57.765683+00:00
+[2025-01-20T23:59:58.125+0000] {logging_mixin.py:190} INFO - Dag name:spaceflight_data_ingest_v2 and current dag run status:running
+[2025-01-20T23:59:58.125+0000] {taskinstance.py:731} INFO - ::endgroup::
+[2025-01-20T23:59:58.584+0000] {spaceflight_data_ingest_v2.py:70} INFO - Guardados 10 articles de la página 1
+[2025-01-20T23:59:59.064+0000] {spaceflight_data_ingest_v2.py:77} ERROR - Error en la solicitud: 'id'
+[2025-01-20T23:59:59.065+0000] {spaceflight_data_ingest_v2.py:81} INFO - Reintentando... intento 1/5
+[2025-01-21T00:00:04.066+0000] {spaceflight_data_ingest_v2.py:81} INFO - Reintentando... intento 2/5
+[2025-01-21T00:00:09.067+0000] {spaceflight_data_ingest_v2.py:81} INFO - Reintentando... intento 3/5
+[2025-01-21T00:00:14.122+0000] {spaceflight_data_ingest_v2.py:81} INFO - Reintentando... intento 4/5
+[2025-01-21T00:00:19.123+0000] {spaceflight_data_ingest_v2.py:81} INFO - Reintentando... intento 5/5
+[2025-01-21T00:00:25.095+0000] {spaceflight_data_ingest_v2.py:56} WARNING - Articles duplicado omitido: 28706
+[2025-01-21T00:00:25.095+0000] {spaceflight_data_ingest_v2.py:56} WARNING - Articles duplicado omitido: 28705
+[2025-01-21T00:00:25.095+0000] {spaceflight_data_ingest_v2.py:56} WARNING - Articles duplicado omitido: 28715
+[2025-01-21T00:00:25.096+0000] {spaceflight_data_ingest_v2.py:56} WARNING - Articles duplicado omitido: 28720
+[2025-01-21T00:00:25.096+0000] {spaceflight_data_ingest_v2.py:56} WARNING - Articles duplicado omitido: 28704
+[2025-01-21T00:00:25.096+0000] {spaceflight_data_ingest_v2.py:56} WARNING - Articles duplicado omitido: 28703
+[2025-01-21T00:00:25.096+0000] {spaceflight_data_ingest_v2.py:56} WARNING - Articles duplicado omitido: 28702
+[2025-01-21T00:00:25.096+0000] {spaceflight_data_ingest_v2.py:56} WARNING - Articles duplicado omitido: 28701
+[2025-01-21T00:00:25.096+0000] {spaceflight_data_ingest_v2.py:56} WARNING - Articles duplicado omitido: 28700
+[2025-01-21T00:00:25.097+0000] {spaceflight_data_ingest_v2.py:56} WARNING - Articles duplicado omitido: 28699
+[2025-01-21T00:00:23.396+0000] {spaceflight_data_ingest_v2.py:77} ERROR - Error en la solicitud: 'id'
+[2025-01-21T00:00:23.396+0000] {spaceflight_data_ingest_v2.py:81} INFO - Reintentando... intento 1/5
+[2025-01-21T00:00:28.407+0000] {spaceflight_data_ingest_v2.py:81} INFO - Reintentando... intento 2/5
+[2025-01-21T00:00:33.415+0000] {spaceflight_data_ingest_v2.py:81} INFO - Reintentando... intento 3/5
+[2025-01-21T00:00:38.416+0000] {spaceflight_data_ingest_v2.py:81} INFO - Reintentando... intento 4/5
+[2025-01-21T00:00:43.418+0000] {spaceflight_data_ingest_v2.py:81} INFO - Reintentando... intento 5/5
+[2025-01-21T00:00:48.915+0000] {spaceflight_data_ingest_v2.py:56} WARNING - Articles duplicado omitido: 28698
+[2025-01-21T00:00:48.915+0000] {spaceflight_data_ingest_v2.py:56} WARNING - Articles duplicado omitido: 28696
+[2025-01-21T00:00:48.915+0000] {spaceflight_data_ingest_v2.py:56} WARNING - Articles duplicado omitido: 28697
+[2025-01-21T00:00:48.916+0000] {spaceflight_data_ingest_v2.py:56} WARNING - Articles duplicado omitido: 28695
+[2025-01-21T00:00:48.916+0000] {spaceflight_data_ingest_v2.py:56} WARNING - Articles duplicado omitido: 28694
+[2025-01-21T00:00:48.916+0000] {spaceflight_data_ingest_v2.py:56} WARNING - Articles duplicado omitido: 28693
+[2025-01-21T00:00:48.916+0000] {spaceflight_data_ingest_v2.py:56} WARNING - Articles duplicado omitido: 28692
+[2025-01-21T00:00:48.916+0000] {spaceflight_data_ingest_v2.py:56} WARNING - Articles duplicado omitido: 28691
+[2025-01-21T00:00:48.917+0000] {spaceflight_data_ingest_v2.py:56} WARNING - Articles duplicado omitido: 28690
+[2025-01-21T00:00:48.917+0000] {spaceflight_data_ingest_v2.py:56} WARNING - Articles duplicado omitido: 28689
+[2025-01-21T00:00:49.376+0000] {spaceflight_data_ingest_v2.py:77} ERROR - Error en la solicitud: 'id'
+[2025-01-21T00:00:49.377+0000] {spaceflight_data_ingest_v2.py:81} INFO - Reintentando... intento 1/5
+[2025-01-21T00:00:51.648+0000] {spaceflight_data_ingest_v2.py:81} INFO - Reintentando... intento 2/5
+[2025-01-21T00:00:56.649+0000] {spaceflight_data_ingest_v2.py:81} INFO - Reintentando... intento 3/5
+[2025-01-21T00:01:01.653+0000] {spaceflight_data_ingest_v2.py:81} INFO - Reintentando... intento 4/5
+[2025-01-21T00:01:06.654+0000] {spaceflight_data_ingest_v2.py:81} INFO - Reintentando... intento 5/5
+[2025-01-21T00:01:12.265+0000] {spaceflight_data_ingest_v2.py:56} WARNING - Articles duplicado omitido: 28687
+[2025-01-21T00:01:12.265+0000] {spaceflight_data_ingest_v2.py:56} WARNING - Articles duplicado omitido: 28688
+[2025-01-21T00:01:12.265+0000] {spaceflight_data_ingest_v2.py:56} WARNING - Articles duplicado omitido: 28686
+[2025-01-21T00:01:12.266+0000] {spaceflight_data_ingest_v2.py:56} WARNING - Articles duplicado omitido: 28684
+[2025-01-21T00:01:12.266+0000] {spaceflight_data_ingest_v2.py:56} WARNING - Articles duplicado omitido: 28685
+[2025-01-21T00:01:12.266+0000] {spaceflight_data_ingest_v2.py:56} WARNING - Articles duplicado omitido: 28683
+[2025-01-21T00:01:12.266+0000] {spaceflight_data_ingest_v2.py:56} WARNING - Articles duplicado omitido: 28682
+[2025-01-21T00:01:12.266+0000] {spaceflight_data_ingest_v2.py:56} WARNING - Articles duplicado omitido: 28681
+[2025-01-21T00:01:12.267+0000] {spaceflight_data_ingest_v2.py:56} WARNING - Articles duplicado omitido: 28713
+[2025-01-21T00:01:12.267+0000] {spaceflight_data_ingest_v2.py:56} WARNING - Articles duplicado omitido: 28680
+[2025-01-21T00:01:12.814+0000] {spaceflight_data_ingest_v2.py:77} ERROR - Error en la solicitud: 'id'
+[2025-01-21T00:01:12.814+0000] {spaceflight_data_ingest_v2.py:81} INFO - Reintentando... intento 1/5
+[2025-01-21T00:01:17.815+0000] {spaceflight_data_ingest_v2.py:81} INFO - Reintentando... intento 2/5
+[2025-01-21T00:01:20.087+0000] {spaceflight_data_ingest_v2.py:81} INFO - Reintentando... intento 3/5
+[2025-01-21T00:01:25.088+0000] {spaceflight_data_ingest_v2.py:81} INFO - Reintentando... intento 4/5
+[2025-01-21T00:01:30.093+0000] {spaceflight_data_ingest_v2.py:81} INFO - Reintentando... intento 5/5
+[2025-01-21T00:01:35.578+0000] {spaceflight_data_ingest_v2.py:56} WARNING - Articles duplicado omitido: 28678
+[2025-01-21T00:01:35.579+0000] {spaceflight_data_ingest_v2.py:56} WARNING - Articles duplicado omitido: 28714
+[2025-01-21T00:01:35.579+0000] {spaceflight_data_ingest_v2.py:56} WARNING - Articles duplicado omitido: 28679
+[2025-01-21T00:01:35.579+0000] {spaceflight_data_ingest_v2.py:56} WARNING - Articles duplicado omitido: 28677
+[2025-01-21T00:01:35.579+0000] {spaceflight_data_ingest_v2.py:56} WARNING - Articles duplicado omitido: 28676
+[2025-01-21T00:01:35.579+0000] {spaceflight_data_ingest_v2.py:56} WARNING - Articles duplicado omitido: 28675
+[2025-01-21T00:01:35.580+0000] {spaceflight_data_ingest_v2.py:56} WARNING - Articles duplicado omitido: 28674
+[2025-01-21T00:01:35.580+0000] {spaceflight_data_ingest_v2.py:56} WARNING - Articles duplicado omitido: 28673
+[2025-01-21T00:01:35.580+0000] {spaceflight_data_ingest_v2.py:56} WARNING - Articles duplicado omitido: 28671
+[2025-01-21T00:01:35.580+0000] {spaceflight_data_ingest_v2.py:56} WARNING - Articles duplicado omitido: 28672
+[2025-01-21T00:01:35.581+0000] {python.py:240} INFO - Done. Returned value was: None
+[2025-01-21T00:01:35.592+0000] {taskinstance.py:340} INFO - ::group::Post task execution logs
+[2025-01-21T00:01:35.592+0000] {taskinstance.py:352} INFO - Marking task as SUCCESS. dag_id=spaceflight_data_ingest_v2, task_id=fetch_articles, run_id=scheduled__2025-01-20T00:00:00+00:00, execution_date=20250120T000000, start_date=20250120T235957, end_date=20250121T000135
+[2025-01-21T00:01:35.612+0000] {logging_mixin.py:190} INFO - Task instance in success state
+[2025-01-21T00:01:35.612+0000] {logging_mixin.py:190} INFO -  Previous state of the Task instance: running
+[2025-01-21T00:01:35.612+0000] {logging_mixin.py:190} INFO - Dag name:spaceflight_data_ingest_v2 queued_at:2025-01-21 00:00:01.120725+00:00
+[2025-01-21T00:01:35.613+0000] {logging_mixin.py:190} INFO - Task hostname:59ff16f1d4fb operator:PythonOperator
+[2025-01-21T00:01:35.640+0000] {local_task_job_runner.py:266} INFO - Task exited with return code 0
+[2025-01-21T00:01:35.871+0000] {taskinstance.py:3895} INFO - 1 downstream tasks scheduled from follow-on schedule check
+[2025-01-21T00:01:35.876+0000] {local_task_job_runner.py:245} INFO - ::endgroup::

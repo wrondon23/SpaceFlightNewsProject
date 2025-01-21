@@ -1,0 +1,57 @@
+[2025-01-21T14:25:22.741+0000] {local_task_job_runner.py:123} INFO - ::group::Pre task execution logs
+[2025-01-21T14:25:22.758+0000] {taskinstance.py:2613} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: DAG_AWS_PIPELINE.glue_sparkJob manual__2025-01-21T14:21:09.316245+00:00 [queued]>
+[2025-01-21T14:25:22.766+0000] {taskinstance.py:2613} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: DAG_AWS_PIPELINE.glue_sparkJob manual__2025-01-21T14:21:09.316245+00:00 [queued]>
+[2025-01-21T14:25:22.767+0000] {taskinstance.py:2866} INFO - Starting attempt 1 of 2
+[2025-01-21T14:25:22.783+0000] {taskinstance.py:2889} INFO - Executing <Task(GlueJobOperator): glue_sparkJob> on 2025-01-21 14:21:09.316245+00:00
+[2025-01-21T14:25:22.792+0000] {warnings.py:112} WARNING - /home/***/.local/lib/python3.12/site-packages/***/task/task_runner/standard_task_runner.py:70: DeprecationWarning: This process (pid=348) is multi-threaded, use of fork() may lead to deadlocks in the child.
+  pid = os.fork()
+
+[2025-01-21T14:25:22.794+0000] {standard_task_runner.py:72} INFO - Started process 357 to run task
+[2025-01-21T14:25:22.794+0000] {standard_task_runner.py:104} INFO - Running: ['***', 'tasks', 'run', 'DAG_AWS_PIPELINE', 'glue_sparkJob', 'manual__2025-01-21T14:21:09.316245+00:00', '--job-id', '357', '--raw', '--subdir', 'DAGS_FOLDER/Ingesta_aws.py', '--cfg-path', '/tmp/tmphx7a85o_']
+[2025-01-21T14:25:22.795+0000] {standard_task_runner.py:105} INFO - Job 357: Subtask glue_sparkJob
+[2025-01-21T14:25:22.837+0000] {task_command.py:467} INFO - Running <TaskInstance: DAG_AWS_PIPELINE.glue_sparkJob manual__2025-01-21T14:21:09.316245+00:00 [running]> on host 59ff16f1d4fb
+[2025-01-21T14:25:22.919+0000] {taskinstance.py:3132} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='Wilfrido Rondon' AIRFLOW_CTX_DAG_ID='DAG_AWS_PIPELINE' AIRFLOW_CTX_TASK_ID='glue_sparkJob' AIRFLOW_CTX_EXECUTION_DATE='2025-01-21T14:21:09.316245+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2025-01-21T14:21:09.316245+00:00'
+[2025-01-21T14:25:22.920+0000] {logging_mixin.py:190} INFO - Task instance is in running state
+[2025-01-21T14:25:22.920+0000] {logging_mixin.py:190} INFO -  Previous state of the Task instance: queued
+[2025-01-21T14:25:22.920+0000] {logging_mixin.py:190} INFO - Current task name:glue_sparkJob state:running start_date:2025-01-21 14:25:22.759341+00:00
+[2025-01-21T14:25:22.920+0000] {logging_mixin.py:190} INFO - Dag name:DAG_AWS_PIPELINE and current dag run status:running
+[2025-01-21T14:25:22.921+0000] {taskinstance.py:731} INFO - ::endgroup::
+[2025-01-21T14:25:22.921+0000] {glue.py:195} INFO - Initializing AWS Glue Job: JoSpaceFligthV2. Wait for completion: True
+[2025-01-21T14:25:22.921+0000] {glue.py:369} INFO - Checking if job already exists: JoSpaceFligthV2
+[2025-01-21T14:25:22.931+0000] {base.py:84} INFO - Retrieving connection 'aws_conn'
+[2025-01-21T14:25:22.931+0000] {connection_wrapper.py:325} INFO - AWS Connection (conn_id='aws_conn', conn_type='aws') credentials retrieved from login and password.
+[2025-01-21T14:25:24.696+0000] {glue.py:216} INFO - You can monitor this Glue Job run at: https://console.aws.amazon.com/gluestudio/home?region=us-east-2#/job/JoSpaceFligthV2/run/jr_c270a2eca442dcee90e5a9a793518e5eef675a72cf0093b23b603fa68f41da8d
+[2025-01-21T14:25:24.793+0000] {glue.py:352} INFO - Polling for AWS Glue Job JoSpaceFligthV2 current run state with status RUNNING
+[2025-01-21T14:25:30.890+0000] {glue.py:352} INFO - Polling for AWS Glue Job JoSpaceFligthV2 current run state with status RUNNING
+[2025-01-21T14:25:36.996+0000] {glue.py:352} INFO - Polling for AWS Glue Job JoSpaceFligthV2 current run state with status RUNNING
+[2025-01-21T14:25:43.102+0000] {glue.py:352} INFO - Polling for AWS Glue Job JoSpaceFligthV2 current run state with status RUNNING
+[2025-01-21T14:25:49.205+0000] {glue.py:352} INFO - Polling for AWS Glue Job JoSpaceFligthV2 current run state with status RUNNING
+[2025-01-21T14:25:55.304+0000] {glue.py:352} INFO - Polling for AWS Glue Job JoSpaceFligthV2 current run state with status RUNNING
+[2025-01-21T14:26:01.418+0000] {glue.py:352} INFO - Polling for AWS Glue Job JoSpaceFligthV2 current run state with status RUNNING
+[2025-01-21T14:26:07.513+0000] {glue.py:352} INFO - Polling for AWS Glue Job JoSpaceFligthV2 current run state with status RUNNING
+[2025-01-21T14:26:13.603+0000] {glue.py:352} INFO - Polling for AWS Glue Job JoSpaceFligthV2 current run state with status RUNNING
+[2025-01-21T14:26:19.702+0000] {glue.py:352} INFO - Polling for AWS Glue Job JoSpaceFligthV2 current run state with status RUNNING
+[2025-01-21T14:26:25.802+0000] {glue.py:352} INFO - Polling for AWS Glue Job JoSpaceFligthV2 current run state with status RUNNING
+[2025-01-21T14:26:31.929+0000] {glue.py:352} INFO - Polling for AWS Glue Job JoSpaceFligthV2 current run state with status RUNNING
+[2025-01-21T14:26:38.040+0000] {glue.py:352} INFO - Polling for AWS Glue Job JoSpaceFligthV2 current run state with status RUNNING
+[2025-01-21T14:26:44.127+0000] {glue.py:352} INFO - Polling for AWS Glue Job JoSpaceFligthV2 current run state with status RUNNING
+[2025-01-21T14:26:50.230+0000] {glue.py:352} INFO - Polling for AWS Glue Job JoSpaceFligthV2 current run state with status RUNNING
+[2025-01-21T14:26:56.317+0000] {glue.py:352} INFO - Polling for AWS Glue Job JoSpaceFligthV2 current run state with status RUNNING
+[2025-01-21T14:27:02.404+0000] {glue.py:352} INFO - Polling for AWS Glue Job JoSpaceFligthV2 current run state with status RUNNING
+[2025-01-21T14:27:08.517+0000] {glue.py:352} INFO - Polling for AWS Glue Job JoSpaceFligthV2 current run state with status RUNNING
+[2025-01-21T14:27:14.620+0000] {glue.py:352} INFO - Polling for AWS Glue Job JoSpaceFligthV2 current run state with status RUNNING
+[2025-01-21T14:27:20.728+0000] {glue.py:352} INFO - Polling for AWS Glue Job JoSpaceFligthV2 current run state with status RUNNING
+[2025-01-21T14:27:26.824+0000] {glue.py:352} INFO - Polling for AWS Glue Job JoSpaceFligthV2 current run state with status RUNNING
+[2025-01-21T14:27:32.944+0000] {glue.py:352} INFO - Polling for AWS Glue Job JoSpaceFligthV2 current run state with status RUNNING
+[2025-01-21T14:27:39.046+0000] {glue.py:352} INFO - Polling for AWS Glue Job JoSpaceFligthV2 current run state with status RUNNING
+[2025-01-21T14:27:45.134+0000] {glue.py:345} INFO - Exiting Job jr_c270a2eca442dcee90e5a9a793518e5eef675a72cf0093b23b603fa68f41da8d Run State: SUCCEEDED
+[2025-01-21T14:27:45.134+0000] {glue.py:233} INFO - AWS Glue Job: JoSpaceFligthV2 status: SUCCEEDED. Run Id: jr_c270a2eca442dcee90e5a9a793518e5eef675a72cf0093b23b603fa68f41da8d
+[2025-01-21T14:27:45.160+0000] {taskinstance.py:340} INFO - ::group::Post task execution logs
+[2025-01-21T14:27:45.161+0000] {taskinstance.py:352} INFO - Marking task as SUCCESS. dag_id=DAG_AWS_PIPELINE, task_id=glue_sparkJob, run_id=manual__2025-01-21T14:21:09.316245+00:00, execution_date=20250121T142109, start_date=20250121T142522, end_date=20250121T142745
+[2025-01-21T14:27:45.175+0000] {logging_mixin.py:190} INFO - Task instance in success state
+[2025-01-21T14:27:45.176+0000] {logging_mixin.py:190} INFO -  Previous state of the Task instance: running
+[2025-01-21T14:27:45.176+0000] {logging_mixin.py:190} INFO - Dag name:DAG_AWS_PIPELINE queued_at:2025-01-21 14:21:09.479395+00:00
+[2025-01-21T14:27:45.176+0000] {logging_mixin.py:190} INFO - Task hostname:59ff16f1d4fb operator:GlueJobOperator
+[2025-01-21T14:27:45.216+0000] {local_task_job_runner.py:266} INFO - Task exited with return code 0
+[2025-01-21T14:27:45.244+0000] {taskinstance.py:3895} INFO - 1 downstream tasks scheduled from follow-on schedule check
+[2025-01-21T14:27:45.247+0000] {local_task_job_runner.py:245} INFO - ::endgroup::

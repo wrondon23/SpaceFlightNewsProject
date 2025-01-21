@@ -1,0 +1,34 @@
+[2025-01-17T22:18:18.180+0000] {local_task_job_runner.py:123} INFO - ::group::Pre task execution logs
+[2025-01-17T22:18:18.200+0000] {taskinstance.py:2613} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: spaceflight_data_ingest_v2.fetch_articles manual__2025-01-17T22:14:24.591389+00:00 [queued]>
+[2025-01-17T22:18:18.210+0000] {taskinstance.py:2613} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: spaceflight_data_ingest_v2.fetch_articles manual__2025-01-17T22:14:24.591389+00:00 [queued]>
+[2025-01-17T22:18:18.210+0000] {taskinstance.py:2866} INFO - Starting attempt 2 of 3
+[2025-01-17T22:18:18.225+0000] {taskinstance.py:2889} INFO - Executing <Task(PythonOperator): fetch_articles> on 2025-01-17 22:14:24.591389+00:00
+[2025-01-17T22:18:18.235+0000] {warnings.py:112} WARNING - /home/***/.local/lib/python3.12/site-packages/***/task/task_runner/standard_task_runner.py:70: DeprecationWarning: This process (pid=497) is multi-threaded, use of fork() may lead to deadlocks in the child.
+  pid = os.fork()
+
+[2025-01-17T22:18:18.237+0000] {standard_task_runner.py:72} INFO - Started process 499 to run task
+[2025-01-17T22:18:18.237+0000] {standard_task_runner.py:104} INFO - Running: ['***', 'tasks', 'run', 'spaceflight_data_ingest_v2', 'fetch_articles', 'manual__2025-01-17T22:14:24.591389+00:00', '--job-id', '99', '--raw', '--subdir', 'DAGS_FOLDER/spaceflight_data_ingest_v2.py', '--cfg-path', '/tmp/tmpz149axkt']
+[2025-01-17T22:18:18.238+0000] {standard_task_runner.py:105} INFO - Job 99: Subtask fetch_articles
+[2025-01-17T22:18:18.286+0000] {task_command.py:467} INFO - Running <TaskInstance: spaceflight_data_ingest_v2.fetch_articles manual__2025-01-17T22:14:24.591389+00:00 [running]> on host 59ff16f1d4fb
+[2025-01-17T22:18:18.600+0000] {taskinstance.py:3132} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='spaceflight_data_ingest_v2' AIRFLOW_CTX_TASK_ID='fetch_articles' AIRFLOW_CTX_EXECUTION_DATE='2025-01-17T22:14:24.591389+00:00' AIRFLOW_CTX_TRY_NUMBER='2' AIRFLOW_CTX_DAG_RUN_ID='manual__2025-01-17T22:14:24.591389+00:00'
+[2025-01-17T22:18:18.601+0000] {logging_mixin.py:190} INFO - Task instance is in running state
+[2025-01-17T22:18:18.601+0000] {logging_mixin.py:190} INFO -  Previous state of the Task instance: queued
+[2025-01-17T22:18:18.602+0000] {logging_mixin.py:190} INFO - Current task name:fetch_articles state:running start_date:2025-01-17 22:18:18.201044+00:00
+[2025-01-17T22:18:18.602+0000] {logging_mixin.py:190} INFO - Dag name:spaceflight_data_ingest_v2 and current dag run status:running
+[2025-01-17T22:18:18.602+0000] {taskinstance.py:731} INFO - ::endgroup::
+[2025-01-17T22:18:19.158+0000] {spaceflight_data_ingest_v2.py:77} ERROR - Error en la solicitud: 'id'
+[2025-01-17T22:18:19.159+0000] {spaceflight_data_ingest_v2.py:81} INFO - Reintentando... intento 1/5
+[2025-01-17T22:18:24.160+0000] {spaceflight_data_ingest_v2.py:81} INFO - Reintentando... intento 2/5
+[2025-01-17T22:18:29.162+0000] {spaceflight_data_ingest_v2.py:81} INFO - Reintentando... intento 3/5
+[2025-01-17T22:18:34.163+0000] {spaceflight_data_ingest_v2.py:81} INFO - Reintentando... intento 4/5
+[2025-01-17T22:18:36.490+0000] {spaceflight_data_ingest_v2.py:81} INFO - Reintentando... intento 5/5
+[2025-01-17T22:18:41.492+0000] {python.py:240} INFO - Done. Returned value was: None
+[2025-01-17T22:18:41.504+0000] {taskinstance.py:340} INFO - ::group::Post task execution logs
+[2025-01-17T22:18:41.505+0000] {taskinstance.py:352} INFO - Marking task as SUCCESS. dag_id=spaceflight_data_ingest_v2, task_id=fetch_articles, run_id=manual__2025-01-17T22:14:24.591389+00:00, execution_date=20250117T221424, start_date=20250117T221818, end_date=20250117T221841
+[2025-01-17T22:18:41.516+0000] {logging_mixin.py:190} INFO - Task instance in success state
+[2025-01-17T22:18:41.516+0000] {logging_mixin.py:190} INFO -  Previous state of the Task instance: running
+[2025-01-17T22:18:41.517+0000] {logging_mixin.py:190} INFO - Dag name:spaceflight_data_ingest_v2 queued_at:2025-01-17 22:14:24.604201+00:00
+[2025-01-17T22:18:41.517+0000] {logging_mixin.py:190} INFO - Task hostname:59ff16f1d4fb operator:PythonOperator
+[2025-01-17T22:18:41.543+0000] {local_task_job_runner.py:266} INFO - Task exited with return code 0
+[2025-01-17T22:18:41.821+0000] {taskinstance.py:3895} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2025-01-17T22:18:41.823+0000] {local_task_job_runner.py:245} INFO - ::endgroup::

@@ -1,0 +1,151 @@
+[2025-01-19T15:55:18.990+0000] {local_task_job_runner.py:123} INFO - ::group::Pre task execution logs
+[2025-01-19T15:55:19.010+0000] {taskinstance.py:2613} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: DAG_AWS_PIPELINE.transf_blogs manual__2025-01-19T15:55:16.446644+00:00 [queued]>
+[2025-01-19T15:55:19.019+0000] {taskinstance.py:2613} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: DAG_AWS_PIPELINE.transf_blogs manual__2025-01-19T15:55:16.446644+00:00 [queued]>
+[2025-01-19T15:55:19.019+0000] {taskinstance.py:2866} INFO - Starting attempt 1 of 2
+[2025-01-19T15:55:19.244+0000] {taskinstance.py:2889} INFO - Executing <Task(LocalFilesystemToS3Operator): transf_blogs> on 2025-01-19 15:55:16.446644+00:00
+[2025-01-19T15:55:19.253+0000] {warnings.py:112} WARNING - /home/***/.local/lib/python3.12/site-packages/***/task/task_runner/standard_task_runner.py:70: DeprecationWarning: This process (pid=4370) is multi-threaded, use of fork() may lead to deadlocks in the child.
+  pid = os.fork()
+
+[2025-01-19T15:55:19.256+0000] {standard_task_runner.py:72} INFO - Started process 4384 to run task
+[2025-01-19T15:55:19.257+0000] {standard_task_runner.py:104} INFO - Running: ['***', 'tasks', 'run', 'DAG_AWS_PIPELINE', 'transf_blogs', 'manual__2025-01-19T15:55:16.446644+00:00', '--job-id', '165', '--raw', '--subdir', 'DAGS_FOLDER/Ingesta_aws.py', '--cfg-path', '/tmp/tmpdumwg8nd']
+[2025-01-19T15:55:19.259+0000] {standard_task_runner.py:105} INFO - Job 165: Subtask transf_blogs
+[2025-01-19T15:55:19.310+0000] {task_command.py:467} INFO - Running <TaskInstance: DAG_AWS_PIPELINE.transf_blogs manual__2025-01-19T15:55:16.446644+00:00 [running]> on host 59ff16f1d4fb
+[2025-01-19T15:55:19.406+0000] {taskinstance.py:3132} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='Wilfrido Rondon' AIRFLOW_CTX_DAG_ID='DAG_AWS_PIPELINE' AIRFLOW_CTX_TASK_ID='transf_blogs' AIRFLOW_CTX_EXECUTION_DATE='2025-01-19T15:55:16.446644+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2025-01-19T15:55:16.446644+00:00'
+[2025-01-19T15:55:19.408+0000] {logging_mixin.py:190} INFO - Task instance is in running state
+[2025-01-19T15:55:19.408+0000] {logging_mixin.py:190} INFO -  Previous state of the Task instance: queued
+[2025-01-19T15:55:19.408+0000] {logging_mixin.py:190} INFO - Current task name:transf_blogs state:running start_date:2025-01-19 15:55:19.010559+00:00
+[2025-01-19T15:55:19.408+0000] {logging_mixin.py:190} INFO - Dag name:DAG_AWS_PIPELINE and current dag run status:running
+[2025-01-19T15:55:19.409+0000] {taskinstance.py:731} INFO - ::endgroup::
+[2025-01-19T15:55:19.418+0000] {base.py:84} INFO - Retrieving connection 'aws_conn'
+[2025-01-19T15:55:19.419+0000] {connection_wrapper.py:325} INFO - AWS Connection (conn_id='aws_conn', conn_type='aws') credentials retrieved from login and password.
+[2025-01-19T15:55:19.931+0000] {taskinstance.py:3311} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/taskinstance.py", line 767, in _execute_task
+    result = _execute_callable(context=context, **execute_callable_kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/taskinstance.py", line 733, in _execute_callable
+    return ExecutionCallableRunner(
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/utils/operator_helpers.py", line 252, in run
+    return self.func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/baseoperator.py", line 422, in wrapper
+    return func(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/providers/amazon/aws/transfers/local_to_s3.py", line 100, in execute
+    s3_hook.load_file(
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/providers/amazon/aws/hooks/s3.py", line 152, in wrapper
+    return func(*bound_args.args, **bound_args.kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/providers/amazon/aws/hooks/s3.py", line 125, in wrapper
+    return func(*bound_args.args, **bound_args.kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/providers/amazon/aws/hooks/s3.py", line 1134, in load_file
+    client.upload_file(
+  File "/home/airflow/.local/lib/python3.12/site-packages/boto3/s3/inject.py", line 145, in upload_file
+    return transfer.upload_file(
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/boto3/s3/transfer.py", line 372, in upload_file
+    future.result()
+  File "/home/airflow/.local/lib/python3.12/site-packages/s3transfer/futures.py", line 103, in result
+    return self._coordinator.result()
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/s3transfer/futures.py", line 264, in result
+    raise self._exception
+  File "/home/airflow/.local/lib/python3.12/site-packages/s3transfer/tasks.py", line 265, in _main
+    self._submit(transfer_future=transfer_future, **kwargs)
+  File "/home/airflow/.local/lib/python3.12/site-packages/s3transfer/upload.py", line 589, in _submit
+    upload_input_manager.provide_transfer_size(transfer_future)
+  File "/home/airflow/.local/lib/python3.12/site-packages/s3transfer/upload.py", line 244, in provide_transfer_size
+    self._osutil.get_file_size(transfer_future.meta.call_args.fileobj)
+  File "/home/airflow/.local/lib/python3.12/site-packages/s3transfer/utils.py", line 254, in get_file_size
+    return os.path.getsize(filename)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<frozen genericpath>", line 62, in getsize
+FileNotFoundError: [Errno 2] No such file or directory: '/tmp/blogs.csv'
+[2025-01-19T15:55:19.951+0000] {logging_mixin.py:190} INFO - Task instance in failure state
+[2025-01-19T15:55:19.951+0000] {logging_mixin.py:190} INFO - Task start:2025-01-19 15:55:19.010559+00:00 end:2025-01-19 15:55:19.950663+00:00 duration:0.940104
+[2025-01-19T15:55:19.951+0000] {logging_mixin.py:190} INFO - Task:<Task(LocalFilesystemToS3Operator): transf_blogs> dag:<DAG: DAG_AWS_PIPELINE> dagrun:<DagRun DAG_AWS_PIPELINE @ 2025-01-19 15:55:16.446644+00:00: manual__2025-01-19T15:55:16.446644+00:00, state:running, queued_at: 2025-01-19 15:55:16.472249+00:00. externally triggered: True>
+[2025-01-19T15:55:19.952+0000] {logging_mixin.py:190} INFO - Failure caused by [Errno 2] No such file or directory: '/tmp/blogs.csv'
+[2025-01-19T15:55:19.952+0000] {taskinstance.py:1225} INFO - Marking task as UP_FOR_RETRY. dag_id=DAG_AWS_PIPELINE, task_id=transf_blogs, run_id=manual__2025-01-19T15:55:16.446644+00:00, execution_date=20250119T155516, start_date=20250119T155519, end_date=20250119T155519
+[2025-01-19T15:55:19.971+0000] {taskinstance.py:340} INFO - ::group::Post task execution logs
+[2025-01-19T15:55:19.971+0000] {standard_task_runner.py:124} ERROR - Failed to execute job 165 for task transf_blogs ([Errno 2] No such file or directory: '/tmp/blogs.csv'; 4384)
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/task/task_runner/standard_task_runner.py", line 117, in _start_by_fork
+    ret = args.func(args, dag=self.dag)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/cli/cli_config.py", line 49, in command
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/utils/cli.py", line 116, in wrapper
+    return f(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/cli/commands/task_command.py", line 483, in task_run
+    task_return_code = _run_task_by_selected_method(args, _dag, ti)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/cli/commands/task_command.py", line 256, in _run_task_by_selected_method
+    return _run_raw_task(args, ti)
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/cli/commands/task_command.py", line 341, in _run_raw_task
+    return ti._run_raw_task(
+           ^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/utils/session.py", line 97, in wrapper
+    return func(*args, session=session, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/taskinstance.py", line 3005, in _run_raw_task
+    return _run_raw_task(
+           ^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/taskinstance.py", line 273, in _run_raw_task
+    TaskInstance._execute_task_with_callbacks(
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/taskinstance.py", line 3159, in _execute_task_with_callbacks
+    result = self._execute_task(context, task_orig)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/taskinstance.py", line 3183, in _execute_task
+    return _execute_task(self, context, task_orig)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/taskinstance.py", line 767, in _execute_task
+    result = _execute_callable(context=context, **execute_callable_kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/taskinstance.py", line 733, in _execute_callable
+    return ExecutionCallableRunner(
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/utils/operator_helpers.py", line 252, in run
+    return self.func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/baseoperator.py", line 422, in wrapper
+    return func(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/providers/amazon/aws/transfers/local_to_s3.py", line 100, in execute
+    s3_hook.load_file(
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/providers/amazon/aws/hooks/s3.py", line 152, in wrapper
+    return func(*bound_args.args, **bound_args.kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/providers/amazon/aws/hooks/s3.py", line 125, in wrapper
+    return func(*bound_args.args, **bound_args.kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/providers/amazon/aws/hooks/s3.py", line 1134, in load_file
+    client.upload_file(
+  File "/home/airflow/.local/lib/python3.12/site-packages/boto3/s3/inject.py", line 145, in upload_file
+    return transfer.upload_file(
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/boto3/s3/transfer.py", line 372, in upload_file
+    future.result()
+  File "/home/airflow/.local/lib/python3.12/site-packages/s3transfer/futures.py", line 103, in result
+    return self._coordinator.result()
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/s3transfer/futures.py", line 264, in result
+    raise self._exception
+  File "/home/airflow/.local/lib/python3.12/site-packages/s3transfer/tasks.py", line 265, in _main
+    self._submit(transfer_future=transfer_future, **kwargs)
+  File "/home/airflow/.local/lib/python3.12/site-packages/s3transfer/upload.py", line 589, in _submit
+    upload_input_manager.provide_transfer_size(transfer_future)
+  File "/home/airflow/.local/lib/python3.12/site-packages/s3transfer/upload.py", line 244, in provide_transfer_size
+    self._osutil.get_file_size(transfer_future.meta.call_args.fileobj)
+  File "/home/airflow/.local/lib/python3.12/site-packages/s3transfer/utils.py", line 254, in get_file_size
+    return os.path.getsize(filename)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<frozen genericpath>", line 62, in getsize
+FileNotFoundError: [Errno 2] No such file or directory: '/tmp/blogs.csv'
+[2025-01-19T15:55:20.004+0000] {local_task_job_runner.py:266} INFO - Task exited with return code 1
+[2025-01-19T15:55:20.032+0000] {taskinstance.py:3895} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2025-01-19T15:55:20.036+0000] {local_task_job_runner.py:245} INFO - ::endgroup::

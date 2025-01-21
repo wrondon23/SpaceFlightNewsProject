@@ -1,0 +1,32 @@
+[2025-01-19T22:04:07.089+0000] {local_task_job_runner.py:123} INFO - ::group::Pre task execution logs
+[2025-01-19T22:04:07.107+0000] {taskinstance.py:2613} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: DAG_AWS_PIPELINE.extract_events manual__2025-01-19T22:04:02.784376+00:00 [queued]>
+[2025-01-19T22:04:07.281+0000] {taskinstance.py:2613} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: DAG_AWS_PIPELINE.extract_events manual__2025-01-19T22:04:02.784376+00:00 [queued]>
+[2025-01-19T22:04:07.281+0000] {taskinstance.py:2866} INFO - Starting attempt 1 of 2
+[2025-01-19T22:04:07.295+0000] {taskinstance.py:2889} INFO - Executing <Task(PythonOperator): extract_events> on 2025-01-19 22:04:02.784376+00:00
+[2025-01-19T22:04:07.304+0000] {warnings.py:112} WARNING - /home/***/.local/lib/python3.12/site-packages/***/task/task_runner/standard_task_runner.py:70: DeprecationWarning: This process (pid=9971) is multi-threaded, use of fork() may lead to deadlocks in the child.
+  pid = os.fork()
+
+[2025-01-19T22:04:07.305+0000] {standard_task_runner.py:72} INFO - Started process 9977 to run task
+[2025-01-19T22:04:07.306+0000] {standard_task_runner.py:104} INFO - Running: ['***', 'tasks', 'run', 'DAG_AWS_PIPELINE', 'extract_events', 'manual__2025-01-19T22:04:02.784376+00:00', '--job-id', '237', '--raw', '--subdir', 'DAGS_FOLDER/Ingesta_aws.py', '--cfg-path', '/tmp/tmpabtn6dti']
+[2025-01-19T22:04:07.306+0000] {standard_task_runner.py:105} INFO - Job 237: Subtask extract_events
+[2025-01-19T22:04:07.349+0000] {task_command.py:467} INFO - Running <TaskInstance: DAG_AWS_PIPELINE.extract_events manual__2025-01-19T22:04:02.784376+00:00 [running]> on host 59ff16f1d4fb
+[2025-01-19T22:04:07.430+0000] {taskinstance.py:3132} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='Wilfrido Rondon' AIRFLOW_CTX_DAG_ID='DAG_AWS_PIPELINE' AIRFLOW_CTX_TASK_ID='extract_events' AIRFLOW_CTX_EXECUTION_DATE='2025-01-19T22:04:02.784376+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2025-01-19T22:04:02.784376+00:00'
+[2025-01-19T22:04:07.431+0000] {logging_mixin.py:190} INFO - Task instance is in running state
+[2025-01-19T22:04:07.432+0000] {logging_mixin.py:190} INFO -  Previous state of the Task instance: queued
+[2025-01-19T22:04:07.432+0000] {logging_mixin.py:190} INFO - Current task name:extract_events state:running start_date:2025-01-19 22:04:07.107810+00:00
+[2025-01-19T22:04:07.432+0000] {logging_mixin.py:190} INFO - Dag name:DAG_AWS_PIPELINE and current dag run status:running
+[2025-01-19T22:04:07.432+0000] {taskinstance.py:731} INFO - ::endgroup::
+[2025-01-19T22:04:07.433+0000] {Ingesta_aws.py:116} INFO - Recuperando página 1...
+[2025-01-19T22:04:07.864+0000] {Ingesta_aws.py:134} ERROR - Error al recuperar los datos. Código de estado: 404
+[2025-01-19T22:04:07.865+0000] {Ingesta_aws.py:138} INFO - Transformando los datos a CSV...
+[2025-01-19T22:04:07.872+0000] {Ingesta_aws.py:145} INFO - CSV guardado temporalmente en: /tmp/reports.csv
+[2025-01-19T22:04:07.873+0000] {python.py:240} INFO - Done. Returned value was: /tmp/reports.csv
+[2025-01-19T22:04:07.896+0000] {taskinstance.py:340} INFO - ::group::Post task execution logs
+[2025-01-19T22:04:07.896+0000] {taskinstance.py:352} INFO - Marking task as SUCCESS. dag_id=DAG_AWS_PIPELINE, task_id=extract_events, run_id=manual__2025-01-19T22:04:02.784376+00:00, execution_date=20250119T220402, start_date=20250119T220407, end_date=20250119T220407
+[2025-01-19T22:04:07.908+0000] {logging_mixin.py:190} INFO - Task instance in success state
+[2025-01-19T22:04:07.908+0000] {logging_mixin.py:190} INFO -  Previous state of the Task instance: running
+[2025-01-19T22:04:07.908+0000] {logging_mixin.py:190} INFO - Dag name:DAG_AWS_PIPELINE queued_at:2025-01-19 22:04:02.792807+00:00
+[2025-01-19T22:04:07.909+0000] {logging_mixin.py:190} INFO - Task hostname:59ff16f1d4fb operator:PythonOperator
+[2025-01-19T22:04:07.934+0000] {local_task_job_runner.py:266} INFO - Task exited with return code 0
+[2025-01-19T22:04:07.959+0000] {taskinstance.py:3895} INFO - 1 downstream tasks scheduled from follow-on schedule check
+[2025-01-19T22:04:07.963+0000] {local_task_job_runner.py:245} INFO - ::endgroup::

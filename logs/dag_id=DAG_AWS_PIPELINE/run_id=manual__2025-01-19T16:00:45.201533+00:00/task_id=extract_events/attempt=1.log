@@ -1,0 +1,101 @@
+[2025-01-19T16:00:48.132+0000] {local_task_job_runner.py:123} INFO - ::group::Pre task execution logs
+[2025-01-19T16:00:48.149+0000] {taskinstance.py:2613} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: DAG_AWS_PIPELINE.extract_events manual__2025-01-19T16:00:45.201533+00:00 [queued]>
+[2025-01-19T16:00:48.160+0000] {taskinstance.py:2613} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: DAG_AWS_PIPELINE.extract_events manual__2025-01-19T16:00:45.201533+00:00 [queued]>
+[2025-01-19T16:00:48.160+0000] {taskinstance.py:2866} INFO - Starting attempt 1 of 2
+[2025-01-19T16:00:48.373+0000] {taskinstance.py:2889} INFO - Executing <Task(PythonOperator): extract_events> on 2025-01-19 16:00:45.201533+00:00
+[2025-01-19T16:00:48.384+0000] {warnings.py:112} WARNING - /home/***/.local/lib/python3.12/site-packages/***/task/task_runner/standard_task_runner.py:70: DeprecationWarning: This process (pid=4515) is multi-threaded, use of fork() may lead to deadlocks in the child.
+  pid = os.fork()
+
+[2025-01-19T16:00:48.385+0000] {standard_task_runner.py:72} INFO - Started process 4529 to run task
+[2025-01-19T16:00:48.385+0000] {standard_task_runner.py:104} INFO - Running: ['***', 'tasks', 'run', 'DAG_AWS_PIPELINE', 'extract_events', 'manual__2025-01-19T16:00:45.201533+00:00', '--job-id', '177', '--raw', '--subdir', 'DAGS_FOLDER/Ingesta_aws.py', '--cfg-path', '/tmp/tmpm__hx1ht']
+[2025-01-19T16:00:48.386+0000] {standard_task_runner.py:105} INFO - Job 177: Subtask extract_events
+[2025-01-19T16:00:48.435+0000] {task_command.py:467} INFO - Running <TaskInstance: DAG_AWS_PIPELINE.extract_events manual__2025-01-19T16:00:45.201533+00:00 [running]> on host 59ff16f1d4fb
+[2025-01-19T16:00:48.526+0000] {taskinstance.py:3132} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='Wilfrido Rondon' AIRFLOW_CTX_DAG_ID='DAG_AWS_PIPELINE' AIRFLOW_CTX_TASK_ID='extract_events' AIRFLOW_CTX_EXECUTION_DATE='2025-01-19T16:00:45.201533+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2025-01-19T16:00:45.201533+00:00'
+[2025-01-19T16:00:48.527+0000] {logging_mixin.py:190} INFO - Task instance is in running state
+[2025-01-19T16:00:48.527+0000] {logging_mixin.py:190} INFO -  Previous state of the Task instance: queued
+[2025-01-19T16:00:48.528+0000] {logging_mixin.py:190} INFO - Current task name:extract_events state:running start_date:2025-01-19 16:00:48.150104+00:00
+[2025-01-19T16:00:48.528+0000] {logging_mixin.py:190} INFO - Dag name:DAG_AWS_PIPELINE and current dag run status:running
+[2025-01-19T16:00:48.528+0000] {taskinstance.py:731} INFO - ::endgroup::
+[2025-01-19T16:00:48.529+0000] {Ingesta_aws.py:110} INFO - Recuperando página 1...
+[2025-01-19T16:01:13.264+0000] {local_task_job_runner.py:346} WARNING - State of this instance has been externally set to restarting. Terminating instance.
+[2025-01-19T16:01:13.264+0000] {local_task_job_runner.py:245} INFO - ::endgroup::
+[2025-01-19T16:01:13.266+0000] {process_utils.py:132} INFO - Sending 15 to group 4529. PIDs of all processes in the group: [4529]
+[2025-01-19T16:01:13.267+0000] {process_utils.py:87} INFO - Sending the signal 15 to group 4529
+[2025-01-19T16:01:13.267+0000] {taskinstance.py:3093} ERROR - Received SIGTERM. Terminating subprocesses.
+[2025-01-19T16:01:13.277+0000] {taskinstance.py:3311} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/taskinstance.py", line 767, in _execute_task
+    result = _execute_callable(context=context, **execute_callable_kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/taskinstance.py", line 733, in _execute_callable
+    return ExecutionCallableRunner(
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/utils/operator_helpers.py", line 252, in run
+    return self.func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/baseoperator.py", line 422, in wrapper
+    return func(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/operators/python.py", line 238, in execute
+    return_value = self.execute_callable()
+                   ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/operators/python.py", line 256, in execute_callable
+    return runner.run(*self.op_args, **self.op_kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/utils/operator_helpers.py", line 252, in run
+    return self.func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/airflow/dags/Ingesta_aws.py", line 111, in fetch_events_and_transform_data
+    response = requests.get(next_url)
+               ^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/requests/api.py", line 73, in get
+    return request("get", url, params=params, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/requests/api.py", line 59, in request
+    return session.request(method=method, url=url, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/requests/sessions.py", line 589, in request
+    resp = self.send(prep, **send_kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/requests/sessions.py", line 703, in send
+    r = adapter.send(request, **kwargs)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/requests/adapters.py", line 667, in send
+    resp = conn.urlopen(
+           ^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/urllib3/connectionpool.py", line 789, in urlopen
+    response = self._make_request(
+               ^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/urllib3/connectionpool.py", line 536, in _make_request
+    response = conn.getresponse()
+               ^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/urllib3/connection.py", line 507, in getresponse
+    httplib_response = super().getresponse()
+                       ^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/http/client.py", line 1428, in getresponse
+    response.begin()
+  File "/usr/local/lib/python3.12/http/client.py", line 331, in begin
+    version, status, reason = self._read_status()
+                              ^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/http/client.py", line 292, in _read_status
+    line = str(self.fp.readline(_MAXLINE + 1), "iso-8859-1")
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/socket.py", line 720, in readinto
+    return self._sock.recv_into(b)
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/ssl.py", line 1251, in recv_into
+    return self.read(nbytes, buffer)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/ssl.py", line 1103, in read
+    return self._sslobj.read(len, buffer)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/taskinstance.py", line 3095, in signal_handler
+    raise AirflowTaskTerminated("Task received SIGTERM signal")
+airflow.exceptions.AirflowTaskTerminated: Task received SIGTERM signal
+[2025-01-19T16:01:13.285+0000] {logging_mixin.py:190} INFO - Task instance in failure state
+[2025-01-19T16:01:13.285+0000] {logging_mixin.py:190} INFO - Task start:2025-01-19 16:00:48.150104+00:00 end:2025-01-19 16:01:13.284748+00:00 duration:25.134644
+[2025-01-19T16:01:13.285+0000] {logging_mixin.py:190} INFO - Task:<Task(PythonOperator): extract_events> dag:<DAG: DAG_AWS_PIPELINE> dagrun:<DagRun DAG_AWS_PIPELINE @ 2025-01-19 16:00:45.201533+00:00: manual__2025-01-19T16:00:45.201533+00:00, state:running, queued_at: 2025-01-19 16:00:45.210366+00:00. externally triggered: True>
+[2025-01-19T16:01:13.286+0000] {logging_mixin.py:190} INFO - Failure caused by Task received SIGTERM signal
+[2025-01-19T16:01:13.286+0000] {taskinstance.py:1225} INFO - Marking task as UP_FOR_RETRY. dag_id=DAG_AWS_PIPELINE, task_id=extract_events, run_id=manual__2025-01-19T16:00:45.201533+00:00, execution_date=20250119T160045, start_date=20250119T160048, end_date=20250119T160113
+[2025-01-19T16:01:13.302+0000] {taskinstance.py:340} INFO - ::group::Post task execution logs
+[2025-01-19T16:01:13.321+0000] {process_utils.py:80} INFO - Process psutil.Process(pid=4529, status='terminated', exitcode=2, started='16:00:47') (4529) terminated with exit code 2

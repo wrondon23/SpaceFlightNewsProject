@@ -1,0 +1,30 @@
+[2025-01-19T16:01:31.800+0000] {local_task_job_runner.py:123} INFO - ::group::Pre task execution logs
+[2025-01-19T16:01:31.815+0000] {taskinstance.py:2613} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: DAG_AWS_PIPELINE.transf_blogs manual__2025-01-19T16:00:26.182094+00:00 [queued]>
+[2025-01-19T16:01:31.823+0000] {taskinstance.py:2613} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: DAG_AWS_PIPELINE.transf_blogs manual__2025-01-19T16:00:26.182094+00:00 [queued]>
+[2025-01-19T16:01:31.823+0000] {taskinstance.py:2866} INFO - Starting attempt 1 of 2
+[2025-01-19T16:01:32.011+0000] {taskinstance.py:2889} INFO - Executing <Task(LocalFilesystemToS3Operator): transf_blogs> on 2025-01-19 16:00:26.182094+00:00
+[2025-01-19T16:01:32.021+0000] {warnings.py:112} WARNING - /home/***/.local/lib/python3.12/site-packages/***/task/task_runner/standard_task_runner.py:70: DeprecationWarning: This process (pid=4540) is multi-threaded, use of fork() may lead to deadlocks in the child.
+  pid = os.fork()
+
+[2025-01-19T16:01:32.022+0000] {standard_task_runner.py:72} INFO - Started process 4542 to run task
+[2025-01-19T16:01:32.023+0000] {standard_task_runner.py:104} INFO - Running: ['***', 'tasks', 'run', 'DAG_AWS_PIPELINE', 'transf_blogs', 'manual__2025-01-19T16:00:26.182094+00:00', '--job-id', '179', '--raw', '--subdir', 'DAGS_FOLDER/Ingesta_aws.py', '--cfg-path', '/tmp/tmpi1x44ypc']
+[2025-01-19T16:01:32.024+0000] {standard_task_runner.py:105} INFO - Job 179: Subtask transf_blogs
+[2025-01-19T16:01:32.068+0000] {task_command.py:467} INFO - Running <TaskInstance: DAG_AWS_PIPELINE.transf_blogs manual__2025-01-19T16:00:26.182094+00:00 [running]> on host 59ff16f1d4fb
+[2025-01-19T16:01:32.156+0000] {taskinstance.py:3132} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='Wilfrido Rondon' AIRFLOW_CTX_DAG_ID='DAG_AWS_PIPELINE' AIRFLOW_CTX_TASK_ID='transf_blogs' AIRFLOW_CTX_EXECUTION_DATE='2025-01-19T16:00:26.182094+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2025-01-19T16:00:26.182094+00:00'
+[2025-01-19T16:01:32.157+0000] {logging_mixin.py:190} INFO - Task instance is in running state
+[2025-01-19T16:01:32.157+0000] {logging_mixin.py:190} INFO -  Previous state of the Task instance: queued
+[2025-01-19T16:01:32.157+0000] {logging_mixin.py:190} INFO - Current task name:transf_blogs state:running start_date:2025-01-19 16:01:31.816077+00:00
+[2025-01-19T16:01:32.158+0000] {logging_mixin.py:190} INFO - Dag name:DAG_AWS_PIPELINE and current dag run status:running
+[2025-01-19T16:01:32.158+0000] {taskinstance.py:731} INFO - ::endgroup::
+[2025-01-19T16:01:32.167+0000] {base.py:84} INFO - Retrieving connection 'aws_conn'
+[2025-01-19T16:01:32.167+0000] {connection_wrapper.py:325} INFO - AWS Connection (conn_id='aws_conn', conn_type='aws') credentials retrieved from login and password.
+[2025-01-19T16:01:33.556+0000] {hook.py:208} WARNING - Data lineage tracking is disabled. Register a hook lineage reader to start tracking hook lineage.
+[2025-01-19T16:01:33.567+0000] {taskinstance.py:340} INFO - ::group::Post task execution logs
+[2025-01-19T16:01:33.567+0000] {taskinstance.py:352} INFO - Marking task as SUCCESS. dag_id=DAG_AWS_PIPELINE, task_id=transf_blogs, run_id=manual__2025-01-19T16:00:26.182094+00:00, execution_date=20250119T160026, start_date=20250119T160131, end_date=20250119T160133
+[2025-01-19T16:01:33.581+0000] {logging_mixin.py:190} INFO - Task instance in success state
+[2025-01-19T16:01:33.581+0000] {logging_mixin.py:190} INFO -  Previous state of the Task instance: running
+[2025-01-19T16:01:33.581+0000] {logging_mixin.py:190} INFO - Dag name:DAG_AWS_PIPELINE queued_at:2025-01-19 16:00:26.196819+00:00
+[2025-01-19T16:01:33.582+0000] {logging_mixin.py:190} INFO - Task hostname:59ff16f1d4fb operator:LocalFilesystemToS3Operator
+[2025-01-19T16:01:33.618+0000] {local_task_job_runner.py:266} INFO - Task exited with return code 0
+[2025-01-19T16:01:33.642+0000] {taskinstance.py:3895} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2025-01-19T16:01:33.645+0000] {local_task_job_runner.py:245} INFO - ::endgroup::

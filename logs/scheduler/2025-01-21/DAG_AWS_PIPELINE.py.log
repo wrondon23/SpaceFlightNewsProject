@@ -1,0 +1,639 @@
+[2025-01-21T18:16:39.795+0000] {processor.py:186} INFO - Started process (PID=33100) to work on /opt/airflow/dags/DAG_AWS_PIPELINE.py
+[2025-01-21T18:16:39.795+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/DAG_AWS_PIPELINE.py for tasks to queue
+[2025-01-21T18:16:39.796+0000] {logging_mixin.py:190} INFO - [2025-01-21T18:16:39.796+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/DAG_AWS_PIPELINE.py
+[2025-01-21T18:16:39.805+0000] {processor.py:925} INFO - DAG(s) 'DAG_AWS_PIPELINE' retrieved from /opt/airflow/dags/DAG_AWS_PIPELINE.py
+[2025-01-21T18:16:39.900+0000] {logging_mixin.py:190} INFO - [2025-01-21T18:16:39.899+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-01-21T18:16:39.912+0000] {logging_mixin.py:190} INFO - [2025-01-21T18:16:39.912+0000] {dag.py:4180} INFO - Setting next_dagrun for DAG_AWS_PIPELINE to None, run_after=None
+[2025-01-21T18:16:39.931+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/DAG_AWS_PIPELINE.py took 0.141 seconds
+[2025-01-21T18:17:10.421+0000] {processor.py:186} INFO - Started process (PID=33164) to work on /opt/airflow/dags/DAG_AWS_PIPELINE.py
+[2025-01-21T18:17:10.422+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/DAG_AWS_PIPELINE.py for tasks to queue
+[2025-01-21T18:17:10.423+0000] {logging_mixin.py:190} INFO - [2025-01-21T18:17:10.422+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/DAG_AWS_PIPELINE.py
+[2025-01-21T18:17:10.430+0000] {processor.py:925} INFO - DAG(s) 'DAG_AWS_PIPELINE' retrieved from /opt/airflow/dags/DAG_AWS_PIPELINE.py
+[2025-01-21T18:17:10.449+0000] {logging_mixin.py:190} INFO - [2025-01-21T18:17:10.449+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-01-21T18:17:10.462+0000] {logging_mixin.py:190} INFO - [2025-01-21T18:17:10.462+0000] {dag.py:4180} INFO - Setting next_dagrun for DAG_AWS_PIPELINE to None, run_after=None
+[2025-01-21T18:17:10.478+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/DAG_AWS_PIPELINE.py took 0.062 seconds
+[2025-01-21T18:17:40.644+0000] {processor.py:186} INFO - Started process (PID=33227) to work on /opt/airflow/dags/DAG_AWS_PIPELINE.py
+[2025-01-21T18:17:40.645+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/DAG_AWS_PIPELINE.py for tasks to queue
+[2025-01-21T18:17:40.645+0000] {logging_mixin.py:190} INFO - [2025-01-21T18:17:40.645+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/DAG_AWS_PIPELINE.py
+[2025-01-21T18:17:40.653+0000] {processor.py:925} INFO - DAG(s) 'DAG_AWS_PIPELINE' retrieved from /opt/airflow/dags/DAG_AWS_PIPELINE.py
+[2025-01-21T18:17:40.672+0000] {logging_mixin.py:190} INFO - [2025-01-21T18:17:40.672+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-01-21T18:17:40.685+0000] {logging_mixin.py:190} INFO - [2025-01-21T18:17:40.684+0000] {dag.py:4180} INFO - Setting next_dagrun for DAG_AWS_PIPELINE to None, run_after=None
+[2025-01-21T18:17:40.702+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/DAG_AWS_PIPELINE.py took 0.063 seconds
+[2025-01-21T18:18:10.782+0000] {processor.py:186} INFO - Started process (PID=33286) to work on /opt/airflow/dags/DAG_AWS_PIPELINE.py
+[2025-01-21T18:18:10.783+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/DAG_AWS_PIPELINE.py for tasks to queue
+[2025-01-21T18:18:10.784+0000] {logging_mixin.py:190} INFO - [2025-01-21T18:18:10.784+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/DAG_AWS_PIPELINE.py
+[2025-01-21T18:18:10.791+0000] {processor.py:925} INFO - DAG(s) 'DAG_AWS_PIPELINE' retrieved from /opt/airflow/dags/DAG_AWS_PIPELINE.py
+[2025-01-21T18:18:10.813+0000] {logging_mixin.py:190} INFO - [2025-01-21T18:18:10.812+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-01-21T18:18:10.827+0000] {logging_mixin.py:190} INFO - [2025-01-21T18:18:10.827+0000] {dag.py:4180} INFO - Setting next_dagrun for DAG_AWS_PIPELINE to None, run_after=None
+[2025-01-21T18:18:10.845+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/DAG_AWS_PIPELINE.py took 0.067 seconds
+[2025-01-21T18:18:41.134+0000] {processor.py:186} INFO - Started process (PID=33355) to work on /opt/airflow/dags/DAG_AWS_PIPELINE.py
+[2025-01-21T18:18:41.135+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/DAG_AWS_PIPELINE.py for tasks to queue
+[2025-01-21T18:18:41.136+0000] {logging_mixin.py:190} INFO - [2025-01-21T18:18:41.135+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/DAG_AWS_PIPELINE.py
+[2025-01-21T18:18:41.143+0000] {processor.py:925} INFO - DAG(s) 'DAG_AWS_PIPELINE' retrieved from /opt/airflow/dags/DAG_AWS_PIPELINE.py
+[2025-01-21T18:18:41.164+0000] {logging_mixin.py:190} INFO - [2025-01-21T18:18:41.164+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-01-21T18:18:41.176+0000] {logging_mixin.py:190} INFO - [2025-01-21T18:18:41.176+0000] {dag.py:4180} INFO - Setting next_dagrun for DAG_AWS_PIPELINE to None, run_after=None
+[2025-01-21T18:18:41.194+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/DAG_AWS_PIPELINE.py took 0.065 seconds
+[2025-01-21T18:19:11.369+0000] {processor.py:186} INFO - Started process (PID=33414) to work on /opt/airflow/dags/DAG_AWS_PIPELINE.py
+[2025-01-21T18:19:11.378+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/DAG_AWS_PIPELINE.py for tasks to queue
+[2025-01-21T18:19:11.379+0000] {logging_mixin.py:190} INFO - [2025-01-21T18:19:11.379+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/DAG_AWS_PIPELINE.py
+[2025-01-21T18:19:11.386+0000] {processor.py:925} INFO - DAG(s) 'DAG_AWS_PIPELINE' retrieved from /opt/airflow/dags/DAG_AWS_PIPELINE.py
+[2025-01-21T18:19:11.407+0000] {logging_mixin.py:190} INFO - [2025-01-21T18:19:11.406+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-01-21T18:19:11.421+0000] {logging_mixin.py:190} INFO - [2025-01-21T18:19:11.421+0000] {dag.py:4180} INFO - Setting next_dagrun for DAG_AWS_PIPELINE to None, run_after=None
+[2025-01-21T18:19:11.440+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/DAG_AWS_PIPELINE.py took 0.076 seconds
+[2025-01-21T18:19:41.825+0000] {processor.py:186} INFO - Started process (PID=33478) to work on /opt/airflow/dags/DAG_AWS_PIPELINE.py
+[2025-01-21T18:19:41.835+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/DAG_AWS_PIPELINE.py for tasks to queue
+[2025-01-21T18:19:41.836+0000] {logging_mixin.py:190} INFO - [2025-01-21T18:19:41.836+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/DAG_AWS_PIPELINE.py
+[2025-01-21T18:19:41.843+0000] {processor.py:925} INFO - DAG(s) 'DAG_AWS_PIPELINE' retrieved from /opt/airflow/dags/DAG_AWS_PIPELINE.py
+[2025-01-21T18:19:41.863+0000] {logging_mixin.py:190} INFO - [2025-01-21T18:19:41.863+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-01-21T18:19:41.876+0000] {logging_mixin.py:190} INFO - [2025-01-21T18:19:41.876+0000] {dag.py:4180} INFO - Setting next_dagrun for DAG_AWS_PIPELINE to None, run_after=None
+[2025-01-21T18:19:41.893+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/DAG_AWS_PIPELINE.py took 0.073 seconds
+[2025-01-21T18:20:12.253+0000] {processor.py:186} INFO - Started process (PID=33542) to work on /opt/airflow/dags/DAG_AWS_PIPELINE.py
+[2025-01-21T18:20:12.262+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/DAG_AWS_PIPELINE.py for tasks to queue
+[2025-01-21T18:20:12.263+0000] {logging_mixin.py:190} INFO - [2025-01-21T18:20:12.263+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/DAG_AWS_PIPELINE.py
+[2025-01-21T18:20:12.271+0000] {processor.py:925} INFO - DAG(s) 'DAG_AWS_PIPELINE' retrieved from /opt/airflow/dags/DAG_AWS_PIPELINE.py
+[2025-01-21T18:20:12.292+0000] {logging_mixin.py:190} INFO - [2025-01-21T18:20:12.292+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-01-21T18:20:12.305+0000] {logging_mixin.py:190} INFO - [2025-01-21T18:20:12.305+0000] {dag.py:4180} INFO - Setting next_dagrun for DAG_AWS_PIPELINE to None, run_after=None
+[2025-01-21T18:20:12.322+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/DAG_AWS_PIPELINE.py took 0.074 seconds
+[2025-01-21T18:20:42.669+0000] {processor.py:186} INFO - Started process (PID=33606) to work on /opt/airflow/dags/DAG_AWS_PIPELINE.py
+[2025-01-21T18:20:42.670+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/DAG_AWS_PIPELINE.py for tasks to queue
+[2025-01-21T18:20:42.671+0000] {logging_mixin.py:190} INFO - [2025-01-21T18:20:42.671+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/DAG_AWS_PIPELINE.py
+[2025-01-21T18:20:42.679+0000] {processor.py:925} INFO - DAG(s) 'DAG_AWS_PIPELINE' retrieved from /opt/airflow/dags/DAG_AWS_PIPELINE.py
+[2025-01-21T18:20:42.701+0000] {logging_mixin.py:190} INFO - [2025-01-21T18:20:42.701+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-01-21T18:20:42.714+0000] {logging_mixin.py:190} INFO - [2025-01-21T18:20:42.714+0000] {dag.py:4180} INFO - Setting next_dagrun for DAG_AWS_PIPELINE to None, run_after=None
+[2025-01-21T18:20:42.730+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/DAG_AWS_PIPELINE.py took 0.066 seconds
+[2025-01-21T18:21:12.781+0000] {processor.py:186} INFO - Started process (PID=33670) to work on /opt/airflow/dags/DAG_AWS_PIPELINE.py
+[2025-01-21T18:21:12.790+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/DAG_AWS_PIPELINE.py for tasks to queue
+[2025-01-21T18:21:12.791+0000] {logging_mixin.py:190} INFO - [2025-01-21T18:21:12.791+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/DAG_AWS_PIPELINE.py
+[2025-01-21T18:21:12.799+0000] {processor.py:925} INFO - DAG(s) 'DAG_AWS_PIPELINE' retrieved from /opt/airflow/dags/DAG_AWS_PIPELINE.py
+[2025-01-21T18:21:12.820+0000] {logging_mixin.py:190} INFO - [2025-01-21T18:21:12.820+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-01-21T18:21:12.833+0000] {logging_mixin.py:190} INFO - [2025-01-21T18:21:12.832+0000] {dag.py:4180} INFO - Setting next_dagrun for DAG_AWS_PIPELINE to None, run_after=None
+[2025-01-21T18:21:12.850+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/DAG_AWS_PIPELINE.py took 0.074 seconds
+[2025-01-21T18:21:43.165+0000] {processor.py:186} INFO - Started process (PID=33734) to work on /opt/airflow/dags/DAG_AWS_PIPELINE.py
+[2025-01-21T18:21:43.175+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/DAG_AWS_PIPELINE.py for tasks to queue
+[2025-01-21T18:21:43.176+0000] {logging_mixin.py:190} INFO - [2025-01-21T18:21:43.176+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/DAG_AWS_PIPELINE.py
+[2025-01-21T18:21:43.184+0000] {processor.py:925} INFO - DAG(s) 'DAG_AWS_PIPELINE' retrieved from /opt/airflow/dags/DAG_AWS_PIPELINE.py
+[2025-01-21T18:21:43.204+0000] {logging_mixin.py:190} INFO - [2025-01-21T18:21:43.204+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-01-21T18:21:43.217+0000] {logging_mixin.py:190} INFO - [2025-01-21T18:21:43.217+0000] {dag.py:4180} INFO - Setting next_dagrun for DAG_AWS_PIPELINE to None, run_after=None
+[2025-01-21T18:21:43.234+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/DAG_AWS_PIPELINE.py took 0.074 seconds
+[2025-01-21T18:22:13.330+0000] {processor.py:186} INFO - Started process (PID=33798) to work on /opt/airflow/dags/DAG_AWS_PIPELINE.py
+[2025-01-21T18:22:13.333+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/DAG_AWS_PIPELINE.py for tasks to queue
+[2025-01-21T18:22:13.334+0000] {logging_mixin.py:190} INFO - [2025-01-21T18:22:13.334+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/DAG_AWS_PIPELINE.py
+[2025-01-21T18:22:13.342+0000] {processor.py:925} INFO - DAG(s) 'DAG_AWS_PIPELINE' retrieved from /opt/airflow/dags/DAG_AWS_PIPELINE.py
+[2025-01-21T18:22:13.364+0000] {logging_mixin.py:190} INFO - [2025-01-21T18:22:13.364+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-01-21T18:22:13.377+0000] {logging_mixin.py:190} INFO - [2025-01-21T18:22:13.377+0000] {dag.py:4180} INFO - Setting next_dagrun for DAG_AWS_PIPELINE to None, run_after=None
+[2025-01-21T18:22:13.395+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/DAG_AWS_PIPELINE.py took 0.070 seconds
+[2025-01-21T18:22:44.229+0000] {processor.py:186} INFO - Started process (PID=33862) to work on /opt/airflow/dags/DAG_AWS_PIPELINE.py
+[2025-01-21T18:22:44.239+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/DAG_AWS_PIPELINE.py for tasks to queue
+[2025-01-21T18:22:44.240+0000] {logging_mixin.py:190} INFO - [2025-01-21T18:22:44.240+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/DAG_AWS_PIPELINE.py
+[2025-01-21T18:22:44.248+0000] {processor.py:925} INFO - DAG(s) 'DAG_AWS_PIPELINE' retrieved from /opt/airflow/dags/DAG_AWS_PIPELINE.py
+[2025-01-21T18:22:44.267+0000] {logging_mixin.py:190} INFO - [2025-01-21T18:22:44.267+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-01-21T18:22:44.280+0000] {logging_mixin.py:190} INFO - [2025-01-21T18:22:44.279+0000] {dag.py:4180} INFO - Setting next_dagrun for DAG_AWS_PIPELINE to None, run_after=None
+[2025-01-21T18:22:44.297+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/DAG_AWS_PIPELINE.py took 0.073 seconds
+[2025-01-21T18:23:14.547+0000] {processor.py:186} INFO - Started process (PID=33926) to work on /opt/airflow/dags/DAG_AWS_PIPELINE.py
+[2025-01-21T18:23:14.557+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/DAG_AWS_PIPELINE.py for tasks to queue
+[2025-01-21T18:23:14.558+0000] {logging_mixin.py:190} INFO - [2025-01-21T18:23:14.558+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/DAG_AWS_PIPELINE.py
+[2025-01-21T18:23:14.566+0000] {processor.py:925} INFO - DAG(s) 'DAG_AWS_PIPELINE' retrieved from /opt/airflow/dags/DAG_AWS_PIPELINE.py
+[2025-01-21T18:23:14.587+0000] {logging_mixin.py:190} INFO - [2025-01-21T18:23:14.586+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-01-21T18:23:14.599+0000] {logging_mixin.py:190} INFO - [2025-01-21T18:23:14.599+0000] {dag.py:4180} INFO - Setting next_dagrun for DAG_AWS_PIPELINE to None, run_after=None
+[2025-01-21T18:23:14.616+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/DAG_AWS_PIPELINE.py took 0.075 seconds
+[2025-01-21T18:23:45.608+0000] {processor.py:186} INFO - Started process (PID=33990) to work on /opt/airflow/dags/DAG_AWS_PIPELINE.py
+[2025-01-21T18:23:45.618+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/DAG_AWS_PIPELINE.py for tasks to queue
+[2025-01-21T18:23:45.619+0000] {logging_mixin.py:190} INFO - [2025-01-21T18:23:45.619+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/DAG_AWS_PIPELINE.py
+[2025-01-21T18:23:45.627+0000] {processor.py:925} INFO - DAG(s) 'DAG_AWS_PIPELINE' retrieved from /opt/airflow/dags/DAG_AWS_PIPELINE.py
+[2025-01-21T18:23:45.647+0000] {logging_mixin.py:190} INFO - [2025-01-21T18:23:45.647+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-01-21T18:23:45.661+0000] {logging_mixin.py:190} INFO - [2025-01-21T18:23:45.661+0000] {dag.py:4180} INFO - Setting next_dagrun for DAG_AWS_PIPELINE to None, run_after=None
+[2025-01-21T18:23:45.678+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/DAG_AWS_PIPELINE.py took 0.074 seconds
+[2025-01-21T18:24:16.403+0000] {processor.py:186} INFO - Started process (PID=34054) to work on /opt/airflow/dags/DAG_AWS_PIPELINE.py
+[2025-01-21T18:24:16.405+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/DAG_AWS_PIPELINE.py for tasks to queue
+[2025-01-21T18:24:16.406+0000] {logging_mixin.py:190} INFO - [2025-01-21T18:24:16.406+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/DAG_AWS_PIPELINE.py
+[2025-01-21T18:24:16.415+0000] {processor.py:925} INFO - DAG(s) 'DAG_AWS_PIPELINE' retrieved from /opt/airflow/dags/DAG_AWS_PIPELINE.py
+[2025-01-21T18:24:16.437+0000] {logging_mixin.py:190} INFO - [2025-01-21T18:24:16.437+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-01-21T18:24:16.450+0000] {logging_mixin.py:190} INFO - [2025-01-21T18:24:16.450+0000] {dag.py:4180} INFO - Setting next_dagrun for DAG_AWS_PIPELINE to None, run_after=None
+[2025-01-21T18:24:16.469+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/DAG_AWS_PIPELINE.py took 0.071 seconds
+[2025-01-21T18:24:47.331+0000] {processor.py:186} INFO - Started process (PID=34118) to work on /opt/airflow/dags/DAG_AWS_PIPELINE.py
+[2025-01-21T18:24:47.332+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/DAG_AWS_PIPELINE.py for tasks to queue
+[2025-01-21T18:24:47.333+0000] {logging_mixin.py:190} INFO - [2025-01-21T18:24:47.333+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/DAG_AWS_PIPELINE.py
+[2025-01-21T18:24:47.341+0000] {processor.py:925} INFO - DAG(s) 'DAG_AWS_PIPELINE' retrieved from /opt/airflow/dags/DAG_AWS_PIPELINE.py
+[2025-01-21T18:24:47.364+0000] {logging_mixin.py:190} INFO - [2025-01-21T18:24:47.364+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-01-21T18:24:47.378+0000] {logging_mixin.py:190} INFO - [2025-01-21T18:24:47.378+0000] {dag.py:4180} INFO - Setting next_dagrun for DAG_AWS_PIPELINE to None, run_after=None
+[2025-01-21T18:24:47.396+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/DAG_AWS_PIPELINE.py took 0.070 seconds
+[2025-01-21T18:25:17.560+0000] {processor.py:186} INFO - Started process (PID=34182) to work on /opt/airflow/dags/DAG_AWS_PIPELINE.py
+[2025-01-21T18:25:17.561+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/DAG_AWS_PIPELINE.py for tasks to queue
+[2025-01-21T18:25:17.562+0000] {logging_mixin.py:190} INFO - [2025-01-21T18:25:17.562+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/DAG_AWS_PIPELINE.py
+[2025-01-21T18:25:17.569+0000] {processor.py:925} INFO - DAG(s) 'DAG_AWS_PIPELINE' retrieved from /opt/airflow/dags/DAG_AWS_PIPELINE.py
+[2025-01-21T18:25:17.590+0000] {logging_mixin.py:190} INFO - [2025-01-21T18:25:17.590+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-01-21T18:25:17.602+0000] {logging_mixin.py:190} INFO - [2025-01-21T18:25:17.602+0000] {dag.py:4180} INFO - Setting next_dagrun for DAG_AWS_PIPELINE to None, run_after=None
+[2025-01-21T18:25:17.618+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/DAG_AWS_PIPELINE.py took 0.062 seconds
+[2025-01-21T18:25:47.964+0000] {processor.py:186} INFO - Started process (PID=34252) to work on /opt/airflow/dags/DAG_AWS_PIPELINE.py
+[2025-01-21T18:25:47.965+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/DAG_AWS_PIPELINE.py for tasks to queue
+[2025-01-21T18:25:47.966+0000] {logging_mixin.py:190} INFO - [2025-01-21T18:25:47.965+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/DAG_AWS_PIPELINE.py
+[2025-01-21T18:25:47.972+0000] {processor.py:925} INFO - DAG(s) 'DAG_AWS_PIPELINE' retrieved from /opt/airflow/dags/DAG_AWS_PIPELINE.py
+[2025-01-21T18:25:47.991+0000] {logging_mixin.py:190} INFO - [2025-01-21T18:25:47.991+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-01-21T18:25:48.003+0000] {logging_mixin.py:190} INFO - [2025-01-21T18:25:48.002+0000] {dag.py:4180} INFO - Setting next_dagrun for DAG_AWS_PIPELINE to None, run_after=None
+[2025-01-21T18:25:48.018+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/DAG_AWS_PIPELINE.py took 0.058 seconds
+[2025-01-21T18:26:18.940+0000] {processor.py:186} INFO - Started process (PID=34314) to work on /opt/airflow/dags/DAG_AWS_PIPELINE.py
+[2025-01-21T18:26:18.941+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/DAG_AWS_PIPELINE.py for tasks to queue
+[2025-01-21T18:26:18.942+0000] {logging_mixin.py:190} INFO - [2025-01-21T18:26:18.942+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/DAG_AWS_PIPELINE.py
+[2025-01-21T18:26:18.951+0000] {processor.py:925} INFO - DAG(s) 'DAG_AWS_PIPELINE' retrieved from /opt/airflow/dags/DAG_AWS_PIPELINE.py
+[2025-01-21T18:26:18.974+0000] {logging_mixin.py:190} INFO - [2025-01-21T18:26:18.974+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-01-21T18:26:18.987+0000] {logging_mixin.py:190} INFO - [2025-01-21T18:26:18.987+0000] {dag.py:4180} INFO - Setting next_dagrun for DAG_AWS_PIPELINE to None, run_after=None
+[2025-01-21T18:26:19.005+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/DAG_AWS_PIPELINE.py took 0.070 seconds
+[2025-01-21T18:26:49.070+0000] {processor.py:186} INFO - Started process (PID=34378) to work on /opt/airflow/dags/DAG_AWS_PIPELINE.py
+[2025-01-21T18:26:49.071+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/DAG_AWS_PIPELINE.py for tasks to queue
+[2025-01-21T18:26:49.072+0000] {logging_mixin.py:190} INFO - [2025-01-21T18:26:49.072+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/DAG_AWS_PIPELINE.py
+[2025-01-21T18:26:49.080+0000] {processor.py:925} INFO - DAG(s) 'DAG_AWS_PIPELINE' retrieved from /opt/airflow/dags/DAG_AWS_PIPELINE.py
+[2025-01-21T18:26:49.104+0000] {logging_mixin.py:190} INFO - [2025-01-21T18:26:49.104+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-01-21T18:26:49.117+0000] {logging_mixin.py:190} INFO - [2025-01-21T18:26:49.117+0000] {dag.py:4180} INFO - Setting next_dagrun for DAG_AWS_PIPELINE to None, run_after=None
+[2025-01-21T18:26:49.135+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/DAG_AWS_PIPELINE.py took 0.070 seconds
+[2025-01-21T18:27:19.427+0000] {processor.py:186} INFO - Started process (PID=34442) to work on /opt/airflow/dags/DAG_AWS_PIPELINE.py
+[2025-01-21T18:27:19.437+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/DAG_AWS_PIPELINE.py for tasks to queue
+[2025-01-21T18:27:19.438+0000] {logging_mixin.py:190} INFO - [2025-01-21T18:27:19.438+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/DAG_AWS_PIPELINE.py
+[2025-01-21T18:27:19.446+0000] {processor.py:925} INFO - DAG(s) 'DAG_AWS_PIPELINE' retrieved from /opt/airflow/dags/DAG_AWS_PIPELINE.py
+[2025-01-21T18:27:19.467+0000] {logging_mixin.py:190} INFO - [2025-01-21T18:27:19.466+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-01-21T18:27:19.480+0000] {logging_mixin.py:190} INFO - [2025-01-21T18:27:19.480+0000] {dag.py:4180} INFO - Setting next_dagrun for DAG_AWS_PIPELINE to None, run_after=None
+[2025-01-21T18:27:19.498+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/DAG_AWS_PIPELINE.py took 0.076 seconds
+[2025-01-21T18:27:49.547+0000] {processor.py:186} INFO - Started process (PID=34506) to work on /opt/airflow/dags/DAG_AWS_PIPELINE.py
+[2025-01-21T18:27:49.548+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/DAG_AWS_PIPELINE.py for tasks to queue
+[2025-01-21T18:27:49.549+0000] {logging_mixin.py:190} INFO - [2025-01-21T18:27:49.549+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/DAG_AWS_PIPELINE.py
+[2025-01-21T18:27:49.558+0000] {processor.py:925} INFO - DAG(s) 'DAG_AWS_PIPELINE' retrieved from /opt/airflow/dags/DAG_AWS_PIPELINE.py
+[2025-01-21T18:27:49.583+0000] {logging_mixin.py:190} INFO - [2025-01-21T18:27:49.583+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-01-21T18:27:49.598+0000] {logging_mixin.py:190} INFO - [2025-01-21T18:27:49.597+0000] {dag.py:4180} INFO - Setting next_dagrun for DAG_AWS_PIPELINE to None, run_after=None
+[2025-01-21T18:27:49.616+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/DAG_AWS_PIPELINE.py took 0.074 seconds
+[2025-01-21T18:28:20.004+0000] {processor.py:186} INFO - Started process (PID=34570) to work on /opt/airflow/dags/DAG_AWS_PIPELINE.py
+[2025-01-21T18:28:20.005+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/DAG_AWS_PIPELINE.py for tasks to queue
+[2025-01-21T18:28:20.006+0000] {logging_mixin.py:190} INFO - [2025-01-21T18:28:20.005+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/DAG_AWS_PIPELINE.py
+[2025-01-21T18:28:20.013+0000] {processor.py:925} INFO - DAG(s) 'DAG_AWS_PIPELINE' retrieved from /opt/airflow/dags/DAG_AWS_PIPELINE.py
+[2025-01-21T18:28:20.032+0000] {logging_mixin.py:190} INFO - [2025-01-21T18:28:20.032+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-01-21T18:28:20.044+0000] {logging_mixin.py:190} INFO - [2025-01-21T18:28:20.044+0000] {dag.py:4180} INFO - Setting next_dagrun for DAG_AWS_PIPELINE to None, run_after=None
+[2025-01-21T18:28:20.059+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/DAG_AWS_PIPELINE.py took 0.059 seconds
+[2025-01-21T18:28:49.279+0000] {processor.py:186} INFO - Started process (PID=34632) to work on /opt/airflow/dags/DAG_AWS_PIPELINE.py
+[2025-01-21T18:28:49.280+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/DAG_AWS_PIPELINE.py for tasks to queue
+[2025-01-21T18:28:49.282+0000] {logging_mixin.py:190} INFO - [2025-01-21T18:28:49.281+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/DAG_AWS_PIPELINE.py
+[2025-01-21T18:28:49.292+0000] {processor.py:925} INFO - DAG(s) 'DAG_AWS_PIPELINE' retrieved from /opt/airflow/dags/DAG_AWS_PIPELINE.py
+[2025-01-21T18:28:49.319+0000] {logging_mixin.py:190} INFO - [2025-01-21T18:28:49.319+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-01-21T18:28:49.333+0000] {logging_mixin.py:190} INFO - [2025-01-21T18:28:49.333+0000] {dag.py:4180} INFO - Setting next_dagrun for DAG_AWS_PIPELINE to None, run_after=None
+[2025-01-21T18:28:49.351+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/DAG_AWS_PIPELINE.py took 0.078 seconds
+[2025-01-21T18:29:19.554+0000] {processor.py:186} INFO - Started process (PID=34696) to work on /opt/airflow/dags/DAG_AWS_PIPELINE.py
+[2025-01-21T18:29:19.563+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/DAG_AWS_PIPELINE.py for tasks to queue
+[2025-01-21T18:29:19.565+0000] {logging_mixin.py:190} INFO - [2025-01-21T18:29:19.564+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/DAG_AWS_PIPELINE.py
+[2025-01-21T18:29:19.577+0000] {processor.py:925} INFO - DAG(s) 'DAG_AWS_PIPELINE' retrieved from /opt/airflow/dags/DAG_AWS_PIPELINE.py
+[2025-01-21T18:29:19.607+0000] {logging_mixin.py:190} INFO - [2025-01-21T18:29:19.607+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-01-21T18:29:19.626+0000] {logging_mixin.py:190} INFO - [2025-01-21T18:29:19.626+0000] {dag.py:4180} INFO - Setting next_dagrun for DAG_AWS_PIPELINE to None, run_after=None
+[2025-01-21T18:29:19.661+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/DAG_AWS_PIPELINE.py took 0.113 seconds
+[2025-01-21T18:29:49.819+0000] {processor.py:186} INFO - Started process (PID=34760) to work on /opt/airflow/dags/DAG_AWS_PIPELINE.py
+[2025-01-21T18:29:49.820+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/DAG_AWS_PIPELINE.py for tasks to queue
+[2025-01-21T18:29:49.821+0000] {logging_mixin.py:190} INFO - [2025-01-21T18:29:49.821+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/DAG_AWS_PIPELINE.py
+[2025-01-21T18:29:49.830+0000] {processor.py:925} INFO - DAG(s) 'DAG_AWS_PIPELINE' retrieved from /opt/airflow/dags/DAG_AWS_PIPELINE.py
+[2025-01-21T18:29:49.858+0000] {logging_mixin.py:190} INFO - [2025-01-21T18:29:49.858+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-01-21T18:29:49.874+0000] {logging_mixin.py:190} INFO - [2025-01-21T18:29:49.874+0000] {dag.py:4180} INFO - Setting next_dagrun for DAG_AWS_PIPELINE to None, run_after=None
+[2025-01-21T18:29:49.894+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/DAG_AWS_PIPELINE.py took 0.080 seconds
+[2025-01-21T18:30:20.137+0000] {processor.py:186} INFO - Started process (PID=34818) to work on /opt/airflow/dags/DAG_AWS_PIPELINE.py
+[2025-01-21T18:30:20.139+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/DAG_AWS_PIPELINE.py for tasks to queue
+[2025-01-21T18:30:20.141+0000] {logging_mixin.py:190} INFO - [2025-01-21T18:30:20.140+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/DAG_AWS_PIPELINE.py
+[2025-01-21T18:30:20.149+0000] {processor.py:925} INFO - DAG(s) 'DAG_AWS_PIPELINE' retrieved from /opt/airflow/dags/DAG_AWS_PIPELINE.py
+[2025-01-21T18:30:20.172+0000] {logging_mixin.py:190} INFO - [2025-01-21T18:30:20.172+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-01-21T18:30:20.186+0000] {logging_mixin.py:190} INFO - [2025-01-21T18:30:20.186+0000] {dag.py:4180} INFO - Setting next_dagrun for DAG_AWS_PIPELINE to None, run_after=None
+[2025-01-21T18:30:20.205+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/DAG_AWS_PIPELINE.py took 0.073 seconds
+[2025-01-21T18:30:50.259+0000] {processor.py:186} INFO - Started process (PID=34881) to work on /opt/airflow/dags/DAG_AWS_PIPELINE.py
+[2025-01-21T18:30:50.269+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/DAG_AWS_PIPELINE.py for tasks to queue
+[2025-01-21T18:30:50.270+0000] {logging_mixin.py:190} INFO - [2025-01-21T18:30:50.270+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/DAG_AWS_PIPELINE.py
+[2025-01-21T18:30:50.278+0000] {processor.py:925} INFO - DAG(s) 'DAG_AWS_PIPELINE' retrieved from /opt/airflow/dags/DAG_AWS_PIPELINE.py
+[2025-01-21T18:30:50.300+0000] {logging_mixin.py:190} INFO - [2025-01-21T18:30:50.300+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-01-21T18:30:50.314+0000] {logging_mixin.py:190} INFO - [2025-01-21T18:30:50.313+0000] {dag.py:4180} INFO - Setting next_dagrun for DAG_AWS_PIPELINE to None, run_after=None
+[2025-01-21T18:30:50.331+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/DAG_AWS_PIPELINE.py took 0.077 seconds
+[2025-01-21T18:31:20.846+0000] {processor.py:186} INFO - Started process (PID=34945) to work on /opt/airflow/dags/DAG_AWS_PIPELINE.py
+[2025-01-21T18:31:20.847+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/DAG_AWS_PIPELINE.py for tasks to queue
+[2025-01-21T18:31:20.849+0000] {logging_mixin.py:190} INFO - [2025-01-21T18:31:20.848+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/DAG_AWS_PIPELINE.py
+[2025-01-21T18:31:20.857+0000] {processor.py:925} INFO - DAG(s) 'DAG_AWS_PIPELINE' retrieved from /opt/airflow/dags/DAG_AWS_PIPELINE.py
+[2025-01-21T18:31:20.880+0000] {logging_mixin.py:190} INFO - [2025-01-21T18:31:20.880+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-01-21T18:31:20.894+0000] {logging_mixin.py:190} INFO - [2025-01-21T18:31:20.894+0000] {dag.py:4180} INFO - Setting next_dagrun for DAG_AWS_PIPELINE to None, run_after=None
+[2025-01-21T18:31:20.912+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/DAG_AWS_PIPELINE.py took 0.071 seconds
+[2025-01-21T18:31:50.973+0000] {processor.py:186} INFO - Started process (PID=35010) to work on /opt/airflow/dags/DAG_AWS_PIPELINE.py
+[2025-01-21T18:31:50.975+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/DAG_AWS_PIPELINE.py for tasks to queue
+[2025-01-21T18:31:50.976+0000] {logging_mixin.py:190} INFO - [2025-01-21T18:31:50.975+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/DAG_AWS_PIPELINE.py
+[2025-01-21T18:31:50.984+0000] {processor.py:925} INFO - DAG(s) 'DAG_AWS_PIPELINE' retrieved from /opt/airflow/dags/DAG_AWS_PIPELINE.py
+[2025-01-21T18:31:51.007+0000] {logging_mixin.py:190} INFO - [2025-01-21T18:31:51.006+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-01-21T18:31:51.021+0000] {logging_mixin.py:190} INFO - [2025-01-21T18:31:51.021+0000] {dag.py:4180} INFO - Setting next_dagrun for DAG_AWS_PIPELINE to None, run_after=None
+[2025-01-21T18:31:51.038+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/DAG_AWS_PIPELINE.py took 0.070 seconds
+[2025-01-21T18:32:10.914+0000] {processor.py:186} INFO - Started process (PID=35042) to work on /opt/airflow/dags/DAG_AWS_PIPELINE.py
+[2025-01-21T18:32:10.915+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/DAG_AWS_PIPELINE.py for tasks to queue
+[2025-01-21T18:32:10.916+0000] {logging_mixin.py:190} INFO - [2025-01-21T18:32:10.916+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/DAG_AWS_PIPELINE.py
+[2025-01-21T18:32:10.928+0000] {logging_mixin.py:190} INFO - [2025-01-21T18:32:10.924+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/DAG_AWS_PIPELINE.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/DAG_AWS_PIPELINE.py", line 286, in <module>
+    [transf_articles, transf_blogs, transf_reports] >> Load_Bronze_to_Silver>> Load_Silver_to_Gold >> Execute_procedure_Redshift >> end
+                                                                                                      ^^^^^^^^^^^^^^^^^^^^^^^^^^
+NameError: name 'Execute_procedure_Redshift' is not defined. Did you mean: 'Execute_procedure_stg'?
+[2025-01-21T18:32:10.931+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/DAG_AWS_PIPELINE.py
+[2025-01-21T18:32:10.950+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/DAG_AWS_PIPELINE.py took 0.042 seconds
+[2025-01-21T18:32:41.075+0000] {processor.py:186} INFO - Started process (PID=35106) to work on /opt/airflow/dags/DAG_AWS_PIPELINE.py
+[2025-01-21T18:32:41.086+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/DAG_AWS_PIPELINE.py for tasks to queue
+[2025-01-21T18:32:41.087+0000] {logging_mixin.py:190} INFO - [2025-01-21T18:32:41.087+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/DAG_AWS_PIPELINE.py
+[2025-01-21T18:32:41.098+0000] {logging_mixin.py:190} INFO - [2025-01-21T18:32:41.094+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/DAG_AWS_PIPELINE.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/DAG_AWS_PIPELINE.py", line 286, in <module>
+    [transf_articles, transf_blogs, transf_reports] >> Load_Bronze_to_Silver>> Load_Silver_to_Gold >> Execute_procedure_Redshift >> end
+                                                                                                      ^^^^^^^^^^^^^^^^^^^^^^^^^^
+NameError: name 'Execute_procedure_Redshift' is not defined. Did you mean: 'Execute_procedure_stg'?
+[2025-01-21T18:32:41.102+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/DAG_AWS_PIPELINE.py
+[2025-01-21T18:32:41.120+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/DAG_AWS_PIPELINE.py took 0.051 seconds
+[2025-01-21T18:32:56.363+0000] {processor.py:186} INFO - Started process (PID=35163) to work on /opt/airflow/dags/DAG_AWS_PIPELINE.py
+[2025-01-21T18:32:56.364+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/DAG_AWS_PIPELINE.py for tasks to queue
+[2025-01-21T18:32:56.365+0000] {logging_mixin.py:190} INFO - [2025-01-21T18:32:56.365+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/DAG_AWS_PIPELINE.py
+[2025-01-21T18:32:56.376+0000] {processor.py:925} INFO - DAG(s) 'DAG_AWS_PIPELINE' retrieved from /opt/airflow/dags/DAG_AWS_PIPELINE.py
+[2025-01-21T18:32:56.481+0000] {logging_mixin.py:190} INFO - [2025-01-21T18:32:56.481+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-01-21T18:32:56.494+0000] {logging_mixin.py:190} INFO - [2025-01-21T18:32:56.494+0000] {dag.py:4180} INFO - Setting next_dagrun for DAG_AWS_PIPELINE to None, run_after=None
+[2025-01-21T18:32:56.519+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/DAG_AWS_PIPELINE.py took 0.161 seconds
+[2025-01-21T18:33:15.538+0000] {processor.py:186} INFO - Started process (PID=35185) to work on /opt/airflow/dags/DAG_AWS_PIPELINE.py
+[2025-01-21T18:33:15.540+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/DAG_AWS_PIPELINE.py for tasks to queue
+[2025-01-21T18:33:15.542+0000] {logging_mixin.py:190} INFO - [2025-01-21T18:33:15.541+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/DAG_AWS_PIPELINE.py
+[2025-01-21T18:33:15.552+0000] {processor.py:925} INFO - DAG(s) 'DAG_AWS_PIPELINE' retrieved from /opt/airflow/dags/DAG_AWS_PIPELINE.py
+[2025-01-21T18:33:15.563+0000] {logging_mixin.py:190} INFO - [2025-01-21T18:33:15.563+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-01-21T18:33:15.578+0000] {logging_mixin.py:190} INFO - [2025-01-21T18:33:15.578+0000] {dag.py:4180} INFO - Setting next_dagrun for DAG_AWS_PIPELINE to None, run_after=None
+[2025-01-21T18:33:15.599+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/DAG_AWS_PIPELINE.py took 0.066 seconds
+[2025-01-21T18:33:45.745+0000] {processor.py:186} INFO - Started process (PID=35249) to work on /opt/airflow/dags/DAG_AWS_PIPELINE.py
+[2025-01-21T18:33:45.754+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/DAG_AWS_PIPELINE.py for tasks to queue
+[2025-01-21T18:33:45.755+0000] {logging_mixin.py:190} INFO - [2025-01-21T18:33:45.755+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/DAG_AWS_PIPELINE.py
+[2025-01-21T18:33:45.763+0000] {processor.py:925} INFO - DAG(s) 'DAG_AWS_PIPELINE' retrieved from /opt/airflow/dags/DAG_AWS_PIPELINE.py
+[2025-01-21T18:33:45.786+0000] {logging_mixin.py:190} INFO - [2025-01-21T18:33:45.785+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-01-21T18:33:45.799+0000] {logging_mixin.py:190} INFO - [2025-01-21T18:33:45.799+0000] {dag.py:4180} INFO - Setting next_dagrun for DAG_AWS_PIPELINE to None, run_after=None
+[2025-01-21T18:33:45.817+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/DAG_AWS_PIPELINE.py took 0.077 seconds
+[2025-01-21T18:34:15.997+0000] {processor.py:186} INFO - Started process (PID=35314) to work on /opt/airflow/dags/DAG_AWS_PIPELINE.py
+[2025-01-21T18:34:15.999+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/DAG_AWS_PIPELINE.py for tasks to queue
+[2025-01-21T18:34:16.001+0000] {logging_mixin.py:190} INFO - [2025-01-21T18:34:16.001+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/DAG_AWS_PIPELINE.py
+[2025-01-21T18:34:16.009+0000] {processor.py:925} INFO - DAG(s) 'DAG_AWS_PIPELINE' retrieved from /opt/airflow/dags/DAG_AWS_PIPELINE.py
+[2025-01-21T18:34:16.033+0000] {logging_mixin.py:190} INFO - [2025-01-21T18:34:16.032+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-01-21T18:34:16.046+0000] {logging_mixin.py:190} INFO - [2025-01-21T18:34:16.046+0000] {dag.py:4180} INFO - Setting next_dagrun for DAG_AWS_PIPELINE to None, run_after=None
+[2025-01-21T18:34:16.062+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/DAG_AWS_PIPELINE.py took 0.069 seconds
+[2025-01-21T18:34:46.237+0000] {processor.py:186} INFO - Started process (PID=35378) to work on /opt/airflow/dags/DAG_AWS_PIPELINE.py
+[2025-01-21T18:34:46.247+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/DAG_AWS_PIPELINE.py for tasks to queue
+[2025-01-21T18:34:46.248+0000] {logging_mixin.py:190} INFO - [2025-01-21T18:34:46.248+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/DAG_AWS_PIPELINE.py
+[2025-01-21T18:34:46.256+0000] {processor.py:925} INFO - DAG(s) 'DAG_AWS_PIPELINE' retrieved from /opt/airflow/dags/DAG_AWS_PIPELINE.py
+[2025-01-21T18:34:46.280+0000] {logging_mixin.py:190} INFO - [2025-01-21T18:34:46.279+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-01-21T18:34:46.292+0000] {logging_mixin.py:190} INFO - [2025-01-21T18:34:46.292+0000] {dag.py:4180} INFO - Setting next_dagrun for DAG_AWS_PIPELINE to None, run_after=None
+[2025-01-21T18:34:46.312+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/DAG_AWS_PIPELINE.py took 0.081 seconds
+[2025-01-21T18:35:17.240+0000] {processor.py:186} INFO - Started process (PID=35448) to work on /opt/airflow/dags/DAG_AWS_PIPELINE.py
+[2025-01-21T18:35:17.241+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/DAG_AWS_PIPELINE.py for tasks to queue
+[2025-01-21T18:35:17.242+0000] {logging_mixin.py:190} INFO - [2025-01-21T18:35:17.242+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/DAG_AWS_PIPELINE.py
+[2025-01-21T18:35:17.253+0000] {processor.py:925} INFO - DAG(s) 'DAG_AWS_PIPELINE' retrieved from /opt/airflow/dags/DAG_AWS_PIPELINE.py
+[2025-01-21T18:35:17.277+0000] {logging_mixin.py:190} INFO - [2025-01-21T18:35:17.277+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-01-21T18:35:17.292+0000] {logging_mixin.py:190} INFO - [2025-01-21T18:35:17.291+0000] {dag.py:4180} INFO - Setting next_dagrun for DAG_AWS_PIPELINE to None, run_after=None
+[2025-01-21T18:35:17.308+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/DAG_AWS_PIPELINE.py took 0.074 seconds
+[2025-01-21T18:35:47.657+0000] {processor.py:186} INFO - Started process (PID=35517) to work on /opt/airflow/dags/DAG_AWS_PIPELINE.py
+[2025-01-21T18:35:47.659+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/DAG_AWS_PIPELINE.py for tasks to queue
+[2025-01-21T18:35:47.661+0000] {logging_mixin.py:190} INFO - [2025-01-21T18:35:47.660+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/DAG_AWS_PIPELINE.py
+[2025-01-21T18:35:47.669+0000] {processor.py:925} INFO - DAG(s) 'DAG_AWS_PIPELINE' retrieved from /opt/airflow/dags/DAG_AWS_PIPELINE.py
+[2025-01-21T18:35:47.696+0000] {logging_mixin.py:190} INFO - [2025-01-21T18:35:47.695+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-01-21T18:35:47.714+0000] {logging_mixin.py:190} INFO - [2025-01-21T18:35:47.714+0000] {dag.py:4180} INFO - Setting next_dagrun for DAG_AWS_PIPELINE to None, run_after=None
+[2025-01-21T18:35:47.741+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/DAG_AWS_PIPELINE.py took 0.088 seconds
+[2025-01-21T18:36:18.006+0000] {processor.py:186} INFO - Started process (PID=35581) to work on /opt/airflow/dags/DAG_AWS_PIPELINE.py
+[2025-01-21T18:36:18.008+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/DAG_AWS_PIPELINE.py for tasks to queue
+[2025-01-21T18:36:18.009+0000] {logging_mixin.py:190} INFO - [2025-01-21T18:36:18.009+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/DAG_AWS_PIPELINE.py
+[2025-01-21T18:36:18.019+0000] {processor.py:925} INFO - DAG(s) 'DAG_AWS_PIPELINE' retrieved from /opt/airflow/dags/DAG_AWS_PIPELINE.py
+[2025-01-21T18:36:18.045+0000] {logging_mixin.py:190} INFO - [2025-01-21T18:36:18.044+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-01-21T18:36:18.061+0000] {logging_mixin.py:190} INFO - [2025-01-21T18:36:18.061+0000] {dag.py:4180} INFO - Setting next_dagrun for DAG_AWS_PIPELINE to None, run_after=None
+[2025-01-21T18:36:18.079+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/DAG_AWS_PIPELINE.py took 0.079 seconds
+[2025-01-21T18:36:48.387+0000] {processor.py:186} INFO - Started process (PID=35645) to work on /opt/airflow/dags/DAG_AWS_PIPELINE.py
+[2025-01-21T18:36:48.397+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/DAG_AWS_PIPELINE.py for tasks to queue
+[2025-01-21T18:36:48.398+0000] {logging_mixin.py:190} INFO - [2025-01-21T18:36:48.398+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/DAG_AWS_PIPELINE.py
+[2025-01-21T18:36:48.406+0000] {processor.py:925} INFO - DAG(s) 'DAG_AWS_PIPELINE' retrieved from /opt/airflow/dags/DAG_AWS_PIPELINE.py
+[2025-01-21T18:36:48.428+0000] {logging_mixin.py:190} INFO - [2025-01-21T18:36:48.428+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-01-21T18:36:48.444+0000] {logging_mixin.py:190} INFO - [2025-01-21T18:36:48.444+0000] {dag.py:4180} INFO - Setting next_dagrun for DAG_AWS_PIPELINE to None, run_after=None
+[2025-01-21T18:36:48.463+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/DAG_AWS_PIPELINE.py took 0.082 seconds
+[2025-01-21T18:37:18.692+0000] {processor.py:186} INFO - Started process (PID=35709) to work on /opt/airflow/dags/DAG_AWS_PIPELINE.py
+[2025-01-21T18:37:18.693+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/DAG_AWS_PIPELINE.py for tasks to queue
+[2025-01-21T18:37:18.694+0000] {logging_mixin.py:190} INFO - [2025-01-21T18:37:18.694+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/DAG_AWS_PIPELINE.py
+[2025-01-21T18:37:18.704+0000] {processor.py:925} INFO - DAG(s) 'DAG_AWS_PIPELINE' retrieved from /opt/airflow/dags/DAG_AWS_PIPELINE.py
+[2025-01-21T18:37:18.728+0000] {logging_mixin.py:190} INFO - [2025-01-21T18:37:18.728+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-01-21T18:37:18.741+0000] {logging_mixin.py:190} INFO - [2025-01-21T18:37:18.741+0000] {dag.py:4180} INFO - Setting next_dagrun for DAG_AWS_PIPELINE to None, run_after=None
+[2025-01-21T18:37:18.757+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/DAG_AWS_PIPELINE.py took 0.069 seconds
+[2025-01-21T18:37:49.121+0000] {processor.py:186} INFO - Started process (PID=35773) to work on /opt/airflow/dags/DAG_AWS_PIPELINE.py
+[2025-01-21T18:37:49.122+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/DAG_AWS_PIPELINE.py for tasks to queue
+[2025-01-21T18:37:49.123+0000] {logging_mixin.py:190} INFO - [2025-01-21T18:37:49.123+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/DAG_AWS_PIPELINE.py
+[2025-01-21T18:37:49.133+0000] {processor.py:925} INFO - DAG(s) 'DAG_AWS_PIPELINE' retrieved from /opt/airflow/dags/DAG_AWS_PIPELINE.py
+[2025-01-21T18:37:49.158+0000] {logging_mixin.py:190} INFO - [2025-01-21T18:37:49.157+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-01-21T18:37:49.175+0000] {logging_mixin.py:190} INFO - [2025-01-21T18:37:49.175+0000] {dag.py:4180} INFO - Setting next_dagrun for DAG_AWS_PIPELINE to None, run_after=None
+[2025-01-21T18:37:49.190+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/DAG_AWS_PIPELINE.py took 0.075 seconds
+[2025-01-21T18:38:20.007+0000] {processor.py:186} INFO - Started process (PID=35837) to work on /opt/airflow/dags/DAG_AWS_PIPELINE.py
+[2025-01-21T18:38:20.008+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/DAG_AWS_PIPELINE.py for tasks to queue
+[2025-01-21T18:38:20.009+0000] {logging_mixin.py:190} INFO - [2025-01-21T18:38:20.009+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/DAG_AWS_PIPELINE.py
+[2025-01-21T18:38:20.020+0000] {processor.py:925} INFO - DAG(s) 'DAG_AWS_PIPELINE' retrieved from /opt/airflow/dags/DAG_AWS_PIPELINE.py
+[2025-01-21T18:38:20.047+0000] {logging_mixin.py:190} INFO - [2025-01-21T18:38:20.046+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-01-21T18:38:20.065+0000] {logging_mixin.py:190} INFO - [2025-01-21T18:38:20.065+0000] {dag.py:4180} INFO - Setting next_dagrun for DAG_AWS_PIPELINE to None, run_after=None
+[2025-01-21T18:38:20.092+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/DAG_AWS_PIPELINE.py took 0.090 seconds
+[2025-01-21T18:38:51.069+0000] {processor.py:186} INFO - Started process (PID=35901) to work on /opt/airflow/dags/DAG_AWS_PIPELINE.py
+[2025-01-21T18:38:51.071+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/DAG_AWS_PIPELINE.py for tasks to queue
+[2025-01-21T18:38:51.073+0000] {logging_mixin.py:190} INFO - [2025-01-21T18:38:51.072+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/DAG_AWS_PIPELINE.py
+[2025-01-21T18:38:51.086+0000] {processor.py:925} INFO - DAG(s) 'DAG_AWS_PIPELINE' retrieved from /opt/airflow/dags/DAG_AWS_PIPELINE.py
+[2025-01-21T18:38:51.117+0000] {logging_mixin.py:190} INFO - [2025-01-21T18:38:51.117+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-01-21T18:38:51.140+0000] {logging_mixin.py:190} INFO - [2025-01-21T18:38:51.140+0000] {dag.py:4180} INFO - Setting next_dagrun for DAG_AWS_PIPELINE to None, run_after=None
+[2025-01-21T18:38:51.160+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/DAG_AWS_PIPELINE.py took 0.097 seconds
+[2025-01-21T18:39:21.332+0000] {processor.py:186} INFO - Started process (PID=35965) to work on /opt/airflow/dags/DAG_AWS_PIPELINE.py
+[2025-01-21T18:39:21.333+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/DAG_AWS_PIPELINE.py for tasks to queue
+[2025-01-21T18:39:21.334+0000] {logging_mixin.py:190} INFO - [2025-01-21T18:39:21.334+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/DAG_AWS_PIPELINE.py
+[2025-01-21T18:39:21.346+0000] {processor.py:925} INFO - DAG(s) 'DAG_AWS_PIPELINE' retrieved from /opt/airflow/dags/DAG_AWS_PIPELINE.py
+[2025-01-21T18:39:21.381+0000] {logging_mixin.py:190} INFO - [2025-01-21T18:39:21.381+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-01-21T18:39:21.399+0000] {logging_mixin.py:190} INFO - [2025-01-21T18:39:21.399+0000] {dag.py:4180} INFO - Setting next_dagrun for DAG_AWS_PIPELINE to None, run_after=None
+[2025-01-21T18:39:21.419+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/DAG_AWS_PIPELINE.py took 0.093 seconds
+[2025-01-21T18:39:52.045+0000] {processor.py:186} INFO - Started process (PID=36029) to work on /opt/airflow/dags/DAG_AWS_PIPELINE.py
+[2025-01-21T18:39:52.047+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/DAG_AWS_PIPELINE.py for tasks to queue
+[2025-01-21T18:39:52.048+0000] {logging_mixin.py:190} INFO - [2025-01-21T18:39:52.047+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/DAG_AWS_PIPELINE.py
+[2025-01-21T18:39:52.058+0000] {processor.py:925} INFO - DAG(s) 'DAG_AWS_PIPELINE' retrieved from /opt/airflow/dags/DAG_AWS_PIPELINE.py
+[2025-01-21T18:39:52.081+0000] {logging_mixin.py:190} INFO - [2025-01-21T18:39:52.081+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-01-21T18:39:52.095+0000] {logging_mixin.py:190} INFO - [2025-01-21T18:39:52.094+0000] {dag.py:4180} INFO - Setting next_dagrun for DAG_AWS_PIPELINE to None, run_after=None
+[2025-01-21T18:39:52.110+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/DAG_AWS_PIPELINE.py took 0.070 seconds
+[2025-01-21T18:40:22.277+0000] {processor.py:186} INFO - Started process (PID=36093) to work on /opt/airflow/dags/DAG_AWS_PIPELINE.py
+[2025-01-21T18:40:22.279+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/DAG_AWS_PIPELINE.py for tasks to queue
+[2025-01-21T18:40:22.280+0000] {logging_mixin.py:190} INFO - [2025-01-21T18:40:22.280+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/DAG_AWS_PIPELINE.py
+[2025-01-21T18:40:22.288+0000] {processor.py:925} INFO - DAG(s) 'DAG_AWS_PIPELINE' retrieved from /opt/airflow/dags/DAG_AWS_PIPELINE.py
+[2025-01-21T18:40:22.312+0000] {logging_mixin.py:190} INFO - [2025-01-21T18:40:22.312+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-01-21T18:40:22.327+0000] {logging_mixin.py:190} INFO - [2025-01-21T18:40:22.326+0000] {dag.py:4180} INFO - Setting next_dagrun for DAG_AWS_PIPELINE to None, run_after=None
+[2025-01-21T18:40:22.345+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/DAG_AWS_PIPELINE.py took 0.073 seconds
+[2025-01-21T18:40:52.558+0000] {processor.py:186} INFO - Started process (PID=36157) to work on /opt/airflow/dags/DAG_AWS_PIPELINE.py
+[2025-01-21T18:40:52.568+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/DAG_AWS_PIPELINE.py for tasks to queue
+[2025-01-21T18:40:52.569+0000] {logging_mixin.py:190} INFO - [2025-01-21T18:40:52.569+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/DAG_AWS_PIPELINE.py
+[2025-01-21T18:40:52.577+0000] {processor.py:925} INFO - DAG(s) 'DAG_AWS_PIPELINE' retrieved from /opt/airflow/dags/DAG_AWS_PIPELINE.py
+[2025-01-21T18:40:52.599+0000] {logging_mixin.py:190} INFO - [2025-01-21T18:40:52.599+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-01-21T18:40:52.612+0000] {logging_mixin.py:190} INFO - [2025-01-21T18:40:52.612+0000] {dag.py:4180} INFO - Setting next_dagrun for DAG_AWS_PIPELINE to None, run_after=None
+[2025-01-21T18:40:52.629+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/DAG_AWS_PIPELINE.py took 0.076 seconds
+[2025-01-21T18:41:23.207+0000] {processor.py:186} INFO - Started process (PID=36221) to work on /opt/airflow/dags/DAG_AWS_PIPELINE.py
+[2025-01-21T18:41:23.208+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/DAG_AWS_PIPELINE.py for tasks to queue
+[2025-01-21T18:41:23.209+0000] {logging_mixin.py:190} INFO - [2025-01-21T18:41:23.209+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/DAG_AWS_PIPELINE.py
+[2025-01-21T18:41:23.217+0000] {processor.py:925} INFO - DAG(s) 'DAG_AWS_PIPELINE' retrieved from /opt/airflow/dags/DAG_AWS_PIPELINE.py
+[2025-01-21T18:41:23.239+0000] {logging_mixin.py:190} INFO - [2025-01-21T18:41:23.239+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-01-21T18:41:23.252+0000] {logging_mixin.py:190} INFO - [2025-01-21T18:41:23.251+0000] {dag.py:4180} INFO - Setting next_dagrun for DAG_AWS_PIPELINE to None, run_after=None
+[2025-01-21T18:41:23.266+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/DAG_AWS_PIPELINE.py took 0.063 seconds
+[2025-01-21T18:41:53.397+0000] {processor.py:186} INFO - Started process (PID=36286) to work on /opt/airflow/dags/DAG_AWS_PIPELINE.py
+[2025-01-21T18:41:53.407+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/DAG_AWS_PIPELINE.py for tasks to queue
+[2025-01-21T18:41:53.408+0000] {logging_mixin.py:190} INFO - [2025-01-21T18:41:53.408+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/DAG_AWS_PIPELINE.py
+[2025-01-21T18:41:53.417+0000] {processor.py:925} INFO - DAG(s) 'DAG_AWS_PIPELINE' retrieved from /opt/airflow/dags/DAG_AWS_PIPELINE.py
+[2025-01-21T18:41:53.440+0000] {logging_mixin.py:190} INFO - [2025-01-21T18:41:53.440+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-01-21T18:41:53.453+0000] {logging_mixin.py:190} INFO - [2025-01-21T18:41:53.453+0000] {dag.py:4180} INFO - Setting next_dagrun for DAG_AWS_PIPELINE to None, run_after=None
+[2025-01-21T18:41:53.471+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/DAG_AWS_PIPELINE.py took 0.079 seconds
+[2025-01-21T18:42:24.123+0000] {processor.py:186} INFO - Started process (PID=36356) to work on /opt/airflow/dags/DAG_AWS_PIPELINE.py
+[2025-01-21T18:42:24.125+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/DAG_AWS_PIPELINE.py for tasks to queue
+[2025-01-21T18:42:24.126+0000] {logging_mixin.py:190} INFO - [2025-01-21T18:42:24.126+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/DAG_AWS_PIPELINE.py
+[2025-01-21T18:42:24.135+0000] {processor.py:925} INFO - DAG(s) 'DAG_AWS_PIPELINE' retrieved from /opt/airflow/dags/DAG_AWS_PIPELINE.py
+[2025-01-21T18:42:24.158+0000] {logging_mixin.py:190} INFO - [2025-01-21T18:42:24.158+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-01-21T18:42:24.173+0000] {logging_mixin.py:190} INFO - [2025-01-21T18:42:24.173+0000] {dag.py:4180} INFO - Setting next_dagrun for DAG_AWS_PIPELINE to None, run_after=None
+[2025-01-21T18:42:24.189+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/DAG_AWS_PIPELINE.py took 0.072 seconds
+[2025-01-21T18:42:54.453+0000] {processor.py:186} INFO - Started process (PID=36420) to work on /opt/airflow/dags/DAG_AWS_PIPELINE.py
+[2025-01-21T18:42:54.462+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/DAG_AWS_PIPELINE.py for tasks to queue
+[2025-01-21T18:42:54.464+0000] {logging_mixin.py:190} INFO - [2025-01-21T18:42:54.463+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/DAG_AWS_PIPELINE.py
+[2025-01-21T18:42:54.472+0000] {processor.py:925} INFO - DAG(s) 'DAG_AWS_PIPELINE' retrieved from /opt/airflow/dags/DAG_AWS_PIPELINE.py
+[2025-01-21T18:42:54.494+0000] {logging_mixin.py:190} INFO - [2025-01-21T18:42:54.494+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-01-21T18:42:54.507+0000] {logging_mixin.py:190} INFO - [2025-01-21T18:42:54.507+0000] {dag.py:4180} INFO - Setting next_dagrun for DAG_AWS_PIPELINE to None, run_after=None
+[2025-01-21T18:42:54.524+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/DAG_AWS_PIPELINE.py took 0.076 seconds
+[2025-01-21T18:43:25.299+0000] {processor.py:186} INFO - Started process (PID=36484) to work on /opt/airflow/dags/DAG_AWS_PIPELINE.py
+[2025-01-21T18:43:25.309+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/DAG_AWS_PIPELINE.py for tasks to queue
+[2025-01-21T18:43:25.310+0000] {logging_mixin.py:190} INFO - [2025-01-21T18:43:25.310+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/DAG_AWS_PIPELINE.py
+[2025-01-21T18:43:25.318+0000] {processor.py:925} INFO - DAG(s) 'DAG_AWS_PIPELINE' retrieved from /opt/airflow/dags/DAG_AWS_PIPELINE.py
+[2025-01-21T18:43:25.341+0000] {logging_mixin.py:190} INFO - [2025-01-21T18:43:25.340+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-01-21T18:43:25.354+0000] {logging_mixin.py:190} INFO - [2025-01-21T18:43:25.354+0000] {dag.py:4180} INFO - Setting next_dagrun for DAG_AWS_PIPELINE to None, run_after=None
+[2025-01-21T18:43:25.372+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/DAG_AWS_PIPELINE.py took 0.078 seconds
+[2025-01-21T18:43:55.909+0000] {processor.py:186} INFO - Started process (PID=36548) to work on /opt/airflow/dags/DAG_AWS_PIPELINE.py
+[2025-01-21T18:43:55.910+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/DAG_AWS_PIPELINE.py for tasks to queue
+[2025-01-21T18:43:55.911+0000] {logging_mixin.py:190} INFO - [2025-01-21T18:43:55.911+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/DAG_AWS_PIPELINE.py
+[2025-01-21T18:43:55.920+0000] {processor.py:925} INFO - DAG(s) 'DAG_AWS_PIPELINE' retrieved from /opt/airflow/dags/DAG_AWS_PIPELINE.py
+[2025-01-21T18:43:55.943+0000] {logging_mixin.py:190} INFO - [2025-01-21T18:43:55.942+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-01-21T18:43:55.958+0000] {logging_mixin.py:190} INFO - [2025-01-21T18:43:55.958+0000] {dag.py:4180} INFO - Setting next_dagrun for DAG_AWS_PIPELINE to None, run_after=None
+[2025-01-21T18:43:55.975+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/DAG_AWS_PIPELINE.py took 0.071 seconds
+[2025-01-21T18:44:26.581+0000] {processor.py:186} INFO - Started process (PID=36612) to work on /opt/airflow/dags/DAG_AWS_PIPELINE.py
+[2025-01-21T18:44:26.583+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/DAG_AWS_PIPELINE.py for tasks to queue
+[2025-01-21T18:44:26.584+0000] {logging_mixin.py:190} INFO - [2025-01-21T18:44:26.584+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/DAG_AWS_PIPELINE.py
+[2025-01-21T18:44:26.593+0000] {processor.py:925} INFO - DAG(s) 'DAG_AWS_PIPELINE' retrieved from /opt/airflow/dags/DAG_AWS_PIPELINE.py
+[2025-01-21T18:44:26.618+0000] {logging_mixin.py:190} INFO - [2025-01-21T18:44:26.618+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-01-21T18:44:26.633+0000] {logging_mixin.py:190} INFO - [2025-01-21T18:44:26.633+0000] {dag.py:4180} INFO - Setting next_dagrun for DAG_AWS_PIPELINE to None, run_after=None
+[2025-01-21T18:44:26.649+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/DAG_AWS_PIPELINE.py took 0.075 seconds
+[2025-01-21T18:44:57.600+0000] {processor.py:186} INFO - Started process (PID=36676) to work on /opt/airflow/dags/DAG_AWS_PIPELINE.py
+[2025-01-21T18:44:57.610+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/DAG_AWS_PIPELINE.py for tasks to queue
+[2025-01-21T18:44:57.612+0000] {logging_mixin.py:190} INFO - [2025-01-21T18:44:57.612+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/DAG_AWS_PIPELINE.py
+[2025-01-21T18:44:57.620+0000] {processor.py:925} INFO - DAG(s) 'DAG_AWS_PIPELINE' retrieved from /opt/airflow/dags/DAG_AWS_PIPELINE.py
+[2025-01-21T18:44:57.643+0000] {logging_mixin.py:190} INFO - [2025-01-21T18:44:57.643+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-01-21T18:44:57.657+0000] {logging_mixin.py:190} INFO - [2025-01-21T18:44:57.657+0000] {dag.py:4180} INFO - Setting next_dagrun for DAG_AWS_PIPELINE to None, run_after=None
+[2025-01-21T18:44:57.677+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/DAG_AWS_PIPELINE.py took 0.081 seconds
+[2025-01-21T18:45:27.887+0000] {processor.py:186} INFO - Started process (PID=36740) to work on /opt/airflow/dags/DAG_AWS_PIPELINE.py
+[2025-01-21T18:45:27.888+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/DAG_AWS_PIPELINE.py for tasks to queue
+[2025-01-21T18:45:27.890+0000] {logging_mixin.py:190} INFO - [2025-01-21T18:45:27.889+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/DAG_AWS_PIPELINE.py
+[2025-01-21T18:45:27.899+0000] {processor.py:925} INFO - DAG(s) 'DAG_AWS_PIPELINE' retrieved from /opt/airflow/dags/DAG_AWS_PIPELINE.py
+[2025-01-21T18:45:27.928+0000] {logging_mixin.py:190} INFO - [2025-01-21T18:45:27.928+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-01-21T18:45:27.945+0000] {logging_mixin.py:190} INFO - [2025-01-21T18:45:27.945+0000] {dag.py:4180} INFO - Setting next_dagrun for DAG_AWS_PIPELINE to None, run_after=None
+[2025-01-21T18:45:27.966+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/DAG_AWS_PIPELINE.py took 0.085 seconds
+[2025-01-21T18:45:58.404+0000] {processor.py:186} INFO - Started process (PID=36804) to work on /opt/airflow/dags/DAG_AWS_PIPELINE.py
+[2025-01-21T18:45:58.414+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/DAG_AWS_PIPELINE.py for tasks to queue
+[2025-01-21T18:45:58.415+0000] {logging_mixin.py:190} INFO - [2025-01-21T18:45:58.414+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/DAG_AWS_PIPELINE.py
+[2025-01-21T18:45:58.423+0000] {processor.py:925} INFO - DAG(s) 'DAG_AWS_PIPELINE' retrieved from /opt/airflow/dags/DAG_AWS_PIPELINE.py
+[2025-01-21T18:45:58.446+0000] {logging_mixin.py:190} INFO - [2025-01-21T18:45:58.445+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-01-21T18:45:58.459+0000] {logging_mixin.py:190} INFO - [2025-01-21T18:45:58.459+0000] {dag.py:4180} INFO - Setting next_dagrun for DAG_AWS_PIPELINE to None, run_after=None
+[2025-01-21T18:45:58.475+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/DAG_AWS_PIPELINE.py took 0.076 seconds
+[2025-01-21T18:46:28.564+0000] {processor.py:186} INFO - Started process (PID=36868) to work on /opt/airflow/dags/DAG_AWS_PIPELINE.py
+[2025-01-21T18:46:28.565+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/DAG_AWS_PIPELINE.py for tasks to queue
+[2025-01-21T18:46:28.566+0000] {logging_mixin.py:190} INFO - [2025-01-21T18:46:28.565+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/DAG_AWS_PIPELINE.py
+[2025-01-21T18:46:28.576+0000] {processor.py:925} INFO - DAG(s) 'DAG_AWS_PIPELINE' retrieved from /opt/airflow/dags/DAG_AWS_PIPELINE.py
+[2025-01-21T18:46:28.601+0000] {logging_mixin.py:190} INFO - [2025-01-21T18:46:28.601+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-01-21T18:46:28.616+0000] {logging_mixin.py:190} INFO - [2025-01-21T18:46:28.615+0000] {dag.py:4180} INFO - Setting next_dagrun for DAG_AWS_PIPELINE to None, run_after=None
+[2025-01-21T18:46:28.633+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/DAG_AWS_PIPELINE.py took 0.073 seconds
+[2025-01-21T18:46:58.740+0000] {processor.py:186} INFO - Started process (PID=36932) to work on /opt/airflow/dags/DAG_AWS_PIPELINE.py
+[2025-01-21T18:46:58.749+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/DAG_AWS_PIPELINE.py for tasks to queue
+[2025-01-21T18:46:58.750+0000] {logging_mixin.py:190} INFO - [2025-01-21T18:46:58.750+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/DAG_AWS_PIPELINE.py
+[2025-01-21T18:46:58.758+0000] {processor.py:925} INFO - DAG(s) 'DAG_AWS_PIPELINE' retrieved from /opt/airflow/dags/DAG_AWS_PIPELINE.py
+[2025-01-21T18:46:58.781+0000] {logging_mixin.py:190} INFO - [2025-01-21T18:46:58.781+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-01-21T18:46:58.794+0000] {logging_mixin.py:190} INFO - [2025-01-21T18:46:58.794+0000] {dag.py:4180} INFO - Setting next_dagrun for DAG_AWS_PIPELINE to None, run_after=None
+[2025-01-21T18:46:58.811+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/DAG_AWS_PIPELINE.py took 0.076 seconds
+[2025-01-21T18:47:29.207+0000] {processor.py:186} INFO - Started process (PID=36996) to work on /opt/airflow/dags/DAG_AWS_PIPELINE.py
+[2025-01-21T18:47:29.217+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/DAG_AWS_PIPELINE.py for tasks to queue
+[2025-01-21T18:47:29.218+0000] {logging_mixin.py:190} INFO - [2025-01-21T18:47:29.218+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/DAG_AWS_PIPELINE.py
+[2025-01-21T18:47:29.226+0000] {processor.py:925} INFO - DAG(s) 'DAG_AWS_PIPELINE' retrieved from /opt/airflow/dags/DAG_AWS_PIPELINE.py
+[2025-01-21T18:47:29.247+0000] {logging_mixin.py:190} INFO - [2025-01-21T18:47:29.247+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-01-21T18:47:29.260+0000] {logging_mixin.py:190} INFO - [2025-01-21T18:47:29.260+0000] {dag.py:4180} INFO - Setting next_dagrun for DAG_AWS_PIPELINE to None, run_after=None
+[2025-01-21T18:47:29.278+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/DAG_AWS_PIPELINE.py took 0.077 seconds
+[2025-01-21T18:47:59.854+0000] {processor.py:186} INFO - Started process (PID=37060) to work on /opt/airflow/dags/DAG_AWS_PIPELINE.py
+[2025-01-21T18:47:59.856+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/DAG_AWS_PIPELINE.py for tasks to queue
+[2025-01-21T18:47:59.857+0000] {logging_mixin.py:190} INFO - [2025-01-21T18:47:59.857+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/DAG_AWS_PIPELINE.py
+[2025-01-21T18:47:59.865+0000] {processor.py:925} INFO - DAG(s) 'DAG_AWS_PIPELINE' retrieved from /opt/airflow/dags/DAG_AWS_PIPELINE.py
+[2025-01-21T18:47:59.891+0000] {logging_mixin.py:190} INFO - [2025-01-21T18:47:59.891+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-01-21T18:47:59.905+0000] {logging_mixin.py:190} INFO - [2025-01-21T18:47:59.905+0000] {dag.py:4180} INFO - Setting next_dagrun for DAG_AWS_PIPELINE to None, run_after=None
+[2025-01-21T18:47:59.922+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/DAG_AWS_PIPELINE.py took 0.073 seconds
+[2025-01-21T18:48:30.211+0000] {processor.py:186} INFO - Started process (PID=37124) to work on /opt/airflow/dags/DAG_AWS_PIPELINE.py
+[2025-01-21T18:48:30.212+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/DAG_AWS_PIPELINE.py for tasks to queue
+[2025-01-21T18:48:30.213+0000] {logging_mixin.py:190} INFO - [2025-01-21T18:48:30.213+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/DAG_AWS_PIPELINE.py
+[2025-01-21T18:48:30.221+0000] {processor.py:925} INFO - DAG(s) 'DAG_AWS_PIPELINE' retrieved from /opt/airflow/dags/DAG_AWS_PIPELINE.py
+[2025-01-21T18:48:30.245+0000] {logging_mixin.py:190} INFO - [2025-01-21T18:48:30.245+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-01-21T18:48:30.259+0000] {logging_mixin.py:190} INFO - [2025-01-21T18:48:30.259+0000] {dag.py:4180} INFO - Setting next_dagrun for DAG_AWS_PIPELINE to None, run_after=None
+[2025-01-21T18:48:30.276+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/DAG_AWS_PIPELINE.py took 0.070 seconds
+[2025-01-21T18:49:00.363+0000] {processor.py:186} INFO - Started process (PID=37194) to work on /opt/airflow/dags/DAG_AWS_PIPELINE.py
+[2025-01-21T18:49:00.365+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/DAG_AWS_PIPELINE.py for tasks to queue
+[2025-01-21T18:49:00.366+0000] {logging_mixin.py:190} INFO - [2025-01-21T18:49:00.366+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/DAG_AWS_PIPELINE.py
+[2025-01-21T18:49:00.374+0000] {processor.py:925} INFO - DAG(s) 'DAG_AWS_PIPELINE' retrieved from /opt/airflow/dags/DAG_AWS_PIPELINE.py
+[2025-01-21T18:49:00.398+0000] {logging_mixin.py:190} INFO - [2025-01-21T18:49:00.397+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-01-21T18:49:00.411+0000] {logging_mixin.py:190} INFO - [2025-01-21T18:49:00.411+0000] {dag.py:4180} INFO - Setting next_dagrun for DAG_AWS_PIPELINE to None, run_after=None
+[2025-01-21T18:49:00.427+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/DAG_AWS_PIPELINE.py took 0.071 seconds
+[2025-01-21T18:49:30.499+0000] {processor.py:186} INFO - Started process (PID=37257) to work on /opt/airflow/dags/DAG_AWS_PIPELINE.py
+[2025-01-21T18:49:30.500+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/DAG_AWS_PIPELINE.py for tasks to queue
+[2025-01-21T18:49:30.500+0000] {logging_mixin.py:190} INFO - [2025-01-21T18:49:30.500+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/DAG_AWS_PIPELINE.py
+[2025-01-21T18:49:30.509+0000] {processor.py:925} INFO - DAG(s) 'DAG_AWS_PIPELINE' retrieved from /opt/airflow/dags/DAG_AWS_PIPELINE.py
+[2025-01-21T18:49:30.533+0000] {logging_mixin.py:190} INFO - [2025-01-21T18:49:30.533+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-01-21T18:49:30.548+0000] {logging_mixin.py:190} INFO - [2025-01-21T18:49:30.547+0000] {dag.py:4180} INFO - Setting next_dagrun for DAG_AWS_PIPELINE to None, run_after=None
+[2025-01-21T18:49:30.563+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/DAG_AWS_PIPELINE.py took 0.069 seconds
+[2025-01-21T18:50:01.467+0000] {processor.py:186} INFO - Started process (PID=37320) to work on /opt/airflow/dags/DAG_AWS_PIPELINE.py
+[2025-01-21T18:50:01.476+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/DAG_AWS_PIPELINE.py for tasks to queue
+[2025-01-21T18:50:01.477+0000] {logging_mixin.py:190} INFO - [2025-01-21T18:50:01.477+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/DAG_AWS_PIPELINE.py
+[2025-01-21T18:50:01.486+0000] {processor.py:925} INFO - DAG(s) 'DAG_AWS_PIPELINE' retrieved from /opt/airflow/dags/DAG_AWS_PIPELINE.py
+[2025-01-21T18:50:01.509+0000] {logging_mixin.py:190} INFO - [2025-01-21T18:50:01.509+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-01-21T18:50:01.525+0000] {logging_mixin.py:190} INFO - [2025-01-21T18:50:01.525+0000] {dag.py:4180} INFO - Setting next_dagrun for DAG_AWS_PIPELINE to None, run_after=None
+[2025-01-21T18:50:01.545+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/DAG_AWS_PIPELINE.py took 0.082 seconds
+[2025-01-21T18:50:32.149+0000] {processor.py:186} INFO - Started process (PID=37384) to work on /opt/airflow/dags/DAG_AWS_PIPELINE.py
+[2025-01-21T18:50:32.160+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/DAG_AWS_PIPELINE.py for tasks to queue
+[2025-01-21T18:50:32.162+0000] {logging_mixin.py:190} INFO - [2025-01-21T18:50:32.161+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/DAG_AWS_PIPELINE.py
+[2025-01-21T18:50:32.173+0000] {processor.py:925} INFO - DAG(s) 'DAG_AWS_PIPELINE' retrieved from /opt/airflow/dags/DAG_AWS_PIPELINE.py
+[2025-01-21T18:50:32.201+0000] {logging_mixin.py:190} INFO - [2025-01-21T18:50:32.200+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-01-21T18:50:32.214+0000] {logging_mixin.py:190} INFO - [2025-01-21T18:50:32.214+0000] {dag.py:4180} INFO - Setting next_dagrun for DAG_AWS_PIPELINE to None, run_after=None
+[2025-01-21T18:50:32.234+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/DAG_AWS_PIPELINE.py took 0.091 seconds
+[2025-01-21T18:51:02.579+0000] {processor.py:186} INFO - Started process (PID=37448) to work on /opt/airflow/dags/DAG_AWS_PIPELINE.py
+[2025-01-21T18:51:02.580+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/DAG_AWS_PIPELINE.py for tasks to queue
+[2025-01-21T18:51:02.581+0000] {logging_mixin.py:190} INFO - [2025-01-21T18:51:02.581+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/DAG_AWS_PIPELINE.py
+[2025-01-21T18:51:02.590+0000] {processor.py:925} INFO - DAG(s) 'DAG_AWS_PIPELINE' retrieved from /opt/airflow/dags/DAG_AWS_PIPELINE.py
+[2025-01-21T18:51:02.613+0000] {logging_mixin.py:190} INFO - [2025-01-21T18:51:02.612+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-01-21T18:51:02.626+0000] {logging_mixin.py:190} INFO - [2025-01-21T18:51:02.625+0000] {dag.py:4180} INFO - Setting next_dagrun for DAG_AWS_PIPELINE to None, run_after=None
+[2025-01-21T18:51:02.643+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/DAG_AWS_PIPELINE.py took 0.070 seconds
+[2025-01-21T18:51:33.089+0000] {processor.py:186} INFO - Started process (PID=37515) to work on /opt/airflow/dags/DAG_AWS_PIPELINE.py
+[2025-01-21T18:51:33.091+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/DAG_AWS_PIPELINE.py for tasks to queue
+[2025-01-21T18:51:33.091+0000] {logging_mixin.py:190} INFO - [2025-01-21T18:51:33.091+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/DAG_AWS_PIPELINE.py
+[2025-01-21T18:51:33.099+0000] {processor.py:925} INFO - DAG(s) 'DAG_AWS_PIPELINE' retrieved from /opt/airflow/dags/DAG_AWS_PIPELINE.py
+[2025-01-21T18:51:33.119+0000] {logging_mixin.py:190} INFO - [2025-01-21T18:51:33.119+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-01-21T18:51:33.132+0000] {logging_mixin.py:190} INFO - [2025-01-21T18:51:33.132+0000] {dag.py:4180} INFO - Setting next_dagrun for DAG_AWS_PIPELINE to None, run_after=None
+[2025-01-21T18:51:33.149+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/DAG_AWS_PIPELINE.py took 0.063 seconds
+[2025-01-21T18:52:03.859+0000] {processor.py:186} INFO - Started process (PID=37578) to work on /opt/airflow/dags/DAG_AWS_PIPELINE.py
+[2025-01-21T18:52:03.860+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/DAG_AWS_PIPELINE.py for tasks to queue
+[2025-01-21T18:52:03.861+0000] {logging_mixin.py:190} INFO - [2025-01-21T18:52:03.860+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/DAG_AWS_PIPELINE.py
+[2025-01-21T18:52:03.868+0000] {processor.py:925} INFO - DAG(s) 'DAG_AWS_PIPELINE' retrieved from /opt/airflow/dags/DAG_AWS_PIPELINE.py
+[2025-01-21T18:52:03.890+0000] {logging_mixin.py:190} INFO - [2025-01-21T18:52:03.890+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-01-21T18:52:03.903+0000] {logging_mixin.py:190} INFO - [2025-01-21T18:52:03.903+0000] {dag.py:4180} INFO - Setting next_dagrun for DAG_AWS_PIPELINE to None, run_after=None
+[2025-01-21T18:52:03.920+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/DAG_AWS_PIPELINE.py took 0.064 seconds
+[2025-01-21T18:52:34.207+0000] {processor.py:186} INFO - Started process (PID=37642) to work on /opt/airflow/dags/DAG_AWS_PIPELINE.py
+[2025-01-21T18:52:34.216+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/DAG_AWS_PIPELINE.py for tasks to queue
+[2025-01-21T18:52:34.217+0000] {logging_mixin.py:190} INFO - [2025-01-21T18:52:34.216+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/DAG_AWS_PIPELINE.py
+[2025-01-21T18:52:34.223+0000] {processor.py:925} INFO - DAG(s) 'DAG_AWS_PIPELINE' retrieved from /opt/airflow/dags/DAG_AWS_PIPELINE.py
+[2025-01-21T18:52:34.243+0000] {logging_mixin.py:190} INFO - [2025-01-21T18:52:34.242+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-01-21T18:52:34.255+0000] {logging_mixin.py:190} INFO - [2025-01-21T18:52:34.255+0000] {dag.py:4180} INFO - Setting next_dagrun for DAG_AWS_PIPELINE to None, run_after=None
+[2025-01-21T18:52:34.273+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/DAG_AWS_PIPELINE.py took 0.071 seconds
+[2025-01-21T18:53:04.320+0000] {processor.py:186} INFO - Started process (PID=37706) to work on /opt/airflow/dags/DAG_AWS_PIPELINE.py
+[2025-01-21T18:53:04.321+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/DAG_AWS_PIPELINE.py for tasks to queue
+[2025-01-21T18:53:04.322+0000] {logging_mixin.py:190} INFO - [2025-01-21T18:53:04.322+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/DAG_AWS_PIPELINE.py
+[2025-01-21T18:53:04.329+0000] {processor.py:925} INFO - DAG(s) 'DAG_AWS_PIPELINE' retrieved from /opt/airflow/dags/DAG_AWS_PIPELINE.py
+[2025-01-21T18:53:04.350+0000] {logging_mixin.py:190} INFO - [2025-01-21T18:53:04.349+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-01-21T18:53:04.362+0000] {logging_mixin.py:190} INFO - [2025-01-21T18:53:04.362+0000] {dag.py:4180} INFO - Setting next_dagrun for DAG_AWS_PIPELINE to None, run_after=None
+[2025-01-21T18:53:04.378+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/DAG_AWS_PIPELINE.py took 0.062 seconds
+[2025-01-21T18:53:34.498+0000] {processor.py:186} INFO - Started process (PID=37770) to work on /opt/airflow/dags/DAG_AWS_PIPELINE.py
+[2025-01-21T18:53:34.501+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/DAG_AWS_PIPELINE.py for tasks to queue
+[2025-01-21T18:53:34.503+0000] {logging_mixin.py:190} INFO - [2025-01-21T18:53:34.502+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/DAG_AWS_PIPELINE.py
+[2025-01-21T18:53:34.511+0000] {processor.py:925} INFO - DAG(s) 'DAG_AWS_PIPELINE' retrieved from /opt/airflow/dags/DAG_AWS_PIPELINE.py
+[2025-01-21T18:53:34.535+0000] {logging_mixin.py:190} INFO - [2025-01-21T18:53:34.535+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-01-21T18:53:34.550+0000] {logging_mixin.py:190} INFO - [2025-01-21T18:53:34.549+0000] {dag.py:4180} INFO - Setting next_dagrun for DAG_AWS_PIPELINE to None, run_after=None
+[2025-01-21T18:53:34.569+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/DAG_AWS_PIPELINE.py took 0.076 seconds
+[2025-01-21T18:54:04.634+0000] {processor.py:186} INFO - Started process (PID=37834) to work on /opt/airflow/dags/DAG_AWS_PIPELINE.py
+[2025-01-21T18:54:04.636+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/DAG_AWS_PIPELINE.py for tasks to queue
+[2025-01-21T18:54:04.637+0000] {logging_mixin.py:190} INFO - [2025-01-21T18:54:04.637+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/DAG_AWS_PIPELINE.py
+[2025-01-21T18:54:04.645+0000] {processor.py:925} INFO - DAG(s) 'DAG_AWS_PIPELINE' retrieved from /opt/airflow/dags/DAG_AWS_PIPELINE.py
+[2025-01-21T18:54:04.667+0000] {logging_mixin.py:190} INFO - [2025-01-21T18:54:04.667+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-01-21T18:54:04.681+0000] {logging_mixin.py:190} INFO - [2025-01-21T18:54:04.680+0000] {dag.py:4180} INFO - Setting next_dagrun for DAG_AWS_PIPELINE to None, run_after=None
+[2025-01-21T18:54:04.699+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/DAG_AWS_PIPELINE.py took 0.069 seconds
+[2025-01-21T18:54:34.880+0000] {processor.py:186} INFO - Started process (PID=37898) to work on /opt/airflow/dags/DAG_AWS_PIPELINE.py
+[2025-01-21T18:54:34.889+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/DAG_AWS_PIPELINE.py for tasks to queue
+[2025-01-21T18:54:34.891+0000] {logging_mixin.py:190} INFO - [2025-01-21T18:54:34.891+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/DAG_AWS_PIPELINE.py
+[2025-01-21T18:54:34.899+0000] {processor.py:925} INFO - DAG(s) 'DAG_AWS_PIPELINE' retrieved from /opt/airflow/dags/DAG_AWS_PIPELINE.py
+[2025-01-21T18:54:34.922+0000] {logging_mixin.py:190} INFO - [2025-01-21T18:54:34.922+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-01-21T18:54:34.935+0000] {logging_mixin.py:190} INFO - [2025-01-21T18:54:34.935+0000] {dag.py:4180} INFO - Setting next_dagrun for DAG_AWS_PIPELINE to None, run_after=None
+[2025-01-21T18:54:34.953+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/DAG_AWS_PIPELINE.py took 0.078 seconds
+[2025-01-21T18:55:05.392+0000] {processor.py:186} INFO - Started process (PID=37962) to work on /opt/airflow/dags/DAG_AWS_PIPELINE.py
+[2025-01-21T18:55:05.402+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/DAG_AWS_PIPELINE.py for tasks to queue
+[2025-01-21T18:55:05.403+0000] {logging_mixin.py:190} INFO - [2025-01-21T18:55:05.402+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/DAG_AWS_PIPELINE.py
+[2025-01-21T18:55:05.411+0000] {processor.py:925} INFO - DAG(s) 'DAG_AWS_PIPELINE' retrieved from /opt/airflow/dags/DAG_AWS_PIPELINE.py
+[2025-01-21T18:55:05.433+0000] {logging_mixin.py:190} INFO - [2025-01-21T18:55:05.432+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-01-21T18:55:05.446+0000] {logging_mixin.py:190} INFO - [2025-01-21T18:55:05.445+0000] {dag.py:4180} INFO - Setting next_dagrun for DAG_AWS_PIPELINE to None, run_after=None
+[2025-01-21T18:55:05.465+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/DAG_AWS_PIPELINE.py took 0.077 seconds
+[2025-01-21T18:55:35.693+0000] {processor.py:186} INFO - Started process (PID=38026) to work on /opt/airflow/dags/DAG_AWS_PIPELINE.py
+[2025-01-21T18:55:35.694+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/DAG_AWS_PIPELINE.py for tasks to queue
+[2025-01-21T18:55:35.696+0000] {logging_mixin.py:190} INFO - [2025-01-21T18:55:35.695+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/DAG_AWS_PIPELINE.py
+[2025-01-21T18:55:35.702+0000] {processor.py:925} INFO - DAG(s) 'DAG_AWS_PIPELINE' retrieved from /opt/airflow/dags/DAG_AWS_PIPELINE.py
+[2025-01-21T18:55:35.723+0000] {logging_mixin.py:190} INFO - [2025-01-21T18:55:35.723+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-01-21T18:55:35.735+0000] {logging_mixin.py:190} INFO - [2025-01-21T18:55:35.735+0000] {dag.py:4180} INFO - Setting next_dagrun for DAG_AWS_PIPELINE to None, run_after=None
+[2025-01-21T18:55:35.752+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/DAG_AWS_PIPELINE.py took 0.063 seconds
+[2025-01-21T18:56:06.199+0000] {processor.py:186} INFO - Started process (PID=38095) to work on /opt/airflow/dags/DAG_AWS_PIPELINE.py
+[2025-01-21T18:56:06.200+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/DAG_AWS_PIPELINE.py for tasks to queue
+[2025-01-21T18:56:06.201+0000] {logging_mixin.py:190} INFO - [2025-01-21T18:56:06.201+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/DAG_AWS_PIPELINE.py
+[2025-01-21T18:56:06.208+0000] {processor.py:925} INFO - DAG(s) 'DAG_AWS_PIPELINE' retrieved from /opt/airflow/dags/DAG_AWS_PIPELINE.py
+[2025-01-21T18:56:06.227+0000] {logging_mixin.py:190} INFO - [2025-01-21T18:56:06.227+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-01-21T18:56:06.239+0000] {logging_mixin.py:190} INFO - [2025-01-21T18:56:06.239+0000] {dag.py:4180} INFO - Setting next_dagrun for DAG_AWS_PIPELINE to None, run_after=None
+[2025-01-21T18:56:06.253+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/DAG_AWS_PIPELINE.py took 0.058 seconds
+[2025-01-21T18:56:36.373+0000] {processor.py:186} INFO - Started process (PID=38155) to work on /opt/airflow/dags/DAG_AWS_PIPELINE.py
+[2025-01-21T18:56:36.375+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/DAG_AWS_PIPELINE.py for tasks to queue
+[2025-01-21T18:56:36.376+0000] {logging_mixin.py:190} INFO - [2025-01-21T18:56:36.376+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/DAG_AWS_PIPELINE.py
+[2025-01-21T18:56:36.384+0000] {processor.py:925} INFO - DAG(s) 'DAG_AWS_PIPELINE' retrieved from /opt/airflow/dags/DAG_AWS_PIPELINE.py
+[2025-01-21T18:56:36.406+0000] {logging_mixin.py:190} INFO - [2025-01-21T18:56:36.406+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-01-21T18:56:36.420+0000] {logging_mixin.py:190} INFO - [2025-01-21T18:56:36.420+0000] {dag.py:4180} INFO - Setting next_dagrun for DAG_AWS_PIPELINE to None, run_after=None
+[2025-01-21T18:56:36.438+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/DAG_AWS_PIPELINE.py took 0.070 seconds
+[2025-01-21T18:57:06.547+0000] {processor.py:186} INFO - Started process (PID=38219) to work on /opt/airflow/dags/DAG_AWS_PIPELINE.py
+[2025-01-21T18:57:06.556+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/DAG_AWS_PIPELINE.py for tasks to queue
+[2025-01-21T18:57:06.558+0000] {logging_mixin.py:190} INFO - [2025-01-21T18:57:06.557+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/DAG_AWS_PIPELINE.py
+[2025-01-21T18:57:06.566+0000] {processor.py:925} INFO - DAG(s) 'DAG_AWS_PIPELINE' retrieved from /opt/airflow/dags/DAG_AWS_PIPELINE.py
+[2025-01-21T18:57:06.589+0000] {logging_mixin.py:190} INFO - [2025-01-21T18:57:06.588+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-01-21T18:57:06.603+0000] {logging_mixin.py:190} INFO - [2025-01-21T18:57:06.603+0000] {dag.py:4180} INFO - Setting next_dagrun for DAG_AWS_PIPELINE to None, run_after=None
+[2025-01-21T18:57:06.620+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/DAG_AWS_PIPELINE.py took 0.078 seconds
+[2025-01-21T18:57:37.186+0000] {processor.py:186} INFO - Started process (PID=38283) to work on /opt/airflow/dags/DAG_AWS_PIPELINE.py
+[2025-01-21T18:57:37.196+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/DAG_AWS_PIPELINE.py for tasks to queue
+[2025-01-21T18:57:37.197+0000] {logging_mixin.py:190} INFO - [2025-01-21T18:57:37.197+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/DAG_AWS_PIPELINE.py
+[2025-01-21T18:57:37.208+0000] {processor.py:925} INFO - DAG(s) 'DAG_AWS_PIPELINE' retrieved from /opt/airflow/dags/DAG_AWS_PIPELINE.py
+[2025-01-21T18:57:37.233+0000] {logging_mixin.py:190} INFO - [2025-01-21T18:57:37.232+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-01-21T18:57:37.247+0000] {logging_mixin.py:190} INFO - [2025-01-21T18:57:37.247+0000] {dag.py:4180} INFO - Setting next_dagrun for DAG_AWS_PIPELINE to None, run_after=None
+[2025-01-21T18:57:37.265+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/DAG_AWS_PIPELINE.py took 0.084 seconds
+[2025-01-21T18:58:07.652+0000] {processor.py:186} INFO - Started process (PID=38347) to work on /opt/airflow/dags/DAG_AWS_PIPELINE.py
+[2025-01-21T18:58:07.663+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/DAG_AWS_PIPELINE.py for tasks to queue
+[2025-01-21T18:58:07.664+0000] {logging_mixin.py:190} INFO - [2025-01-21T18:58:07.664+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/DAG_AWS_PIPELINE.py
+[2025-01-21T18:58:07.672+0000] {processor.py:925} INFO - DAG(s) 'DAG_AWS_PIPELINE' retrieved from /opt/airflow/dags/DAG_AWS_PIPELINE.py
+[2025-01-21T18:58:07.693+0000] {logging_mixin.py:190} INFO - [2025-01-21T18:58:07.692+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-01-21T18:58:07.705+0000] {logging_mixin.py:190} INFO - [2025-01-21T18:58:07.705+0000] {dag.py:4180} INFO - Setting next_dagrun for DAG_AWS_PIPELINE to None, run_after=None
+[2025-01-21T18:58:07.721+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/DAG_AWS_PIPELINE.py took 0.073 seconds
+[2025-01-21T18:58:38.431+0000] {processor.py:186} INFO - Started process (PID=38411) to work on /opt/airflow/dags/DAG_AWS_PIPELINE.py
+[2025-01-21T18:58:38.432+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/DAG_AWS_PIPELINE.py for tasks to queue
+[2025-01-21T18:58:38.434+0000] {logging_mixin.py:190} INFO - [2025-01-21T18:58:38.433+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/DAG_AWS_PIPELINE.py
+[2025-01-21T18:58:38.441+0000] {processor.py:925} INFO - DAG(s) 'DAG_AWS_PIPELINE' retrieved from /opt/airflow/dags/DAG_AWS_PIPELINE.py
+[2025-01-21T18:58:38.464+0000] {logging_mixin.py:190} INFO - [2025-01-21T18:58:38.464+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-01-21T18:58:38.644+0000] {logging_mixin.py:190} INFO - [2025-01-21T18:58:38.644+0000] {dag.py:4180} INFO - Setting next_dagrun for DAG_AWS_PIPELINE to None, run_after=None
+[2025-01-21T18:58:38.667+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/DAG_AWS_PIPELINE.py took 0.240 seconds
+[2025-01-21T18:59:09.093+0000] {processor.py:186} INFO - Started process (PID=38475) to work on /opt/airflow/dags/DAG_AWS_PIPELINE.py
+[2025-01-21T18:59:09.095+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/DAG_AWS_PIPELINE.py for tasks to queue
+[2025-01-21T18:59:09.096+0000] {logging_mixin.py:190} INFO - [2025-01-21T18:59:09.096+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/DAG_AWS_PIPELINE.py
+[2025-01-21T18:59:09.104+0000] {processor.py:925} INFO - DAG(s) 'DAG_AWS_PIPELINE' retrieved from /opt/airflow/dags/DAG_AWS_PIPELINE.py
+[2025-01-21T18:59:09.126+0000] {logging_mixin.py:190} INFO - [2025-01-21T18:59:09.125+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-01-21T18:59:09.327+0000] {logging_mixin.py:190} INFO - [2025-01-21T18:59:09.326+0000] {dag.py:4180} INFO - Setting next_dagrun for DAG_AWS_PIPELINE to None, run_after=None
+[2025-01-21T18:59:09.342+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/DAG_AWS_PIPELINE.py took 0.254 seconds
+[2025-01-21T18:59:39.973+0000] {processor.py:186} INFO - Started process (PID=38539) to work on /opt/airflow/dags/DAG_AWS_PIPELINE.py
+[2025-01-21T18:59:39.982+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/DAG_AWS_PIPELINE.py for tasks to queue
+[2025-01-21T18:59:39.984+0000] {logging_mixin.py:190} INFO - [2025-01-21T18:59:39.984+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/DAG_AWS_PIPELINE.py
+[2025-01-21T18:59:39.992+0000] {processor.py:925} INFO - DAG(s) 'DAG_AWS_PIPELINE' retrieved from /opt/airflow/dags/DAG_AWS_PIPELINE.py
+[2025-01-21T18:59:40.014+0000] {logging_mixin.py:190} INFO - [2025-01-21T18:59:40.014+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-01-21T18:59:40.028+0000] {logging_mixin.py:190} INFO - [2025-01-21T18:59:40.028+0000] {dag.py:4180} INFO - Setting next_dagrun for DAG_AWS_PIPELINE to None, run_after=None
+[2025-01-21T18:59:40.049+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/DAG_AWS_PIPELINE.py took 0.080 seconds
+[2025-01-21T19:00:10.270+0000] {processor.py:186} INFO - Started process (PID=38603) to work on /opt/airflow/dags/DAG_AWS_PIPELINE.py
+[2025-01-21T19:00:10.281+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/DAG_AWS_PIPELINE.py for tasks to queue
+[2025-01-21T19:00:10.282+0000] {logging_mixin.py:190} INFO - [2025-01-21T19:00:10.282+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/DAG_AWS_PIPELINE.py
+[2025-01-21T19:00:10.290+0000] {processor.py:925} INFO - DAG(s) 'DAG_AWS_PIPELINE' retrieved from /opt/airflow/dags/DAG_AWS_PIPELINE.py
+[2025-01-21T19:00:10.312+0000] {logging_mixin.py:190} INFO - [2025-01-21T19:00:10.312+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-01-21T19:00:10.326+0000] {logging_mixin.py:190} INFO - [2025-01-21T19:00:10.326+0000] {dag.py:4180} INFO - Setting next_dagrun for DAG_AWS_PIPELINE to None, run_after=None
+[2025-01-21T19:00:10.344+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/DAG_AWS_PIPELINE.py took 0.079 seconds
+[2025-01-21T19:00:40.567+0000] {processor.py:186} INFO - Started process (PID=38667) to work on /opt/airflow/dags/DAG_AWS_PIPELINE.py
+[2025-01-21T19:00:40.570+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/DAG_AWS_PIPELINE.py for tasks to queue
+[2025-01-21T19:00:40.571+0000] {logging_mixin.py:190} INFO - [2025-01-21T19:00:40.570+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/DAG_AWS_PIPELINE.py
+[2025-01-21T19:00:40.580+0000] {processor.py:925} INFO - DAG(s) 'DAG_AWS_PIPELINE' retrieved from /opt/airflow/dags/DAG_AWS_PIPELINE.py
+[2025-01-21T19:00:40.603+0000] {logging_mixin.py:190} INFO - [2025-01-21T19:00:40.602+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-01-21T19:00:40.617+0000] {logging_mixin.py:190} INFO - [2025-01-21T19:00:40.616+0000] {dag.py:4180} INFO - Setting next_dagrun for DAG_AWS_PIPELINE to None, run_after=None
+[2025-01-21T19:00:40.636+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/DAG_AWS_PIPELINE.py took 0.074 seconds

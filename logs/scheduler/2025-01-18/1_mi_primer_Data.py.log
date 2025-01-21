@@ -1,0 +1,497 @@
+[2025-01-18T00:00:01.471+0000] {processor.py:186} INFO - Started process (PID=17341) to work on /opt/airflow/dags/1_mi_primer_Data.py
+[2025-01-18T00:00:01.472+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/1_mi_primer_Data.py for tasks to queue
+[2025-01-18T00:00:01.476+0000] {logging_mixin.py:190} INFO - [2025-01-18T00:00:01.475+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/1_mi_primer_Data.py
+[2025-01-18T00:00:01.488+0000] {processor.py:925} INFO - DAG(s) 'dag_etl_dummy' retrieved from /opt/airflow/dags/1_mi_primer_Data.py
+[2025-01-18T00:00:01.522+0000] {logging_mixin.py:190} INFO - [2025-01-18T00:00:01.522+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-01-18T00:00:01.550+0000] {logging_mixin.py:190} INFO - [2025-01-18T00:00:01.550+0000] {dag.py:4180} INFO - Setting next_dagrun for dag_etl_dummy to None, run_after=None
+[2025-01-18T00:00:01.580+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/1_mi_primer_Data.py took 0.118 seconds
+[2025-01-18T00:00:31.651+0000] {processor.py:186} INFO - Started process (PID=17401) to work on /opt/airflow/dags/1_mi_primer_Data.py
+[2025-01-18T00:00:31.653+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/1_mi_primer_Data.py for tasks to queue
+[2025-01-18T00:00:31.656+0000] {logging_mixin.py:190} INFO - [2025-01-18T00:00:31.655+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/1_mi_primer_Data.py
+[2025-01-18T00:00:31.664+0000] {processor.py:925} INFO - DAG(s) 'dag_etl_dummy' retrieved from /opt/airflow/dags/1_mi_primer_Data.py
+[2025-01-18T00:00:31.688+0000] {logging_mixin.py:190} INFO - [2025-01-18T00:00:31.687+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-01-18T00:00:31.706+0000] {logging_mixin.py:190} INFO - [2025-01-18T00:00:31.706+0000] {dag.py:4180} INFO - Setting next_dagrun for dag_etl_dummy to None, run_after=None
+[2025-01-18T00:00:31.728+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/1_mi_primer_Data.py took 0.083 seconds
+[2025-01-18T00:01:01.778+0000] {processor.py:186} INFO - Started process (PID=17467) to work on /opt/airflow/dags/1_mi_primer_Data.py
+[2025-01-18T00:01:01.780+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/1_mi_primer_Data.py for tasks to queue
+[2025-01-18T00:01:01.782+0000] {logging_mixin.py:190} INFO - [2025-01-18T00:01:01.781+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/1_mi_primer_Data.py
+[2025-01-18T00:01:01.787+0000] {processor.py:925} INFO - DAG(s) 'dag_etl_dummy' retrieved from /opt/airflow/dags/1_mi_primer_Data.py
+[2025-01-18T00:01:01.806+0000] {logging_mixin.py:190} INFO - [2025-01-18T00:01:01.805+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-01-18T00:01:01.821+0000] {logging_mixin.py:190} INFO - [2025-01-18T00:01:01.821+0000] {dag.py:4180} INFO - Setting next_dagrun for dag_etl_dummy to None, run_after=None
+[2025-01-18T00:01:01.841+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/1_mi_primer_Data.py took 0.068 seconds
+[2025-01-18T00:01:32.822+0000] {processor.py:186} INFO - Started process (PID=17534) to work on /opt/airflow/dags/1_mi_primer_Data.py
+[2025-01-18T00:01:32.823+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/1_mi_primer_Data.py for tasks to queue
+[2025-01-18T00:01:32.825+0000] {logging_mixin.py:190} INFO - [2025-01-18T00:01:32.825+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/1_mi_primer_Data.py
+[2025-01-18T00:01:32.832+0000] {processor.py:925} INFO - DAG(s) 'dag_etl_dummy' retrieved from /opt/airflow/dags/1_mi_primer_Data.py
+[2025-01-18T00:01:32.853+0000] {logging_mixin.py:190} INFO - [2025-01-18T00:01:32.853+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-01-18T00:01:32.869+0000] {logging_mixin.py:190} INFO - [2025-01-18T00:01:32.868+0000] {dag.py:4180} INFO - Setting next_dagrun for dag_etl_dummy to None, run_after=None
+[2025-01-18T00:01:32.888+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/1_mi_primer_Data.py took 0.072 seconds
+[2025-01-18T00:02:02.949+0000] {processor.py:186} INFO - Started process (PID=17601) to work on /opt/airflow/dags/1_mi_primer_Data.py
+[2025-01-18T00:02:02.950+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/1_mi_primer_Data.py for tasks to queue
+[2025-01-18T00:02:02.952+0000] {logging_mixin.py:190} INFO - [2025-01-18T00:02:02.952+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/1_mi_primer_Data.py
+[2025-01-18T00:02:02.958+0000] {processor.py:925} INFO - DAG(s) 'dag_etl_dummy' retrieved from /opt/airflow/dags/1_mi_primer_Data.py
+[2025-01-18T00:02:02.976+0000] {logging_mixin.py:190} INFO - [2025-01-18T00:02:02.975+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-01-18T00:02:02.988+0000] {logging_mixin.py:190} INFO - [2025-01-18T00:02:02.988+0000] {dag.py:4180} INFO - Setting next_dagrun for dag_etl_dummy to None, run_after=None
+[2025-01-18T00:02:03.005+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/1_mi_primer_Data.py took 0.061 seconds
+[2025-01-18T00:02:33.120+0000] {processor.py:186} INFO - Started process (PID=17668) to work on /opt/airflow/dags/1_mi_primer_Data.py
+[2025-01-18T00:02:33.122+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/1_mi_primer_Data.py for tasks to queue
+[2025-01-18T00:02:33.125+0000] {logging_mixin.py:190} INFO - [2025-01-18T00:02:33.124+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/1_mi_primer_Data.py
+[2025-01-18T00:02:33.131+0000] {processor.py:925} INFO - DAG(s) 'dag_etl_dummy' retrieved from /opt/airflow/dags/1_mi_primer_Data.py
+[2025-01-18T00:02:33.152+0000] {logging_mixin.py:190} INFO - [2025-01-18T00:02:33.151+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-01-18T00:02:33.166+0000] {logging_mixin.py:190} INFO - [2025-01-18T00:02:33.165+0000] {dag.py:4180} INFO - Setting next_dagrun for dag_etl_dummy to None, run_after=None
+[2025-01-18T00:02:33.182+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/1_mi_primer_Data.py took 0.067 seconds
+[2025-01-18T00:03:03.461+0000] {processor.py:186} INFO - Started process (PID=17736) to work on /opt/airflow/dags/1_mi_primer_Data.py
+[2025-01-18T00:03:03.464+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/1_mi_primer_Data.py for tasks to queue
+[2025-01-18T00:03:03.466+0000] {logging_mixin.py:190} INFO - [2025-01-18T00:03:03.466+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/1_mi_primer_Data.py
+[2025-01-18T00:03:03.473+0000] {processor.py:925} INFO - DAG(s) 'dag_etl_dummy' retrieved from /opt/airflow/dags/1_mi_primer_Data.py
+[2025-01-18T00:03:03.495+0000] {logging_mixin.py:190} INFO - [2025-01-18T00:03:03.494+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-01-18T00:03:03.513+0000] {logging_mixin.py:190} INFO - [2025-01-18T00:03:03.512+0000] {dag.py:4180} INFO - Setting next_dagrun for dag_etl_dummy to None, run_after=None
+[2025-01-18T00:03:03.538+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/1_mi_primer_Data.py took 0.083 seconds
+[2025-01-18T00:03:33.635+0000] {processor.py:186} INFO - Started process (PID=17808) to work on /opt/airflow/dags/1_mi_primer_Data.py
+[2025-01-18T00:03:33.636+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/1_mi_primer_Data.py for tasks to queue
+[2025-01-18T00:03:33.639+0000] {logging_mixin.py:190} INFO - [2025-01-18T00:03:33.639+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/1_mi_primer_Data.py
+[2025-01-18T00:03:33.648+0000] {processor.py:925} INFO - DAG(s) 'dag_etl_dummy' retrieved from /opt/airflow/dags/1_mi_primer_Data.py
+[2025-01-18T00:03:33.677+0000] {logging_mixin.py:190} INFO - [2025-01-18T00:03:33.677+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-01-18T00:03:33.716+0000] {logging_mixin.py:190} INFO - [2025-01-18T00:03:33.716+0000] {dag.py:4180} INFO - Setting next_dagrun for dag_etl_dummy to None, run_after=None
+[2025-01-18T00:03:33.746+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/1_mi_primer_Data.py took 0.118 seconds
+[2025-01-18T00:04:04.103+0000] {processor.py:186} INFO - Started process (PID=17874) to work on /opt/airflow/dags/1_mi_primer_Data.py
+[2025-01-18T00:04:04.105+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/1_mi_primer_Data.py for tasks to queue
+[2025-01-18T00:04:04.107+0000] {logging_mixin.py:190} INFO - [2025-01-18T00:04:04.107+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/1_mi_primer_Data.py
+[2025-01-18T00:04:04.113+0000] {processor.py:925} INFO - DAG(s) 'dag_etl_dummy' retrieved from /opt/airflow/dags/1_mi_primer_Data.py
+[2025-01-18T00:04:04.135+0000] {logging_mixin.py:190} INFO - [2025-01-18T00:04:04.135+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-01-18T00:04:04.150+0000] {logging_mixin.py:190} INFO - [2025-01-18T00:04:04.150+0000] {dag.py:4180} INFO - Setting next_dagrun for dag_etl_dummy to None, run_after=None
+[2025-01-18T00:04:04.170+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/1_mi_primer_Data.py took 0.072 seconds
+[2025-01-18T00:04:34.731+0000] {processor.py:186} INFO - Started process (PID=17941) to work on /opt/airflow/dags/1_mi_primer_Data.py
+[2025-01-18T00:04:34.732+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/1_mi_primer_Data.py for tasks to queue
+[2025-01-18T00:04:34.735+0000] {logging_mixin.py:190} INFO - [2025-01-18T00:04:34.734+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/1_mi_primer_Data.py
+[2025-01-18T00:04:34.742+0000] {processor.py:925} INFO - DAG(s) 'dag_etl_dummy' retrieved from /opt/airflow/dags/1_mi_primer_Data.py
+[2025-01-18T00:04:34.766+0000] {logging_mixin.py:190} INFO - [2025-01-18T00:04:34.766+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-01-18T00:04:34.785+0000] {logging_mixin.py:190} INFO - [2025-01-18T00:04:34.785+0000] {dag.py:4180} INFO - Setting next_dagrun for dag_etl_dummy to None, run_after=None
+[2025-01-18T00:04:34.808+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/1_mi_primer_Data.py took 0.084 seconds
+[2025-01-18T00:05:05.515+0000] {processor.py:186} INFO - Started process (PID=18007) to work on /opt/airflow/dags/1_mi_primer_Data.py
+[2025-01-18T00:05:05.517+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/1_mi_primer_Data.py for tasks to queue
+[2025-01-18T00:05:05.519+0000] {logging_mixin.py:190} INFO - [2025-01-18T00:05:05.519+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/1_mi_primer_Data.py
+[2025-01-18T00:05:05.527+0000] {processor.py:925} INFO - DAG(s) 'dag_etl_dummy' retrieved from /opt/airflow/dags/1_mi_primer_Data.py
+[2025-01-18T00:05:05.553+0000] {logging_mixin.py:190} INFO - [2025-01-18T00:05:05.552+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-01-18T00:05:05.572+0000] {logging_mixin.py:190} INFO - [2025-01-18T00:05:05.571+0000] {dag.py:4180} INFO - Setting next_dagrun for dag_etl_dummy to None, run_after=None
+[2025-01-18T00:05:05.597+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/1_mi_primer_Data.py took 0.090 seconds
+[2025-01-18T00:05:35.937+0000] {processor.py:186} INFO - Started process (PID=18074) to work on /opt/airflow/dags/1_mi_primer_Data.py
+[2025-01-18T00:05:35.940+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/1_mi_primer_Data.py for tasks to queue
+[2025-01-18T00:05:35.943+0000] {logging_mixin.py:190} INFO - [2025-01-18T00:05:35.942+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/1_mi_primer_Data.py
+[2025-01-18T00:05:35.950+0000] {processor.py:925} INFO - DAG(s) 'dag_etl_dummy' retrieved from /opt/airflow/dags/1_mi_primer_Data.py
+[2025-01-18T00:05:35.975+0000] {logging_mixin.py:190} INFO - [2025-01-18T00:05:35.975+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-01-18T00:05:35.994+0000] {logging_mixin.py:190} INFO - [2025-01-18T00:05:35.994+0000] {dag.py:4180} INFO - Setting next_dagrun for dag_etl_dummy to None, run_after=None
+[2025-01-18T00:05:36.017+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/1_mi_primer_Data.py took 0.087 seconds
+[2025-01-18T00:06:06.274+0000] {processor.py:186} INFO - Started process (PID=18141) to work on /opt/airflow/dags/1_mi_primer_Data.py
+[2025-01-18T00:06:06.285+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/1_mi_primer_Data.py for tasks to queue
+[2025-01-18T00:06:06.287+0000] {logging_mixin.py:190} INFO - [2025-01-18T00:06:06.287+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/1_mi_primer_Data.py
+[2025-01-18T00:06:06.294+0000] {processor.py:925} INFO - DAG(s) 'dag_etl_dummy' retrieved from /opt/airflow/dags/1_mi_primer_Data.py
+[2025-01-18T00:06:06.315+0000] {logging_mixin.py:190} INFO - [2025-01-18T00:06:06.315+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-01-18T00:06:06.332+0000] {logging_mixin.py:190} INFO - [2025-01-18T00:06:06.332+0000] {dag.py:4180} INFO - Setting next_dagrun for dag_etl_dummy to None, run_after=None
+[2025-01-18T00:06:06.353+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/1_mi_primer_Data.py took 0.085 seconds
+[2025-01-18T00:06:36.623+0000] {processor.py:186} INFO - Started process (PID=18209) to work on /opt/airflow/dags/1_mi_primer_Data.py
+[2025-01-18T00:06:36.633+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/1_mi_primer_Data.py for tasks to queue
+[2025-01-18T00:06:36.636+0000] {logging_mixin.py:190} INFO - [2025-01-18T00:06:36.635+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/1_mi_primer_Data.py
+[2025-01-18T00:06:36.643+0000] {processor.py:925} INFO - DAG(s) 'dag_etl_dummy' retrieved from /opt/airflow/dags/1_mi_primer_Data.py
+[2025-01-18T00:06:36.670+0000] {logging_mixin.py:190} INFO - [2025-01-18T00:06:36.669+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-01-18T00:06:36.686+0000] {logging_mixin.py:190} INFO - [2025-01-18T00:06:36.685+0000] {dag.py:4180} INFO - Setting next_dagrun for dag_etl_dummy to None, run_after=None
+[2025-01-18T00:06:36.708+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/1_mi_primer_Data.py took 0.092 seconds
+[2025-01-18T00:07:06.843+0000] {processor.py:186} INFO - Started process (PID=18276) to work on /opt/airflow/dags/1_mi_primer_Data.py
+[2025-01-18T00:07:06.845+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/1_mi_primer_Data.py for tasks to queue
+[2025-01-18T00:07:06.847+0000] {logging_mixin.py:190} INFO - [2025-01-18T00:07:06.846+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/1_mi_primer_Data.py
+[2025-01-18T00:07:06.854+0000] {processor.py:925} INFO - DAG(s) 'dag_etl_dummy' retrieved from /opt/airflow/dags/1_mi_primer_Data.py
+[2025-01-18T00:07:06.876+0000] {logging_mixin.py:190} INFO - [2025-01-18T00:07:06.876+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-01-18T00:07:06.894+0000] {logging_mixin.py:190} INFO - [2025-01-18T00:07:06.894+0000] {dag.py:4180} INFO - Setting next_dagrun for dag_etl_dummy to None, run_after=None
+[2025-01-18T00:07:06.917+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/1_mi_primer_Data.py took 0.079 seconds
+[2025-01-18T00:07:37.158+0000] {processor.py:186} INFO - Started process (PID=18343) to work on /opt/airflow/dags/1_mi_primer_Data.py
+[2025-01-18T00:07:37.161+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/1_mi_primer_Data.py for tasks to queue
+[2025-01-18T00:07:37.164+0000] {logging_mixin.py:190} INFO - [2025-01-18T00:07:37.163+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/1_mi_primer_Data.py
+[2025-01-18T00:07:37.174+0000] {processor.py:925} INFO - DAG(s) 'dag_etl_dummy' retrieved from /opt/airflow/dags/1_mi_primer_Data.py
+[2025-01-18T00:07:37.200+0000] {logging_mixin.py:190} INFO - [2025-01-18T00:07:37.199+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-01-18T00:07:37.224+0000] {logging_mixin.py:190} INFO - [2025-01-18T00:07:37.224+0000] {dag.py:4180} INFO - Setting next_dagrun for dag_etl_dummy to None, run_after=None
+[2025-01-18T00:07:37.255+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/1_mi_primer_Data.py took 0.104 seconds
+[2025-01-18T00:08:07.467+0000] {processor.py:186} INFO - Started process (PID=18416) to work on /opt/airflow/dags/1_mi_primer_Data.py
+[2025-01-18T00:08:07.470+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/1_mi_primer_Data.py for tasks to queue
+[2025-01-18T00:08:07.472+0000] {logging_mixin.py:190} INFO - [2025-01-18T00:08:07.472+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/1_mi_primer_Data.py
+[2025-01-18T00:08:07.479+0000] {processor.py:925} INFO - DAG(s) 'dag_etl_dummy' retrieved from /opt/airflow/dags/1_mi_primer_Data.py
+[2025-01-18T00:08:07.502+0000] {logging_mixin.py:190} INFO - [2025-01-18T00:08:07.502+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-01-18T00:08:07.520+0000] {logging_mixin.py:190} INFO - [2025-01-18T00:08:07.519+0000] {dag.py:4180} INFO - Setting next_dagrun for dag_etl_dummy to None, run_after=None
+[2025-01-18T00:08:07.540+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/1_mi_primer_Data.py took 0.079 seconds
+[2025-01-18T00:08:37.806+0000] {processor.py:186} INFO - Started process (PID=18483) to work on /opt/airflow/dags/1_mi_primer_Data.py
+[2025-01-18T00:08:37.807+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/1_mi_primer_Data.py for tasks to queue
+[2025-01-18T00:08:37.810+0000] {logging_mixin.py:190} INFO - [2025-01-18T00:08:37.810+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/1_mi_primer_Data.py
+[2025-01-18T00:08:37.819+0000] {processor.py:925} INFO - DAG(s) 'dag_etl_dummy' retrieved from /opt/airflow/dags/1_mi_primer_Data.py
+[2025-01-18T00:08:37.848+0000] {logging_mixin.py:190} INFO - [2025-01-18T00:08:37.847+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-01-18T00:08:37.869+0000] {logging_mixin.py:190} INFO - [2025-01-18T00:08:37.869+0000] {dag.py:4180} INFO - Setting next_dagrun for dag_etl_dummy to None, run_after=None
+[2025-01-18T00:08:37.901+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/1_mi_primer_Data.py took 0.103 seconds
+[2025-01-18T00:09:08.039+0000] {processor.py:186} INFO - Started process (PID=18551) to work on /opt/airflow/dags/1_mi_primer_Data.py
+[2025-01-18T00:09:08.042+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/1_mi_primer_Data.py for tasks to queue
+[2025-01-18T00:09:08.044+0000] {logging_mixin.py:190} INFO - [2025-01-18T00:09:08.044+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/1_mi_primer_Data.py
+[2025-01-18T00:09:08.050+0000] {processor.py:925} INFO - DAG(s) 'dag_etl_dummy' retrieved from /opt/airflow/dags/1_mi_primer_Data.py
+[2025-01-18T00:09:08.071+0000] {logging_mixin.py:190} INFO - [2025-01-18T00:09:08.071+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-01-18T00:09:08.090+0000] {logging_mixin.py:190} INFO - [2025-01-18T00:09:08.089+0000] {dag.py:4180} INFO - Setting next_dagrun for dag_etl_dummy to None, run_after=None
+[2025-01-18T00:09:08.116+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/1_mi_primer_Data.py took 0.082 seconds
+[2025-01-18T00:09:38.567+0000] {processor.py:186} INFO - Started process (PID=18618) to work on /opt/airflow/dags/1_mi_primer_Data.py
+[2025-01-18T00:09:38.569+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/1_mi_primer_Data.py for tasks to queue
+[2025-01-18T00:09:38.572+0000] {logging_mixin.py:190} INFO - [2025-01-18T00:09:38.571+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/1_mi_primer_Data.py
+[2025-01-18T00:09:38.579+0000] {processor.py:925} INFO - DAG(s) 'dag_etl_dummy' retrieved from /opt/airflow/dags/1_mi_primer_Data.py
+[2025-01-18T00:09:38.602+0000] {logging_mixin.py:190} INFO - [2025-01-18T00:09:38.601+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-01-18T00:09:38.618+0000] {logging_mixin.py:190} INFO - [2025-01-18T00:09:38.618+0000] {dag.py:4180} INFO - Setting next_dagrun for dag_etl_dummy to None, run_after=None
+[2025-01-18T00:09:38.638+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/1_mi_primer_Data.py took 0.076 seconds
+[2025-01-18T00:10:09.505+0000] {processor.py:186} INFO - Started process (PID=18685) to work on /opt/airflow/dags/1_mi_primer_Data.py
+[2025-01-18T00:10:09.506+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/1_mi_primer_Data.py for tasks to queue
+[2025-01-18T00:10:09.509+0000] {logging_mixin.py:190} INFO - [2025-01-18T00:10:09.508+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/1_mi_primer_Data.py
+[2025-01-18T00:10:09.519+0000] {processor.py:925} INFO - DAG(s) 'dag_etl_dummy' retrieved from /opt/airflow/dags/1_mi_primer_Data.py
+[2025-01-18T00:10:09.545+0000] {logging_mixin.py:190} INFO - [2025-01-18T00:10:09.545+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-01-18T00:10:09.565+0000] {logging_mixin.py:190} INFO - [2025-01-18T00:10:09.564+0000] {dag.py:4180} INFO - Setting next_dagrun for dag_etl_dummy to None, run_after=None
+[2025-01-18T00:10:09.589+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/1_mi_primer_Data.py took 0.091 seconds
+[2025-01-18T00:10:39.938+0000] {processor.py:186} INFO - Started process (PID=18752) to work on /opt/airflow/dags/1_mi_primer_Data.py
+[2025-01-18T00:10:39.939+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/1_mi_primer_Data.py for tasks to queue
+[2025-01-18T00:10:39.941+0000] {logging_mixin.py:190} INFO - [2025-01-18T00:10:39.941+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/1_mi_primer_Data.py
+[2025-01-18T00:10:39.947+0000] {processor.py:925} INFO - DAG(s) 'dag_etl_dummy' retrieved from /opt/airflow/dags/1_mi_primer_Data.py
+[2025-01-18T00:10:39.967+0000] {logging_mixin.py:190} INFO - [2025-01-18T00:10:39.967+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-01-18T00:10:39.984+0000] {logging_mixin.py:190} INFO - [2025-01-18T00:10:39.984+0000] {dag.py:4180} INFO - Setting next_dagrun for dag_etl_dummy to None, run_after=None
+[2025-01-18T00:10:40.006+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/1_mi_primer_Data.py took 0.073 seconds
+[2025-01-18T00:11:10.041+0000] {processor.py:186} INFO - Started process (PID=18819) to work on /opt/airflow/dags/1_mi_primer_Data.py
+[2025-01-18T00:11:10.043+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/1_mi_primer_Data.py for tasks to queue
+[2025-01-18T00:11:10.045+0000] {logging_mixin.py:190} INFO - [2025-01-18T00:11:10.045+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/1_mi_primer_Data.py
+[2025-01-18T00:11:10.051+0000] {processor.py:925} INFO - DAG(s) 'dag_etl_dummy' retrieved from /opt/airflow/dags/1_mi_primer_Data.py
+[2025-01-18T00:11:10.070+0000] {logging_mixin.py:190} INFO - [2025-01-18T00:11:10.069+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-01-18T00:11:10.084+0000] {logging_mixin.py:190} INFO - [2025-01-18T00:11:10.083+0000] {dag.py:4180} INFO - Setting next_dagrun for dag_etl_dummy to None, run_after=None
+[2025-01-18T00:11:10.101+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/1_mi_primer_Data.py took 0.064 seconds
+[2025-01-18T00:11:40.333+0000] {processor.py:186} INFO - Started process (PID=18886) to work on /opt/airflow/dags/1_mi_primer_Data.py
+[2025-01-18T00:11:40.336+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/1_mi_primer_Data.py for tasks to queue
+[2025-01-18T00:11:40.339+0000] {logging_mixin.py:190} INFO - [2025-01-18T00:11:40.338+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/1_mi_primer_Data.py
+[2025-01-18T00:11:40.347+0000] {processor.py:925} INFO - DAG(s) 'dag_etl_dummy' retrieved from /opt/airflow/dags/1_mi_primer_Data.py
+[2025-01-18T00:11:40.370+0000] {logging_mixin.py:190} INFO - [2025-01-18T00:11:40.370+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-01-18T00:11:40.385+0000] {logging_mixin.py:190} INFO - [2025-01-18T00:11:40.384+0000] {dag.py:4180} INFO - Setting next_dagrun for dag_etl_dummy to None, run_after=None
+[2025-01-18T00:11:40.407+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/1_mi_primer_Data.py took 0.079 seconds
+[2025-01-18T00:12:10.638+0000] {processor.py:186} INFO - Started process (PID=18954) to work on /opt/airflow/dags/1_mi_primer_Data.py
+[2025-01-18T00:12:10.641+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/1_mi_primer_Data.py for tasks to queue
+[2025-01-18T00:12:10.643+0000] {logging_mixin.py:190} INFO - [2025-01-18T00:12:10.643+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/1_mi_primer_Data.py
+[2025-01-18T00:12:10.648+0000] {processor.py:925} INFO - DAG(s) 'dag_etl_dummy' retrieved from /opt/airflow/dags/1_mi_primer_Data.py
+[2025-01-18T00:12:10.668+0000] {logging_mixin.py:190} INFO - [2025-01-18T00:12:10.668+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-01-18T00:12:10.683+0000] {logging_mixin.py:190} INFO - [2025-01-18T00:12:10.683+0000] {dag.py:4180} INFO - Setting next_dagrun for dag_etl_dummy to None, run_after=None
+[2025-01-18T00:12:10.701+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/1_mi_primer_Data.py took 0.068 seconds
+[2025-01-18T00:12:41.030+0000] {processor.py:186} INFO - Started process (PID=19027) to work on /opt/airflow/dags/1_mi_primer_Data.py
+[2025-01-18T00:12:41.033+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/1_mi_primer_Data.py for tasks to queue
+[2025-01-18T00:12:41.036+0000] {logging_mixin.py:190} INFO - [2025-01-18T00:12:41.035+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/1_mi_primer_Data.py
+[2025-01-18T00:12:41.046+0000] {processor.py:925} INFO - DAG(s) 'dag_etl_dummy' retrieved from /opt/airflow/dags/1_mi_primer_Data.py
+[2025-01-18T00:12:41.068+0000] {logging_mixin.py:190} INFO - [2025-01-18T00:12:41.067+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-01-18T00:12:41.084+0000] {logging_mixin.py:190} INFO - [2025-01-18T00:12:41.084+0000] {dag.py:4180} INFO - Setting next_dagrun for dag_etl_dummy to None, run_after=None
+[2025-01-18T00:12:41.104+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/1_mi_primer_Data.py took 0.079 seconds
+[2025-01-18T00:13:11.952+0000] {processor.py:186} INFO - Started process (PID=19094) to work on /opt/airflow/dags/1_mi_primer_Data.py
+[2025-01-18T00:13:11.955+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/1_mi_primer_Data.py for tasks to queue
+[2025-01-18T00:13:11.957+0000] {logging_mixin.py:190} INFO - [2025-01-18T00:13:11.957+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/1_mi_primer_Data.py
+[2025-01-18T00:13:11.964+0000] {processor.py:925} INFO - DAG(s) 'dag_etl_dummy' retrieved from /opt/airflow/dags/1_mi_primer_Data.py
+[2025-01-18T00:13:11.999+0000] {logging_mixin.py:190} INFO - [2025-01-18T00:13:11.998+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-01-18T00:13:12.030+0000] {logging_mixin.py:190} INFO - [2025-01-18T00:13:12.030+0000] {dag.py:4180} INFO - Setting next_dagrun for dag_etl_dummy to None, run_after=None
+[2025-01-18T00:13:12.063+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/1_mi_primer_Data.py took 0.117 seconds
+[2025-01-18T00:13:42.320+0000] {processor.py:186} INFO - Started process (PID=19161) to work on /opt/airflow/dags/1_mi_primer_Data.py
+[2025-01-18T00:13:42.323+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/1_mi_primer_Data.py for tasks to queue
+[2025-01-18T00:13:42.330+0000] {logging_mixin.py:190} INFO - [2025-01-18T00:13:42.329+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/1_mi_primer_Data.py
+[2025-01-18T00:13:42.352+0000] {processor.py:925} INFO - DAG(s) 'dag_etl_dummy' retrieved from /opt/airflow/dags/1_mi_primer_Data.py
+[2025-01-18T00:13:42.390+0000] {logging_mixin.py:190} INFO - [2025-01-18T00:13:42.389+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-01-18T00:13:42.432+0000] {logging_mixin.py:190} INFO - [2025-01-18T00:13:42.429+0000] {dag.py:4180} INFO - Setting next_dagrun for dag_etl_dummy to None, run_after=None
+[2025-01-18T00:13:42.477+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/1_mi_primer_Data.py took 0.171 seconds
+[2025-01-18T00:14:12.801+0000] {processor.py:186} INFO - Started process (PID=19228) to work on /opt/airflow/dags/1_mi_primer_Data.py
+[2025-01-18T00:14:12.811+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/1_mi_primer_Data.py for tasks to queue
+[2025-01-18T00:14:12.813+0000] {logging_mixin.py:190} INFO - [2025-01-18T00:14:12.813+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/1_mi_primer_Data.py
+[2025-01-18T00:14:12.819+0000] {processor.py:925} INFO - DAG(s) 'dag_etl_dummy' retrieved from /opt/airflow/dags/1_mi_primer_Data.py
+[2025-01-18T00:14:12.841+0000] {logging_mixin.py:190} INFO - [2025-01-18T00:14:12.841+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-01-18T00:14:12.861+0000] {logging_mixin.py:190} INFO - [2025-01-18T00:14:12.860+0000] {dag.py:4180} INFO - Setting next_dagrun for dag_etl_dummy to None, run_after=None
+[2025-01-18T00:14:12.888+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/1_mi_primer_Data.py took 0.093 seconds
+[2025-01-18T00:14:43.251+0000] {processor.py:186} INFO - Started process (PID=19296) to work on /opt/airflow/dags/1_mi_primer_Data.py
+[2025-01-18T00:14:43.261+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/1_mi_primer_Data.py for tasks to queue
+[2025-01-18T00:14:43.263+0000] {logging_mixin.py:190} INFO - [2025-01-18T00:14:43.263+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/1_mi_primer_Data.py
+[2025-01-18T00:14:43.270+0000] {processor.py:925} INFO - DAG(s) 'dag_etl_dummy' retrieved from /opt/airflow/dags/1_mi_primer_Data.py
+[2025-01-18T00:14:43.293+0000] {logging_mixin.py:190} INFO - [2025-01-18T00:14:43.292+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-01-18T00:14:43.309+0000] {logging_mixin.py:190} INFO - [2025-01-18T00:14:43.309+0000] {dag.py:4180} INFO - Setting next_dagrun for dag_etl_dummy to None, run_after=None
+[2025-01-18T00:14:43.331+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/1_mi_primer_Data.py took 0.085 seconds
+[2025-01-18T00:15:13.505+0000] {processor.py:186} INFO - Started process (PID=19363) to work on /opt/airflow/dags/1_mi_primer_Data.py
+[2025-01-18T00:15:13.508+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/1_mi_primer_Data.py for tasks to queue
+[2025-01-18T00:15:13.511+0000] {logging_mixin.py:190} INFO - [2025-01-18T00:15:13.510+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/1_mi_primer_Data.py
+[2025-01-18T00:15:13.518+0000] {processor.py:925} INFO - DAG(s) 'dag_etl_dummy' retrieved from /opt/airflow/dags/1_mi_primer_Data.py
+[2025-01-18T00:15:13.541+0000] {logging_mixin.py:190} INFO - [2025-01-18T00:15:13.540+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-01-18T00:15:13.556+0000] {logging_mixin.py:190} INFO - [2025-01-18T00:15:13.556+0000] {dag.py:4180} INFO - Setting next_dagrun for dag_etl_dummy to None, run_after=None
+[2025-01-18T00:15:13.577+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/1_mi_primer_Data.py took 0.078 seconds
+[2025-01-18T00:15:43.840+0000] {processor.py:186} INFO - Started process (PID=19430) to work on /opt/airflow/dags/1_mi_primer_Data.py
+[2025-01-18T00:15:43.842+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/1_mi_primer_Data.py for tasks to queue
+[2025-01-18T00:15:43.845+0000] {logging_mixin.py:190} INFO - [2025-01-18T00:15:43.844+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/1_mi_primer_Data.py
+[2025-01-18T00:15:43.854+0000] {processor.py:925} INFO - DAG(s) 'dag_etl_dummy' retrieved from /opt/airflow/dags/1_mi_primer_Data.py
+[2025-01-18T00:15:43.881+0000] {logging_mixin.py:190} INFO - [2025-01-18T00:15:43.880+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-01-18T00:15:43.906+0000] {logging_mixin.py:190} INFO - [2025-01-18T00:15:43.905+0000] {dag.py:4180} INFO - Setting next_dagrun for dag_etl_dummy to None, run_after=None
+[2025-01-18T00:15:43.938+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/1_mi_primer_Data.py took 0.103 seconds
+[2025-01-18T00:16:14.372+0000] {processor.py:186} INFO - Started process (PID=19497) to work on /opt/airflow/dags/1_mi_primer_Data.py
+[2025-01-18T00:16:14.382+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/1_mi_primer_Data.py for tasks to queue
+[2025-01-18T00:16:14.384+0000] {logging_mixin.py:190} INFO - [2025-01-18T00:16:14.384+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/1_mi_primer_Data.py
+[2025-01-18T00:16:14.391+0000] {processor.py:925} INFO - DAG(s) 'dag_etl_dummy' retrieved from /opt/airflow/dags/1_mi_primer_Data.py
+[2025-01-18T00:16:14.412+0000] {logging_mixin.py:190} INFO - [2025-01-18T00:16:14.411+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-01-18T00:16:14.427+0000] {logging_mixin.py:190} INFO - [2025-01-18T00:16:14.427+0000] {dag.py:4180} INFO - Setting next_dagrun for dag_etl_dummy to None, run_after=None
+[2025-01-18T00:16:14.449+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/1_mi_primer_Data.py took 0.083 seconds
+[2025-01-18T00:16:44.709+0000] {processor.py:186} INFO - Started process (PID=19570) to work on /opt/airflow/dags/1_mi_primer_Data.py
+[2025-01-18T00:16:44.712+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/1_mi_primer_Data.py for tasks to queue
+[2025-01-18T00:16:44.715+0000] {logging_mixin.py:190} INFO - [2025-01-18T00:16:44.715+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/1_mi_primer_Data.py
+[2025-01-18T00:16:44.725+0000] {processor.py:925} INFO - DAG(s) 'dag_etl_dummy' retrieved from /opt/airflow/dags/1_mi_primer_Data.py
+[2025-01-18T00:16:44.751+0000] {logging_mixin.py:190} INFO - [2025-01-18T00:16:44.750+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-01-18T00:16:44.768+0000] {logging_mixin.py:190} INFO - [2025-01-18T00:16:44.768+0000] {dag.py:4180} INFO - Setting next_dagrun for dag_etl_dummy to None, run_after=None
+[2025-01-18T00:16:44.793+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/1_mi_primer_Data.py took 0.090 seconds
+[2025-01-18T00:17:15.417+0000] {processor.py:186} INFO - Started process (PID=19637) to work on /opt/airflow/dags/1_mi_primer_Data.py
+[2025-01-18T00:17:15.419+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/1_mi_primer_Data.py for tasks to queue
+[2025-01-18T00:17:15.422+0000] {logging_mixin.py:190} INFO - [2025-01-18T00:17:15.421+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/1_mi_primer_Data.py
+[2025-01-18T00:17:15.432+0000] {processor.py:925} INFO - DAG(s) 'dag_etl_dummy' retrieved from /opt/airflow/dags/1_mi_primer_Data.py
+[2025-01-18T00:17:15.459+0000] {logging_mixin.py:190} INFO - [2025-01-18T00:17:15.459+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-01-18T00:17:15.482+0000] {logging_mixin.py:190} INFO - [2025-01-18T00:17:15.481+0000] {dag.py:4180} INFO - Setting next_dagrun for dag_etl_dummy to None, run_after=None
+[2025-01-18T00:17:15.509+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/1_mi_primer_Data.py took 0.098 seconds
+[2025-01-18T00:17:46.204+0000] {processor.py:186} INFO - Started process (PID=19705) to work on /opt/airflow/dags/1_mi_primer_Data.py
+[2025-01-18T00:17:46.206+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/1_mi_primer_Data.py for tasks to queue
+[2025-01-18T00:17:46.208+0000] {logging_mixin.py:190} INFO - [2025-01-18T00:17:46.207+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/1_mi_primer_Data.py
+[2025-01-18T00:17:46.215+0000] {processor.py:925} INFO - DAG(s) 'dag_etl_dummy' retrieved from /opt/airflow/dags/1_mi_primer_Data.py
+[2025-01-18T00:17:46.236+0000] {logging_mixin.py:190} INFO - [2025-01-18T00:17:46.235+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-01-18T00:17:46.251+0000] {logging_mixin.py:190} INFO - [2025-01-18T00:17:46.251+0000] {dag.py:4180} INFO - Setting next_dagrun for dag_etl_dummy to None, run_after=None
+[2025-01-18T00:17:46.275+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/1_mi_primer_Data.py took 0.076 seconds
+[2025-01-18T00:18:16.543+0000] {processor.py:186} INFO - Started process (PID=19772) to work on /opt/airflow/dags/1_mi_primer_Data.py
+[2025-01-18T00:18:16.546+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/1_mi_primer_Data.py for tasks to queue
+[2025-01-18T00:18:16.548+0000] {logging_mixin.py:190} INFO - [2025-01-18T00:18:16.548+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/1_mi_primer_Data.py
+[2025-01-18T00:18:16.556+0000] {processor.py:925} INFO - DAG(s) 'dag_etl_dummy' retrieved from /opt/airflow/dags/1_mi_primer_Data.py
+[2025-01-18T00:18:16.580+0000] {logging_mixin.py:190} INFO - [2025-01-18T00:18:16.580+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-01-18T00:18:16.597+0000] {logging_mixin.py:190} INFO - [2025-01-18T00:18:16.596+0000] {dag.py:4180} INFO - Setting next_dagrun for dag_etl_dummy to None, run_after=None
+[2025-01-18T00:18:16.622+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/1_mi_primer_Data.py took 0.085 seconds
+[2025-01-18T00:18:46.762+0000] {processor.py:186} INFO - Started process (PID=19839) to work on /opt/airflow/dags/1_mi_primer_Data.py
+[2025-01-18T00:18:46.763+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/1_mi_primer_Data.py for tasks to queue
+[2025-01-18T00:18:46.766+0000] {logging_mixin.py:190} INFO - [2025-01-18T00:18:46.766+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/1_mi_primer_Data.py
+[2025-01-18T00:18:46.775+0000] {processor.py:925} INFO - DAG(s) 'dag_etl_dummy' retrieved from /opt/airflow/dags/1_mi_primer_Data.py
+[2025-01-18T00:18:46.799+0000] {logging_mixin.py:190} INFO - [2025-01-18T00:18:46.798+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-01-18T00:18:46.817+0000] {logging_mixin.py:190} INFO - [2025-01-18T00:18:46.817+0000] {dag.py:4180} INFO - Setting next_dagrun for dag_etl_dummy to None, run_after=None
+[2025-01-18T00:18:46.841+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/1_mi_primer_Data.py took 0.086 seconds
+[2025-01-18T00:19:17.523+0000] {processor.py:186} INFO - Started process (PID=19906) to work on /opt/airflow/dags/1_mi_primer_Data.py
+[2025-01-18T00:19:17.524+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/1_mi_primer_Data.py for tasks to queue
+[2025-01-18T00:19:17.528+0000] {logging_mixin.py:190} INFO - [2025-01-18T00:19:17.527+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/1_mi_primer_Data.py
+[2025-01-18T00:19:17.538+0000] {processor.py:925} INFO - DAG(s) 'dag_etl_dummy' retrieved from /opt/airflow/dags/1_mi_primer_Data.py
+[2025-01-18T00:19:17.567+0000] {logging_mixin.py:190} INFO - [2025-01-18T00:19:17.566+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-01-18T00:19:17.585+0000] {logging_mixin.py:190} INFO - [2025-01-18T00:19:17.585+0000] {dag.py:4180} INFO - Setting next_dagrun for dag_etl_dummy to None, run_after=None
+[2025-01-18T00:19:17.610+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/1_mi_primer_Data.py took 0.093 seconds
+[2025-01-18T00:19:47.931+0000] {processor.py:186} INFO - Started process (PID=19972) to work on /opt/airflow/dags/1_mi_primer_Data.py
+[2025-01-18T00:19:47.933+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/1_mi_primer_Data.py for tasks to queue
+[2025-01-18T00:19:47.940+0000] {logging_mixin.py:190} INFO - [2025-01-18T00:19:47.939+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/1_mi_primer_Data.py
+[2025-01-18T00:19:47.948+0000] {processor.py:925} INFO - DAG(s) 'dag_etl_dummy' retrieved from /opt/airflow/dags/1_mi_primer_Data.py
+[2025-01-18T00:19:47.984+0000] {logging_mixin.py:190} INFO - [2025-01-18T00:19:47.983+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-01-18T00:19:48.009+0000] {logging_mixin.py:190} INFO - [2025-01-18T00:19:48.008+0000] {dag.py:4180} INFO - Setting next_dagrun for dag_etl_dummy to None, run_after=None
+[2025-01-18T00:19:48.042+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/1_mi_primer_Data.py took 0.120 seconds
+[2025-01-18T00:20:18.913+0000] {processor.py:186} INFO - Started process (PID=20039) to work on /opt/airflow/dags/1_mi_primer_Data.py
+[2025-01-18T00:20:18.914+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/1_mi_primer_Data.py for tasks to queue
+[2025-01-18T00:20:18.916+0000] {logging_mixin.py:190} INFO - [2025-01-18T00:20:18.916+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/1_mi_primer_Data.py
+[2025-01-18T00:20:18.923+0000] {processor.py:925} INFO - DAG(s) 'dag_etl_dummy' retrieved from /opt/airflow/dags/1_mi_primer_Data.py
+[2025-01-18T00:20:18.947+0000] {logging_mixin.py:190} INFO - [2025-01-18T00:20:18.946+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-01-18T00:20:18.965+0000] {logging_mixin.py:190} INFO - [2025-01-18T00:20:18.965+0000] {dag.py:4180} INFO - Setting next_dagrun for dag_etl_dummy to None, run_after=None
+[2025-01-18T00:20:18.995+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/1_mi_primer_Data.py took 0.088 seconds
+[2025-01-18T00:20:49.899+0000] {processor.py:186} INFO - Started process (PID=20112) to work on /opt/airflow/dags/1_mi_primer_Data.py
+[2025-01-18T00:20:49.902+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/1_mi_primer_Data.py for tasks to queue
+[2025-01-18T00:20:49.904+0000] {logging_mixin.py:190} INFO - [2025-01-18T00:20:49.904+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/1_mi_primer_Data.py
+[2025-01-18T00:20:49.911+0000] {processor.py:925} INFO - DAG(s) 'dag_etl_dummy' retrieved from /opt/airflow/dags/1_mi_primer_Data.py
+[2025-01-18T00:20:49.933+0000] {logging_mixin.py:190} INFO - [2025-01-18T00:20:49.933+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-01-18T00:20:49.949+0000] {logging_mixin.py:190} INFO - [2025-01-18T00:20:49.949+0000] {dag.py:4180} INFO - Setting next_dagrun for dag_etl_dummy to None, run_after=None
+[2025-01-18T00:20:49.973+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/1_mi_primer_Data.py took 0.079 seconds
+[2025-01-18T00:21:20.948+0000] {processor.py:186} INFO - Started process (PID=20179) to work on /opt/airflow/dags/1_mi_primer_Data.py
+[2025-01-18T00:21:20.949+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/1_mi_primer_Data.py for tasks to queue
+[2025-01-18T00:21:20.951+0000] {logging_mixin.py:190} INFO - [2025-01-18T00:21:20.951+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/1_mi_primer_Data.py
+[2025-01-18T00:21:20.959+0000] {processor.py:925} INFO - DAG(s) 'dag_etl_dummy' retrieved from /opt/airflow/dags/1_mi_primer_Data.py
+[2025-01-18T00:21:20.983+0000] {logging_mixin.py:190} INFO - [2025-01-18T00:21:20.983+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-01-18T00:21:21.005+0000] {logging_mixin.py:190} INFO - [2025-01-18T00:21:21.005+0000] {dag.py:4180} INFO - Setting next_dagrun for dag_etl_dummy to None, run_after=None
+[2025-01-18T00:21:21.034+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/1_mi_primer_Data.py took 0.092 seconds
+[2025-01-18T00:21:51.829+0000] {processor.py:186} INFO - Started process (PID=20246) to work on /opt/airflow/dags/1_mi_primer_Data.py
+[2025-01-18T00:21:51.830+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/1_mi_primer_Data.py for tasks to queue
+[2025-01-18T00:21:51.833+0000] {logging_mixin.py:190} INFO - [2025-01-18T00:21:51.832+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/1_mi_primer_Data.py
+[2025-01-18T00:21:51.839+0000] {processor.py:925} INFO - DAG(s) 'dag_etl_dummy' retrieved from /opt/airflow/dags/1_mi_primer_Data.py
+[2025-01-18T00:21:51.860+0000] {logging_mixin.py:190} INFO - [2025-01-18T00:21:51.859+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-01-18T00:21:51.876+0000] {logging_mixin.py:190} INFO - [2025-01-18T00:21:51.876+0000] {dag.py:4180} INFO - Setting next_dagrun for dag_etl_dummy to None, run_after=None
+[2025-01-18T00:21:51.901+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/1_mi_primer_Data.py took 0.077 seconds
+[2025-01-18T00:22:22.118+0000] {processor.py:186} INFO - Started process (PID=20313) to work on /opt/airflow/dags/1_mi_primer_Data.py
+[2025-01-18T00:22:22.121+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/1_mi_primer_Data.py for tasks to queue
+[2025-01-18T00:22:22.125+0000] {logging_mixin.py:190} INFO - [2025-01-18T00:22:22.124+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/1_mi_primer_Data.py
+[2025-01-18T00:22:22.135+0000] {processor.py:925} INFO - DAG(s) 'dag_etl_dummy' retrieved from /opt/airflow/dags/1_mi_primer_Data.py
+[2025-01-18T00:22:22.161+0000] {logging_mixin.py:190} INFO - [2025-01-18T00:22:22.161+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-01-18T00:22:22.183+0000] {logging_mixin.py:190} INFO - [2025-01-18T00:22:22.182+0000] {dag.py:4180} INFO - Setting next_dagrun for dag_etl_dummy to None, run_after=None
+[2025-01-18T00:22:22.214+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/1_mi_primer_Data.py took 0.104 seconds
+[2025-01-18T00:22:52.922+0000] {processor.py:186} INFO - Started process (PID=20379) to work on /opt/airflow/dags/1_mi_primer_Data.py
+[2025-01-18T00:22:52.923+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/1_mi_primer_Data.py for tasks to queue
+[2025-01-18T00:22:52.925+0000] {logging_mixin.py:190} INFO - [2025-01-18T00:22:52.925+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/1_mi_primer_Data.py
+[2025-01-18T00:22:52.933+0000] {processor.py:925} INFO - DAG(s) 'dag_etl_dummy' retrieved from /opt/airflow/dags/1_mi_primer_Data.py
+[2025-01-18T00:22:52.956+0000] {logging_mixin.py:190} INFO - [2025-01-18T00:22:52.956+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-01-18T00:22:52.975+0000] {logging_mixin.py:190} INFO - [2025-01-18T00:22:52.975+0000] {dag.py:4180} INFO - Setting next_dagrun for dag_etl_dummy to None, run_after=None
+[2025-01-18T00:22:53.003+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/1_mi_primer_Data.py took 0.086 seconds
+[2025-01-18T00:23:23.543+0000] {processor.py:186} INFO - Started process (PID=20446) to work on /opt/airflow/dags/1_mi_primer_Data.py
+[2025-01-18T00:23:23.545+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/1_mi_primer_Data.py for tasks to queue
+[2025-01-18T00:23:23.547+0000] {logging_mixin.py:190} INFO - [2025-01-18T00:23:23.547+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/1_mi_primer_Data.py
+[2025-01-18T00:23:23.554+0000] {processor.py:925} INFO - DAG(s) 'dag_etl_dummy' retrieved from /opt/airflow/dags/1_mi_primer_Data.py
+[2025-01-18T00:23:23.577+0000] {logging_mixin.py:190} INFO - [2025-01-18T00:23:23.577+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-01-18T00:23:23.598+0000] {logging_mixin.py:190} INFO - [2025-01-18T00:23:23.597+0000] {dag.py:4180} INFO - Setting next_dagrun for dag_etl_dummy to None, run_after=None
+[2025-01-18T00:23:23.627+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/1_mi_primer_Data.py took 0.091 seconds
+[2025-01-18T00:23:54.231+0000] {processor.py:186} INFO - Started process (PID=20509) to work on /opt/airflow/dags/1_mi_primer_Data.py
+[2025-01-18T00:23:54.232+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/1_mi_primer_Data.py for tasks to queue
+[2025-01-18T00:23:54.235+0000] {logging_mixin.py:190} INFO - [2025-01-18T00:23:54.234+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/1_mi_primer_Data.py
+[2025-01-18T00:23:54.244+0000] {processor.py:925} INFO - DAG(s) 'dag_etl_dummy' retrieved from /opt/airflow/dags/1_mi_primer_Data.py
+[2025-01-18T00:23:54.269+0000] {logging_mixin.py:190} INFO - [2025-01-18T00:23:54.269+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-01-18T00:23:54.289+0000] {logging_mixin.py:190} INFO - [2025-01-18T00:23:54.289+0000] {dag.py:4180} INFO - Setting next_dagrun for dag_etl_dummy to None, run_after=None
+[2025-01-18T00:23:54.319+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/1_mi_primer_Data.py took 0.094 seconds
+[2025-01-18T00:24:24.988+0000] {processor.py:186} INFO - Started process (PID=20576) to work on /opt/airflow/dags/1_mi_primer_Data.py
+[2025-01-18T00:24:24.991+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/1_mi_primer_Data.py for tasks to queue
+[2025-01-18T00:24:24.993+0000] {logging_mixin.py:190} INFO - [2025-01-18T00:24:24.992+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/1_mi_primer_Data.py
+[2025-01-18T00:24:24.999+0000] {processor.py:925} INFO - DAG(s) 'dag_etl_dummy' retrieved from /opt/airflow/dags/1_mi_primer_Data.py
+[2025-01-18T00:24:25.020+0000] {logging_mixin.py:190} INFO - [2025-01-18T00:24:25.020+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-01-18T00:24:25.036+0000] {logging_mixin.py:190} INFO - [2025-01-18T00:24:25.036+0000] {dag.py:4180} INFO - Setting next_dagrun for dag_etl_dummy to None, run_after=None
+[2025-01-18T00:24:25.059+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/1_mi_primer_Data.py took 0.076 seconds
+[2025-01-18T00:24:55.526+0000] {processor.py:186} INFO - Started process (PID=20643) to work on /opt/airflow/dags/1_mi_primer_Data.py
+[2025-01-18T00:24:55.528+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/1_mi_primer_Data.py for tasks to queue
+[2025-01-18T00:24:55.531+0000] {logging_mixin.py:190} INFO - [2025-01-18T00:24:55.530+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/1_mi_primer_Data.py
+[2025-01-18T00:24:55.537+0000] {processor.py:925} INFO - DAG(s) 'dag_etl_dummy' retrieved from /opt/airflow/dags/1_mi_primer_Data.py
+[2025-01-18T00:24:55.559+0000] {logging_mixin.py:190} INFO - [2025-01-18T00:24:55.559+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-01-18T00:24:55.576+0000] {logging_mixin.py:190} INFO - [2025-01-18T00:24:55.576+0000] {dag.py:4180} INFO - Setting next_dagrun for dag_etl_dummy to None, run_after=None
+[2025-01-18T00:24:55.600+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/1_mi_primer_Data.py took 0.079 seconds
+[2025-01-18T00:25:26.290+0000] {processor.py:186} INFO - Started process (PID=20716) to work on /opt/airflow/dags/1_mi_primer_Data.py
+[2025-01-18T00:25:26.293+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/1_mi_primer_Data.py for tasks to queue
+[2025-01-18T00:25:26.295+0000] {logging_mixin.py:190} INFO - [2025-01-18T00:25:26.295+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/1_mi_primer_Data.py
+[2025-01-18T00:25:26.301+0000] {processor.py:925} INFO - DAG(s) 'dag_etl_dummy' retrieved from /opt/airflow/dags/1_mi_primer_Data.py
+[2025-01-18T00:25:26.320+0000] {logging_mixin.py:190} INFO - [2025-01-18T00:25:26.320+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-01-18T00:25:26.334+0000] {logging_mixin.py:190} INFO - [2025-01-18T00:25:26.334+0000] {dag.py:4180} INFO - Setting next_dagrun for dag_etl_dummy to None, run_after=None
+[2025-01-18T00:25:26.354+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/1_mi_primer_Data.py took 0.069 seconds
+[2025-01-18T00:25:56.653+0000] {processor.py:186} INFO - Started process (PID=20783) to work on /opt/airflow/dags/1_mi_primer_Data.py
+[2025-01-18T00:25:56.655+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/1_mi_primer_Data.py for tasks to queue
+[2025-01-18T00:25:56.657+0000] {logging_mixin.py:190} INFO - [2025-01-18T00:25:56.657+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/1_mi_primer_Data.py
+[2025-01-18T00:25:56.663+0000] {processor.py:925} INFO - DAG(s) 'dag_etl_dummy' retrieved from /opt/airflow/dags/1_mi_primer_Data.py
+[2025-01-18T00:25:56.690+0000] {logging_mixin.py:190} INFO - [2025-01-18T00:25:56.689+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-01-18T00:25:56.719+0000] {logging_mixin.py:190} INFO - [2025-01-18T00:25:56.719+0000] {dag.py:4180} INFO - Setting next_dagrun for dag_etl_dummy to None, run_after=None
+[2025-01-18T00:25:56.756+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/1_mi_primer_Data.py took 0.107 seconds
+[2025-01-18T00:26:26.931+0000] {processor.py:186} INFO - Started process (PID=20850) to work on /opt/airflow/dags/1_mi_primer_Data.py
+[2025-01-18T00:26:26.941+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/1_mi_primer_Data.py for tasks to queue
+[2025-01-18T00:26:26.943+0000] {logging_mixin.py:190} INFO - [2025-01-18T00:26:26.943+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/1_mi_primer_Data.py
+[2025-01-18T00:26:26.949+0000] {processor.py:925} INFO - DAG(s) 'dag_etl_dummy' retrieved from /opt/airflow/dags/1_mi_primer_Data.py
+[2025-01-18T00:26:26.971+0000] {logging_mixin.py:190} INFO - [2025-01-18T00:26:26.970+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-01-18T00:26:26.991+0000] {logging_mixin.py:190} INFO - [2025-01-18T00:26:26.990+0000] {dag.py:4180} INFO - Setting next_dagrun for dag_etl_dummy to None, run_after=None
+[2025-01-18T00:26:27.017+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/1_mi_primer_Data.py took 0.091 seconds
+[2025-01-18T00:26:57.685+0000] {processor.py:186} INFO - Started process (PID=20917) to work on /opt/airflow/dags/1_mi_primer_Data.py
+[2025-01-18T00:26:57.687+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/1_mi_primer_Data.py for tasks to queue
+[2025-01-18T00:26:57.690+0000] {logging_mixin.py:190} INFO - [2025-01-18T00:26:57.690+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/1_mi_primer_Data.py
+[2025-01-18T00:26:57.697+0000] {processor.py:925} INFO - DAG(s) 'dag_etl_dummy' retrieved from /opt/airflow/dags/1_mi_primer_Data.py
+[2025-01-18T00:26:57.720+0000] {logging_mixin.py:190} INFO - [2025-01-18T00:26:57.719+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-01-18T00:26:57.738+0000] {logging_mixin.py:190} INFO - [2025-01-18T00:26:57.738+0000] {dag.py:4180} INFO - Setting next_dagrun for dag_etl_dummy to None, run_after=None
+[2025-01-18T00:26:57.767+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/1_mi_primer_Data.py took 0.087 seconds
+[2025-01-18T00:27:27.982+0000] {processor.py:186} INFO - Started process (PID=20984) to work on /opt/airflow/dags/1_mi_primer_Data.py
+[2025-01-18T00:27:27.992+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/1_mi_primer_Data.py for tasks to queue
+[2025-01-18T00:27:27.994+0000] {logging_mixin.py:190} INFO - [2025-01-18T00:27:27.994+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/1_mi_primer_Data.py
+[2025-01-18T00:27:28.000+0000] {processor.py:925} INFO - DAG(s) 'dag_etl_dummy' retrieved from /opt/airflow/dags/1_mi_primer_Data.py
+[2025-01-18T00:27:28.019+0000] {logging_mixin.py:190} INFO - [2025-01-18T00:27:28.018+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-01-18T00:27:28.033+0000] {logging_mixin.py:190} INFO - [2025-01-18T00:27:28.033+0000] {dag.py:4180} INFO - Setting next_dagrun for dag_etl_dummy to None, run_after=None
+[2025-01-18T00:27:28.052+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/1_mi_primer_Data.py took 0.076 seconds
+[2025-01-18T00:27:58.113+0000] {processor.py:186} INFO - Started process (PID=21050) to work on /opt/airflow/dags/1_mi_primer_Data.py
+[2025-01-18T00:27:58.114+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/1_mi_primer_Data.py for tasks to queue
+[2025-01-18T00:27:58.116+0000] {logging_mixin.py:190} INFO - [2025-01-18T00:27:58.116+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/1_mi_primer_Data.py
+[2025-01-18T00:27:58.123+0000] {processor.py:925} INFO - DAG(s) 'dag_etl_dummy' retrieved from /opt/airflow/dags/1_mi_primer_Data.py
+[2025-01-18T00:27:58.142+0000] {logging_mixin.py:190} INFO - [2025-01-18T00:27:58.141+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-01-18T00:27:58.156+0000] {logging_mixin.py:190} INFO - [2025-01-18T00:27:58.156+0000] {dag.py:4180} INFO - Setting next_dagrun for dag_etl_dummy to None, run_after=None
+[2025-01-18T00:27:58.189+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/1_mi_primer_Data.py took 0.081 seconds
+[2025-01-18T00:28:28.475+0000] {processor.py:186} INFO - Started process (PID=21116) to work on /opt/airflow/dags/1_mi_primer_Data.py
+[2025-01-18T00:28:28.476+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/1_mi_primer_Data.py for tasks to queue
+[2025-01-18T00:28:28.479+0000] {logging_mixin.py:190} INFO - [2025-01-18T00:28:28.479+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/1_mi_primer_Data.py
+[2025-01-18T00:28:28.485+0000] {processor.py:925} INFO - DAG(s) 'dag_etl_dummy' retrieved from /opt/airflow/dags/1_mi_primer_Data.py
+[2025-01-18T00:28:28.504+0000] {logging_mixin.py:190} INFO - [2025-01-18T00:28:28.503+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-01-18T00:28:28.518+0000] {logging_mixin.py:190} INFO - [2025-01-18T00:28:28.518+0000] {dag.py:4180} INFO - Setting next_dagrun for dag_etl_dummy to None, run_after=None
+[2025-01-18T00:28:28.538+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/1_mi_primer_Data.py took 0.067 seconds
+[2025-01-18T00:28:59.008+0000] {processor.py:186} INFO - Started process (PID=21183) to work on /opt/airflow/dags/1_mi_primer_Data.py
+[2025-01-18T00:28:59.009+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/1_mi_primer_Data.py for tasks to queue
+[2025-01-18T00:28:59.011+0000] {logging_mixin.py:190} INFO - [2025-01-18T00:28:59.011+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/1_mi_primer_Data.py
+[2025-01-18T00:28:59.019+0000] {processor.py:925} INFO - DAG(s) 'dag_etl_dummy' retrieved from /opt/airflow/dags/1_mi_primer_Data.py
+[2025-01-18T00:28:59.039+0000] {logging_mixin.py:190} INFO - [2025-01-18T00:28:59.038+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-01-18T00:28:59.055+0000] {logging_mixin.py:190} INFO - [2025-01-18T00:28:59.055+0000] {dag.py:4180} INFO - Setting next_dagrun for dag_etl_dummy to None, run_after=None
+[2025-01-18T00:28:59.078+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/1_mi_primer_Data.py took 0.075 seconds
+[2025-01-18T00:29:29.645+0000] {processor.py:186} INFO - Started process (PID=21256) to work on /opt/airflow/dags/1_mi_primer_Data.py
+[2025-01-18T00:29:29.654+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/1_mi_primer_Data.py for tasks to queue
+[2025-01-18T00:29:29.656+0000] {logging_mixin.py:190} INFO - [2025-01-18T00:29:29.656+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/1_mi_primer_Data.py
+[2025-01-18T00:29:29.663+0000] {processor.py:925} INFO - DAG(s) 'dag_etl_dummy' retrieved from /opt/airflow/dags/1_mi_primer_Data.py
+[2025-01-18T00:29:29.684+0000] {logging_mixin.py:190} INFO - [2025-01-18T00:29:29.684+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-01-18T00:29:29.699+0000] {logging_mixin.py:190} INFO - [2025-01-18T00:29:29.699+0000] {dag.py:4180} INFO - Setting next_dagrun for dag_etl_dummy to None, run_after=None
+[2025-01-18T00:29:29.726+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/1_mi_primer_Data.py took 0.086 seconds
+[2025-01-18T00:30:00.402+0000] {processor.py:186} INFO - Started process (PID=21323) to work on /opt/airflow/dags/1_mi_primer_Data.py
+[2025-01-18T00:30:00.412+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/1_mi_primer_Data.py for tasks to queue
+[2025-01-18T00:30:00.415+0000] {logging_mixin.py:190} INFO - [2025-01-18T00:30:00.414+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/1_mi_primer_Data.py
+[2025-01-18T00:30:00.422+0000] {processor.py:925} INFO - DAG(s) 'dag_etl_dummy' retrieved from /opt/airflow/dags/1_mi_primer_Data.py
+[2025-01-18T00:30:00.444+0000] {logging_mixin.py:190} INFO - [2025-01-18T00:30:00.444+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-01-18T00:30:00.462+0000] {logging_mixin.py:190} INFO - [2025-01-18T00:30:00.462+0000] {dag.py:4180} INFO - Setting next_dagrun for dag_etl_dummy to None, run_after=None
+[2025-01-18T00:30:00.486+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/1_mi_primer_Data.py took 0.089 seconds
+[2025-01-18T00:30:31.026+0000] {processor.py:186} INFO - Started process (PID=21390) to work on /opt/airflow/dags/1_mi_primer_Data.py
+[2025-01-18T00:30:31.027+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/1_mi_primer_Data.py for tasks to queue
+[2025-01-18T00:30:31.029+0000] {logging_mixin.py:190} INFO - [2025-01-18T00:30:31.029+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/1_mi_primer_Data.py
+[2025-01-18T00:30:31.036+0000] {processor.py:925} INFO - DAG(s) 'dag_etl_dummy' retrieved from /opt/airflow/dags/1_mi_primer_Data.py
+[2025-01-18T00:30:31.058+0000] {logging_mixin.py:190} INFO - [2025-01-18T00:30:31.057+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-01-18T00:30:31.073+0000] {logging_mixin.py:190} INFO - [2025-01-18T00:30:31.073+0000] {dag.py:4180} INFO - Setting next_dagrun for dag_etl_dummy to None, run_after=None
+[2025-01-18T00:30:31.095+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/1_mi_primer_Data.py took 0.075 seconds
+[2025-01-18T00:31:01.876+0000] {processor.py:186} INFO - Started process (PID=21457) to work on /opt/airflow/dags/1_mi_primer_Data.py
+[2025-01-18T00:31:01.878+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/1_mi_primer_Data.py for tasks to queue
+[2025-01-18T00:31:01.880+0000] {logging_mixin.py:190} INFO - [2025-01-18T00:31:01.880+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/1_mi_primer_Data.py
+[2025-01-18T00:31:01.888+0000] {processor.py:925} INFO - DAG(s) 'dag_etl_dummy' retrieved from /opt/airflow/dags/1_mi_primer_Data.py
+[2025-01-18T00:31:01.914+0000] {logging_mixin.py:190} INFO - [2025-01-18T00:31:01.914+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-01-18T00:31:01.933+0000] {logging_mixin.py:190} INFO - [2025-01-18T00:31:01.933+0000] {dag.py:4180} INFO - Setting next_dagrun for dag_etl_dummy to None, run_after=None
+[2025-01-18T00:31:01.958+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/1_mi_primer_Data.py took 0.088 seconds
+[2025-01-18T00:31:32.048+0000] {processor.py:186} INFO - Started process (PID=21524) to work on /opt/airflow/dags/1_mi_primer_Data.py
+[2025-01-18T00:31:32.049+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/1_mi_primer_Data.py for tasks to queue
+[2025-01-18T00:31:32.051+0000] {logging_mixin.py:190} INFO - [2025-01-18T00:31:32.050+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/1_mi_primer_Data.py
+[2025-01-18T00:31:32.060+0000] {processor.py:925} INFO - DAG(s) 'dag_etl_dummy' retrieved from /opt/airflow/dags/1_mi_primer_Data.py
+[2025-01-18T00:31:32.086+0000] {logging_mixin.py:190} INFO - [2025-01-18T00:31:32.085+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-01-18T00:31:32.104+0000] {logging_mixin.py:190} INFO - [2025-01-18T00:31:32.104+0000] {dag.py:4180} INFO - Setting next_dagrun for dag_etl_dummy to None, run_after=None
+[2025-01-18T00:31:32.126+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/1_mi_primer_Data.py took 0.083 seconds
+[2025-01-18T00:32:02.627+0000] {processor.py:186} INFO - Started process (PID=21591) to work on /opt/airflow/dags/1_mi_primer_Data.py
+[2025-01-18T00:32:02.629+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/1_mi_primer_Data.py for tasks to queue
+[2025-01-18T00:32:02.632+0000] {logging_mixin.py:190} INFO - [2025-01-18T00:32:02.632+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/1_mi_primer_Data.py
+[2025-01-18T00:32:02.638+0000] {processor.py:925} INFO - DAG(s) 'dag_etl_dummy' retrieved from /opt/airflow/dags/1_mi_primer_Data.py
+[2025-01-18T00:32:02.659+0000] {logging_mixin.py:190} INFO - [2025-01-18T00:32:02.659+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-01-18T00:32:02.676+0000] {logging_mixin.py:190} INFO - [2025-01-18T00:32:02.675+0000] {dag.py:4180} INFO - Setting next_dagrun for dag_etl_dummy to None, run_after=None
+[2025-01-18T00:32:02.696+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/1_mi_primer_Data.py took 0.074 seconds
+[2025-01-18T00:32:32.858+0000] {processor.py:186} INFO - Started process (PID=21658) to work on /opt/airflow/dags/1_mi_primer_Data.py
+[2025-01-18T00:32:32.859+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/1_mi_primer_Data.py for tasks to queue
+[2025-01-18T00:32:32.862+0000] {logging_mixin.py:190} INFO - [2025-01-18T00:32:32.861+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/1_mi_primer_Data.py
+[2025-01-18T00:32:32.868+0000] {processor.py:925} INFO - DAG(s) 'dag_etl_dummy' retrieved from /opt/airflow/dags/1_mi_primer_Data.py
+[2025-01-18T00:32:32.888+0000] {logging_mixin.py:190} INFO - [2025-01-18T00:32:32.887+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-01-18T00:32:32.903+0000] {logging_mixin.py:190} INFO - [2025-01-18T00:32:32.903+0000] {dag.py:4180} INFO - Setting next_dagrun for dag_etl_dummy to None, run_after=None
+[2025-01-18T00:32:32.926+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/1_mi_primer_Data.py took 0.074 seconds
+[2025-01-18T00:33:03.717+0000] {processor.py:186} INFO - Started process (PID=21725) to work on /opt/airflow/dags/1_mi_primer_Data.py
+[2025-01-18T00:33:03.719+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/1_mi_primer_Data.py for tasks to queue
+[2025-01-18T00:33:03.721+0000] {logging_mixin.py:190} INFO - [2025-01-18T00:33:03.721+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/1_mi_primer_Data.py
+[2025-01-18T00:33:03.728+0000] {processor.py:925} INFO - DAG(s) 'dag_etl_dummy' retrieved from /opt/airflow/dags/1_mi_primer_Data.py
+[2025-01-18T00:33:03.749+0000] {logging_mixin.py:190} INFO - [2025-01-18T00:33:03.748+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-01-18T00:33:03.763+0000] {logging_mixin.py:190} INFO - [2025-01-18T00:33:03.763+0000] {dag.py:4180} INFO - Setting next_dagrun for dag_etl_dummy to None, run_after=None
+[2025-01-18T00:33:03.785+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/1_mi_primer_Data.py took 0.073 seconds
+[2025-01-18T00:33:34.074+0000] {processor.py:186} INFO - Started process (PID=21792) to work on /opt/airflow/dags/1_mi_primer_Data.py
+[2025-01-18T00:33:34.075+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/1_mi_primer_Data.py for tasks to queue
+[2025-01-18T00:33:34.078+0000] {logging_mixin.py:190} INFO - [2025-01-18T00:33:34.077+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/1_mi_primer_Data.py
+[2025-01-18T00:33:34.084+0000] {processor.py:925} INFO - DAG(s) 'dag_etl_dummy' retrieved from /opt/airflow/dags/1_mi_primer_Data.py
+[2025-01-18T00:33:34.103+0000] {logging_mixin.py:190} INFO - [2025-01-18T00:33:34.103+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-01-18T00:33:34.117+0000] {logging_mixin.py:190} INFO - [2025-01-18T00:33:34.116+0000] {dag.py:4180} INFO - Setting next_dagrun for dag_etl_dummy to None, run_after=None
+[2025-01-18T00:33:34.139+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/1_mi_primer_Data.py took 0.069 seconds
+[2025-01-18T00:34:04.226+0000] {processor.py:186} INFO - Started process (PID=21866) to work on /opt/airflow/dags/1_mi_primer_Data.py
+[2025-01-18T00:34:04.227+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/1_mi_primer_Data.py for tasks to queue
+[2025-01-18T00:34:04.230+0000] {logging_mixin.py:190} INFO - [2025-01-18T00:34:04.230+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/1_mi_primer_Data.py
+[2025-01-18T00:34:04.238+0000] {processor.py:925} INFO - DAG(s) 'dag_etl_dummy' retrieved from /opt/airflow/dags/1_mi_primer_Data.py
+[2025-01-18T00:34:04.267+0000] {logging_mixin.py:190} INFO - [2025-01-18T00:34:04.266+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-01-18T00:34:04.297+0000] {logging_mixin.py:190} INFO - [2025-01-18T00:34:04.297+0000] {dag.py:4180} INFO - Setting next_dagrun for dag_etl_dummy to None, run_after=None
+[2025-01-18T00:34:04.330+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/1_mi_primer_Data.py took 0.110 seconds
+[2025-01-18T00:34:34.531+0000] {processor.py:186} INFO - Started process (PID=21933) to work on /opt/airflow/dags/1_mi_primer_Data.py
+[2025-01-18T00:34:34.534+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/1_mi_primer_Data.py for tasks to queue
+[2025-01-18T00:34:34.536+0000] {logging_mixin.py:190} INFO - [2025-01-18T00:34:34.536+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/1_mi_primer_Data.py
+[2025-01-18T00:34:34.542+0000] {processor.py:925} INFO - DAG(s) 'dag_etl_dummy' retrieved from /opt/airflow/dags/1_mi_primer_Data.py
+[2025-01-18T00:34:34.560+0000] {logging_mixin.py:190} INFO - [2025-01-18T00:34:34.560+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-01-18T00:34:34.573+0000] {logging_mixin.py:190} INFO - [2025-01-18T00:34:34.573+0000] {dag.py:4180} INFO - Setting next_dagrun for dag_etl_dummy to None, run_after=None
+[2025-01-18T00:34:34.593+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/1_mi_primer_Data.py took 0.068 seconds
+[2025-01-18T00:35:05.087+0000] {processor.py:186} INFO - Started process (PID=22000) to work on /opt/airflow/dags/1_mi_primer_Data.py
+[2025-01-18T00:35:05.098+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/1_mi_primer_Data.py for tasks to queue
+[2025-01-18T00:35:05.101+0000] {logging_mixin.py:190} INFO - [2025-01-18T00:35:05.100+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/1_mi_primer_Data.py
+[2025-01-18T00:35:05.107+0000] {processor.py:925} INFO - DAG(s) 'dag_etl_dummy' retrieved from /opt/airflow/dags/1_mi_primer_Data.py
+[2025-01-18T00:35:05.131+0000] {logging_mixin.py:190} INFO - [2025-01-18T00:35:05.130+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-01-18T00:35:05.149+0000] {logging_mixin.py:190} INFO - [2025-01-18T00:35:05.148+0000] {dag.py:4180} INFO - Setting next_dagrun for dag_etl_dummy to None, run_after=None
+[2025-01-18T00:35:05.172+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/1_mi_primer_Data.py took 0.089 seconds
+[2025-01-18T00:35:35.319+0000] {processor.py:186} INFO - Started process (PID=22067) to work on /opt/airflow/dags/1_mi_primer_Data.py
+[2025-01-18T00:35:35.321+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/1_mi_primer_Data.py for tasks to queue
+[2025-01-18T00:35:35.324+0000] {logging_mixin.py:190} INFO - [2025-01-18T00:35:35.323+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/1_mi_primer_Data.py
+[2025-01-18T00:35:35.334+0000] {processor.py:925} INFO - DAG(s) 'dag_etl_dummy' retrieved from /opt/airflow/dags/1_mi_primer_Data.py
+[2025-01-18T00:35:35.362+0000] {logging_mixin.py:190} INFO - [2025-01-18T00:35:35.362+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-01-18T00:35:35.387+0000] {logging_mixin.py:190} INFO - [2025-01-18T00:35:35.387+0000] {dag.py:4180} INFO - Setting next_dagrun for dag_etl_dummy to None, run_after=None
+[2025-01-18T00:35:35.418+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/1_mi_primer_Data.py took 0.108 seconds

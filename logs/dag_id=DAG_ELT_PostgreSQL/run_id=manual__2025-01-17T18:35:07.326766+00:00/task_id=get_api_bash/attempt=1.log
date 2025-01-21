@@ -1,0 +1,33 @@
+[2025-01-17T18:35:09.459+0000] {local_task_job_runner.py:123} INFO - ::group::Pre task execution logs
+[2025-01-17T18:35:09.475+0000] {taskinstance.py:2613} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: DAG_ELT_PostgreSQL.get_api_bash manual__2025-01-17T18:35:07.326766+00:00 [queued]>
+[2025-01-17T18:35:09.481+0000] {taskinstance.py:2613} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: DAG_ELT_PostgreSQL.get_api_bash manual__2025-01-17T18:35:07.326766+00:00 [queued]>
+[2025-01-17T18:35:09.482+0000] {taskinstance.py:2866} INFO - Starting attempt 1 of 2
+[2025-01-17T18:35:09.493+0000] {taskinstance.py:2889} INFO - Executing <Task(BashOperator): get_api_bash> on 2025-01-17 18:35:07.326766+00:00
+[2025-01-17T18:35:09.501+0000] {warnings.py:112} WARNING - /home/***/.local/lib/python3.12/site-packages/***/task/task_runner/standard_task_runner.py:70: DeprecationWarning: This process (pid=3568) is multi-threaded, use of fork() may lead to deadlocks in the child.
+  pid = os.fork()
+
+[2025-01-17T18:35:09.503+0000] {standard_task_runner.py:72} INFO - Started process 3572 to run task
+[2025-01-17T18:35:09.503+0000] {standard_task_runner.py:104} INFO - Running: ['***', 'tasks', 'run', 'DAG_ELT_PostgreSQL', 'get_api_bash', 'manual__2025-01-17T18:35:07.326766+00:00', '--job-id', '48', '--raw', '--subdir', 'DAGS_FOLDER/ETL_PostgreSQL.py', '--cfg-path', '/tmp/tmpu8jogarj']
+[2025-01-17T18:35:09.504+0000] {standard_task_runner.py:105} INFO - Job 48: Subtask get_api_bash
+[2025-01-17T18:35:09.547+0000] {task_command.py:467} INFO - Running <TaskInstance: DAG_ELT_PostgreSQL.get_api_bash manual__2025-01-17T18:35:07.326766+00:00 [running]> on host 59ff16f1d4fb
+[2025-01-17T18:35:09.860+0000] {taskinstance.py:3132} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='Wilfrido Rondon' AIRFLOW_CTX_DAG_ID='DAG_ELT_PostgreSQL' AIRFLOW_CTX_TASK_ID='get_api_bash' AIRFLOW_CTX_EXECUTION_DATE='2025-01-17T18:35:07.326766+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2025-01-17T18:35:07.326766+00:00'
+[2025-01-17T18:35:09.861+0000] {logging_mixin.py:190} INFO - Task instance is in running state
+[2025-01-17T18:35:09.861+0000] {logging_mixin.py:190} INFO -  Previous state of the Task instance: queued
+[2025-01-17T18:35:09.861+0000] {logging_mixin.py:190} INFO - Current task name:get_api_bash state:running start_date:2025-01-17 18:35:09.475903+00:00
+[2025-01-17T18:35:09.861+0000] {logging_mixin.py:190} INFO - Dag name:DAG_ELT_PostgreSQL and current dag run status:running
+[2025-01-17T18:35:09.862+0000] {taskinstance.py:731} INFO - ::endgroup::
+[2025-01-17T18:35:09.862+0000] {subprocess.py:78} INFO - Tmp dir root location: /tmp
+[2025-01-17T18:35:09.863+0000] {subprocess.py:88} INFO - Running command: ['/usr/bin/bash', '-c', 'curl -H "X-API-Key: b3505480" https://my.api.mockaroo.com/sales_db.json > /tmp/sale_db_bash.csv']
+[2025-01-17T18:35:09.879+0000] {subprocess.py:99} INFO - Output:
+[2025-01-17T18:35:09.887+0000] {subprocess.py:106} INFO -   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+[2025-01-17T18:35:09.887+0000] {subprocess.py:106} INFO -                                  Dload  Upload   Total   Spent    Left  Speed
+[2025-01-17T18:35:10.610+0000] {subprocess.py:106} INFO -   0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   522  100   522    0     0    721      0 --:--:-- --:--:-- --:--:--   721
+[2025-01-17T18:35:10.613+0000] {subprocess.py:110} INFO - Command exited with return code 0
+[2025-01-17T18:35:10.639+0000] {taskinstance.py:340} INFO - ::group::Post task execution logs
+[2025-01-17T18:35:10.639+0000] {taskinstance.py:352} INFO - Marking task as SUCCESS. dag_id=DAG_ELT_PostgreSQL, task_id=get_api_bash, run_id=manual__2025-01-17T18:35:07.326766+00:00, execution_date=20250117T183507, start_date=20250117T183509, end_date=20250117T183510
+[2025-01-17T18:35:10.649+0000] {logging_mixin.py:190} INFO - Task instance in success state
+[2025-01-17T18:35:10.649+0000] {logging_mixin.py:190} INFO -  Previous state of the Task instance: running
+[2025-01-17T18:35:10.649+0000] {logging_mixin.py:190} INFO - Dag name:DAG_ELT_PostgreSQL queued_at:2025-01-17 18:35:07.339472+00:00
+[2025-01-17T18:35:10.650+0000] {logging_mixin.py:190} INFO - Task hostname:59ff16f1d4fb operator:BashOperator
+[2025-01-17T18:35:10.705+0000] {local_task_job_runner.py:266} INFO - Task exited with return code 0
+[2025-01-17T18:35:10.715+0000] {local_task_job_runner.py:245} INFO - ::endgroup::
