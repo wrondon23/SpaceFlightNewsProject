@@ -312,3 +312,7 @@
 [2025-01-21T18:58:30.431+0000] {spaceflight_data_ingest_v2.py:74} ERROR - Error al obtener events: 404
 [2025-01-21T18:59:27.314+0000] {spaceflight_data_ingest_v2.py:74} ERROR - Error al obtener events: 404
 [2025-01-21T19:00:24.166+0000] {spaceflight_data_ingest_v2.py:74} ERROR - Error al obtener events: 404
+[2025-01-21T19:01:21.026+0000] {spaceflight_data_ingest_v2.py:74} ERROR - Error al obtener events: 404
+[2025-01-21T19:02:17.896+0000] {spaceflight_data_ingest_v2.py:74} ERROR - Error al obtener events: 404
+[2025-01-21T19:03:14.843+0000] {spaceflight_data_ingest_v2.py:74} ERROR - Error al obtener events: 404
+[2025-01-21T19:04:11.790+0000] {spaceflight_data_ingest_v2.py:74} ERROR - Error al obtener events: 404
