@@ -693,3 +693,24 @@ NameError: name 'Execute_procedure_Redshift' is not defined. Did you mean: 'Exec
 [2025-01-21T19:04:45.421+0000] {logging_mixin.py:190} INFO - [2025-01-21T19:04:45.421+0000] {dag.py:3239} INFO - Sync 1 DAGs
 [2025-01-21T19:04:45.434+0000] {logging_mixin.py:190} INFO - [2025-01-21T19:04:45.434+0000] {dag.py:4180} INFO - Setting next_dagrun for DAG_AWS_PIPELINE to None, run_after=None
 [2025-01-21T19:04:45.453+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/DAG_AWS_PIPELINE.py took 0.070 seconds
+[2025-01-21T19:05:15.591+0000] {processor.py:186} INFO - Started process (PID=39249) to work on /opt/airflow/dags/DAG_AWS_PIPELINE.py
+[2025-01-21T19:05:15.601+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/DAG_AWS_PIPELINE.py for tasks to queue
+[2025-01-21T19:05:15.603+0000] {logging_mixin.py:190} INFO - [2025-01-21T19:05:15.602+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/DAG_AWS_PIPELINE.py
+[2025-01-21T19:05:15.616+0000] {processor.py:925} INFO - DAG(s) 'DAG_AWS_PIPELINE' retrieved from /opt/airflow/dags/DAG_AWS_PIPELINE.py
+[2025-01-21T19:05:15.643+0000] {logging_mixin.py:190} INFO - [2025-01-21T19:05:15.643+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-01-21T19:05:15.657+0000] {logging_mixin.py:190} INFO - [2025-01-21T19:05:15.657+0000] {dag.py:4180} INFO - Setting next_dagrun for DAG_AWS_PIPELINE to None, run_after=None
+[2025-01-21T19:05:15.678+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/DAG_AWS_PIPELINE.py took 0.093 seconds
+[2025-01-21T19:05:45.959+0000] {processor.py:186} INFO - Started process (PID=39313) to work on /opt/airflow/dags/DAG_AWS_PIPELINE.py
+[2025-01-21T19:05:45.969+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/DAG_AWS_PIPELINE.py for tasks to queue
+[2025-01-21T19:05:45.970+0000] {logging_mixin.py:190} INFO - [2025-01-21T19:05:45.970+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/DAG_AWS_PIPELINE.py
+[2025-01-21T19:05:45.978+0000] {processor.py:925} INFO - DAG(s) 'DAG_AWS_PIPELINE' retrieved from /opt/airflow/dags/DAG_AWS_PIPELINE.py
+[2025-01-21T19:05:46.001+0000] {logging_mixin.py:190} INFO - [2025-01-21T19:05:46.000+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-01-21T19:05:46.014+0000] {logging_mixin.py:190} INFO - [2025-01-21T19:05:46.014+0000] {dag.py:4180} INFO - Setting next_dagrun for DAG_AWS_PIPELINE to None, run_after=None
+[2025-01-21T19:05:46.034+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/DAG_AWS_PIPELINE.py took 0.080 seconds
+[2025-01-21T19:06:16.439+0000] {processor.py:186} INFO - Started process (PID=39377) to work on /opt/airflow/dags/DAG_AWS_PIPELINE.py
+[2025-01-21T19:06:16.448+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/DAG_AWS_PIPELINE.py for tasks to queue
+[2025-01-21T19:06:16.450+0000] {logging_mixin.py:190} INFO - [2025-01-21T19:06:16.449+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/DAG_AWS_PIPELINE.py
+[2025-01-21T19:06:16.458+0000] {processor.py:925} INFO - DAG(s) 'DAG_AWS_PIPELINE' retrieved from /opt/airflow/dags/DAG_AWS_PIPELINE.py
+[2025-01-21T19:06:16.480+0000] {logging_mixin.py:190} INFO - [2025-01-21T19:06:16.479+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-01-21T19:06:16.493+0000] {logging_mixin.py:190} INFO - [2025-01-21T19:06:16.493+0000] {dag.py:4180} INFO - Setting next_dagrun for DAG_AWS_PIPELINE to None, run_after=None
+[2025-01-21T19:06:16.509+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/DAG_AWS_PIPELINE.py took 0.075 seconds
